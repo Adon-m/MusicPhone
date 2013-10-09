@@ -1,0 +1,18 @@
+FileOpenedAction 1381324850075 PlayerUI.java 2155 6 32 0
+UnitTestCaseAction 1381324862162 SmokeTest.java OK
+UnitTestSessionAction 1381324862167 SmokeTest OK
+FileOpenedAction 1381324923606 App.java 544 1 9 0
+FileOpenedAction 1381324983984 ConcertInfo.java 1285 11 15 0
+FileOpenedAction 1381324992272 Recommendation.java 650 5 7 0
+FileOpenedAction 1381325014457 Player.java 1421 11 17 0
+FileOpenedAction 1381325096304 RecommenderAdapter.java 1476 8 12 0
+FileOpenedAction 1381325100950 RecommenderUI.java 5550 13 86 0
+FileOpenedAction 1381325105378 Recs.java 2772 23 21 0
+FileOpenedAction 1381325211783 SmokeTest.java 1445 1 14 6
+FileOpenedAction 1381325262190 DeviceManager.java 622 6 6 0
+FileOpenedAction 1381325597703 IRecommender.java 481 5 0 0
+FileOpenedAction 1381325618431 IPlayer.java 222 4 0 0
+FileOpenedAction 1381325625571 IGps.java 339 4 0 0
+FileOpenedAction 1381325638094 IConnector.java 431 3 0 0
+FileOpenedAction 1381325696971 Recommender.java 1360 9 10 0
+EditAction 1381325764421 Recommender.java 1343 9 10 0

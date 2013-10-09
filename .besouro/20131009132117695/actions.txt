@@ -1,0 +1,9 @@
+FileOpenedAction 1381314078601 SmokeTest.java 1445 1 14 6
+UnitTestCaseAction 1381314087316 SmokeTest.java OK
+UnitTestSessionAction 1381314087325 SmokeTest OK
+UnitTestCaseAction 1381314111858 SmokeTest.java OK
+UnitTestSessionAction 1381314111859 SmokeTest OK
+FileOpenedAction 1381314259110 PlayerAdapter.java 1585 10 20 0
+UnitTestCaseAction 1381317013176 SmokeTest.java OK
+UnitTestSessionAction 1381317013176 SmokeTest OK
+FileOpenedAction 1381317027862 App.java 544 1 9 0

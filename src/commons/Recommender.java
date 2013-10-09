@@ -38,7 +38,7 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Recommendation> getRecommendations() throws Exception {
-		throw new SQATException("You need to implement this");
+		throw new SQATException("You need ");
 	}
 
 	@Override
