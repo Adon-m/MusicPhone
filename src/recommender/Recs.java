@@ -11,7 +11,7 @@ public class Recs implements List<Recommendation> {
 
 	@Override
 	public boolean add(Recommendation e) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 
@@ -23,7 +23,7 @@ public class Recs implements List<Recommendation> {
 
 	@Override
 	public boolean addAll(Collection<? extends Recommendation> c) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 

@@ -16,3 +16,7 @@ FileOpenedAction 1381325625571 IGps.java 339 4 0 0
 FileOpenedAction 1381325638094 IConnector.java 431 3 0 0
 FileOpenedAction 1381325696971 Recommender.java 1360 9 10 0
 EditAction 1381325764421 Recommender.java 1343 9 10 0
+FileOpenedAction 1381325863655 SQATException.java 196 1 1 0
+FileOpenedAction 1381325907498 ConcertInfo.java 1285 11 15 0
+FileOpenedAction 1381325909360 Destination.java 1236 11 11 0
+FileOpenedAction 1381326241012 IProgressContext.java 61 0 0 0

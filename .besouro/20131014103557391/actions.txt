@@ -1,0 +1,12 @@
+FileOpenedAction 1381736158269 PlayerUI.java 2155 6 32 0
+FileOpenedAction 1381736169354 SmokeTest.java 1445 1 14 6
+UnitTestCaseAction 1381736174338 SmokeTest.java OK
+UnitTestSessionAction 1381736174341 SmokeTest OK
+FileOpenedAction 1381736198087 App.java 544 1 9 0
+FileOpenedAction 1381736237532 GpsUI.java 2236 2 46 0
+FileOpenedAction 1381736242066 GpsAdapter.java 696 5 9 0
+FileOpenedAction 1381736245360 Gps.java 652 5 5 0
+FileOpenedAction 1381736303598 PlayerAdapterObserver.java 577 4 5 0
+FileOpenedAction 1381736305950 PlayerAdapter.java 1585 10 20 0
+FileOpenedAction 1381736309531 Player.java 1421 11 17 0
+FileOpenedAction 1381736363429 Recommender.java 1343 9 10 0

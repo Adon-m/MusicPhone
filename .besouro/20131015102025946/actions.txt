@@ -1,0 +1,30 @@
+FileOpenedAction 1381821627224 Recommender.java 1297 10 10 0
+FileOpenedAction 1381822039110 GeoPoint.java 503 5 7 0
+RefactoringAction 1381822064809 Recommender.java RENAME Calculatedistance()=>double Calculatedistance(GeoPoint) METHOD
+RefactoringAction 1381822074491 Recommender.java RENAME Calculatedistance(GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint) METHOD
+RefactoringAction 1381822079014 Recommender.java ADD import commons.dataClasses.GeoPoint IMPORT
+RefactoringAction 1381822354092 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, boolean) METHOD
+RefactoringAction 1381822533837 Recommender.java ADD double latR() METHOD
+RefactoringAction 1381822539871 Recommender.java REMOVE latR() METHOD
+RefactoringAction 1381825195679 MyTests.java ADD MyTests.java CLASS
+FileOpenedAction 1381825195875 MyTests.java 41 0 0 0
+RefactoringAction 1381825219977 MyTests.java ADD void CheckIf FIELD
+RefactoringAction 1381825224997 MyTests.java RENAME CheckIf=>void CheckIfDis FIELD
+RefactoringAction 1381825226514 MyTests.java RENAME CheckIfDis=>void CheckIfDistance FIELD
+RefactoringAction 1381825230525 MyTests.java RENAME CheckIfDistance=>void CheckIfDistanceIsCalculated FIELD
+RefactoringAction 1381825233543 MyTests.java RENAME CheckIfDistanceIsCalculated=>void CheckIfDistanceIsCalculatedCorrectly FIELD
+RefactoringAction 1381825234563 MyTests.java RENAME CheckIfDistanceIsCalculatedCorrectly=>void CheckIfDistanceIsCalculatedCorrectly() METHOD
+RefactoringAction 1381825255231 MyTests.java ADD import org.junit.Test IMPORT
+RefactoringAction 1381825302419 MyTests.java ADD import commons.Recommender IMPORT
+RefactoringAction 1381825387236 MyTests.java ADD import commons.dataClasses.GeoPoint IMPORT
+RefactoringAction 1381825958680 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, boolean)=>double Calculatedistance(GeoPoint) METHOD
+RefactoringAction 1381825959704 Recommender.java RENAME Calculatedistance(GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, boolean) METHOD
+RefactoringAction 1381825969278 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, boolean)=>double Calculatedistance(GeoPoint, GeoPoint, Geboolean) METHOD
+RefactoringAction 1381825972816 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, Geboolean)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPointboolean) METHOD
+RefactoringAction 1381825974334 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPointboolean)=>double Calculatedistance(GeoPoint, GeoPoint) METHOD
+RefactoringAction 1381825976349 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint) METHOD
+RefactoringAction 1381825987417 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint, boolean) METHOD
+RefactoringAction 1381825990939 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPoint, boolean)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint) METHOD
+RefactoringAction 1381826001474 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint, GeoPoint) METHOD
+RefactoringAction 1381826002988 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint, GeoPoint, boolean) METHOD
+EditAction 1381826110561 Recommender.java 2069 10 21 0

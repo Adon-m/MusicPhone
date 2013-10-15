@@ -169,7 +169,7 @@ public class RecommenderUI implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		try {
-			throw new SQATException("You should implement this");
+			throw new SQATException("You ");
 		} catch (SQATException e1) {
 			JOptionPane.showInternalMessageDialog (panel,e1.getMessage());
 		}
