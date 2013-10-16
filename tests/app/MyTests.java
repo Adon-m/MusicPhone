@@ -12,7 +12,7 @@ public class MyTests {
 	@Test
 	public void CalculateDistanceInMilesAndKM(){
 		GeoPoint dest = new GeoPoint("0","0");
-		GeoPoint orig = new GeoPoint("0","60");
+		GeoPoint orig = new GeoPoint("60","0");
 		
 		Recommender r= new Recommender();
 		
