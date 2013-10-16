@@ -31,7 +31,7 @@ public class MyTests {
 	@Test
 	public void makeSureGetDestinationsReturnsCorrectInfo(){
 		Recommender r= new Recommender();
-		assertEquals(r.getDestinationsForArtists("Cher").get(0).getVenue(),"");
+		assertEquals(r.getDestinationsForArtists("cher").get(0).getVenue(),"");
 		
 		
 		
