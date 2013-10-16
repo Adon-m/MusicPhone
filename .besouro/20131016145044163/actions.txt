@@ -50,3 +50,6 @@ RefactoringAction 1381926987128 MyTests.java RENAME Cal=>void CalculateDistance 
 RefactoringAction 1381926989655 MyTests.java RENAME CalculateDistance=>void CalculateDistanceInMI FIELD
 RefactoringAction 1381926991172 MyTests.java RENAME CalculateDistanceInMI=>void CalculateDistanceInMI() METHOD
 EditAction 1381927173507 MyTests.java 660 2 8 2
+UnitTestCaseAction 1381927174872 MyTests.java FAIL
+UnitTestSessionAction 1381927174872 MyTests FAIL
+EditAction 1381927185730 MyTests.java 660 2 8 2
