@@ -37,3 +37,6 @@ EditAction 1381949169087 MyTests.java 887 3 10 3
 UnitTestCaseAction 1381949170565 MyTests.java FAIL
 UnitTestSessionAction 1381949170565 MyTests FAIL
 EditAction 1381949192624 MyTests.java 890 3 10 3
+UnitTestCaseAction 1381949194249 MyTests.java FAIL
+UnitTestSessionAction 1381949194249 MyTests FAIL
+EditAction 1381949429681 MyTests.java 891 3 10 3
