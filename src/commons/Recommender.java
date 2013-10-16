@@ -10,6 +10,7 @@ import commons.interfaces.IConnector;
 import commons.interfaces.IGps;
 import commons.interfaces.IPlayer;
 import commons.interfaces.IRecommender;
+import dataConnectors.LastFmXmlConnector;
 
 
 
@@ -44,11 +45,9 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Destination> getDestinationsForArtists(String artist) {
-		try {
-			throw new SQATException("You ");
-		} catch (SQATException e) {
-			e.printStackTrace();
-		}
+		LastFmXmlConnector lastFm= new LastFmXmlConnector();
+		Destination d =  
+		
 		return null;
 	}
 

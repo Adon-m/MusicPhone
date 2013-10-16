@@ -53,3 +53,10 @@ EditAction 1381927173507 MyTests.java 660 2 8 2
 UnitTestCaseAction 1381927174872 MyTests.java FAIL
 UnitTestSessionAction 1381927174872 MyTests FAIL
 EditAction 1381927185730 MyTests.java 660 2 8 2
+UnitTestCaseAction 1381927187135 MyTests.java OK
+UnitTestSessionAction 1381927187136 MyTests OK
+FileOpenedAction 1381927854021 LastFmXmlConnector.java 5249 4 49 0
+RefactoringAction 1381927933074 Recommender.java ADD import dataConnectors.LastFmXmlConnector IMPORT
+FileOpenedAction 1381928141666 Destination.java 1236 11 11 0
+FileOpenedAction 1381928323310 App.java 544 1 9 0
+EditAction 1381928328791 Recommender.java 2146 10 20 0
