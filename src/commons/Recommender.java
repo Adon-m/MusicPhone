@@ -82,8 +82,8 @@ public class Recommender implements IRecommender {
 		double latR2=(Double.parseDouble(dest.getLatitude())*Math.PI)/180;
 		double lonR2=(Double.parseDouble(dest.getLongitude())*Math.PI)/180;
 		
-		double latDelta=Math.abs(latR2-latR1);
-		double lonDelta=Math.abs(lonR2-lonR1);
+		double latDelta=(latR2-latR1);
+		double lonDelta=(lonR2-lonR1);
 		
 		double a=Math.pow((Math.sin(latDelta/2)),2)+Math.cos(latR1)*Math.cos(latR2)*Math.pow((Math.sin(lonDelta/2)),2);
 		
