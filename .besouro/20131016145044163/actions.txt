@@ -12,3 +12,6 @@ RefactoringAction 1381925108855 MyTests.java ADD import commons.dataClasses.GeoP
 RefactoringAction 1381925267513 MyTests.java ADD import commons.Recommender IMPORT
 RefactoringAction 1381925374586 MyTests.java ADD import org.junit.Assert.* IMPORT
 EditAction 1381925395871 MyTests.java 412 1 4 1
+UnitTestCaseAction 1381925399120 MyTests.java FAIL
+UnitTestSessionAction 1381925399126 MyTests FAIL
+EditAction 1381925469012 MyTests.java 412 1 4 1
