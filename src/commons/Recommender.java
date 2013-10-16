@@ -85,7 +85,7 @@ public class Recommender implements IRecommender {
 		double latDelta=(latR2-latR1);
 		double lonDelta=(lonR2-lonR1);
 		
-		double a=Math.pow((Math.sin(latDelta/2)),2)+Math.cos(latR1)*Math.cos(latR2)*Math.pow((Math.sin(lonDelta/2)),2);
+		double a=Math.sqrt(Math.pow((Math.sin(latDelta/2)),2)+Math.cos(latR1)*Math.cos(latR2)*Math.pow((Math.sin(lonDelta/2)),2));
 		
 		
 		double GCircleD=2*Math.asin(Math.min(1.0, a))*radius;
