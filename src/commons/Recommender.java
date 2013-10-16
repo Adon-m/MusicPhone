@@ -71,7 +71,7 @@ public class Recommender implements IRecommender {
 		{
 			radius=3958.76;
 		}
-		else if(metric=="km")
+		if(metric=="km")
 		{
 			radius=6371.01;
 		}
