@@ -60,3 +60,14 @@ RefactoringAction 1381927933074 Recommender.java ADD import dataConnectors.LastF
 FileOpenedAction 1381928141666 Destination.java 1236 11 11 0
 FileOpenedAction 1381928323310 App.java 544 1 9 0
 EditAction 1381928328791 Recommender.java 2146 10 20 0
+CompilationAction 1381928329720 Recommender.java
+FileOpenedAction 1381929421456 ConcertInfo.java 1285 11 15 0
+FileOpenedAction 1381929431423 GeoPoint.java 503 5 7 0
+FileOpenedAction 1381929434448 Recommendation.java 650 5 7 0
+FileOpenedAction 1381929441347 LastFmConnectionException.java 360 2 0 0
+FileOpenedAction 1381932112340 LastFmXmlConnector.java 5249 4 49 0
+FileOpenedAction 1381932255368 IConnector.java 431 3 0 0
+RefactoringAction 1381932408917 Recommender.java ADD import commons.dataClasses.ConcertInfo IMPORT
+RefactoringAction 1381932758639 Recommender.java ADD import dataConnectors.LastFmConnectionException IMPORT
+RefactoringAction 1381933024922 Recommender.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1381933083535 Recommender.java

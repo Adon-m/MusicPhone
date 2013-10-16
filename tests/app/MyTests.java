@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import commons.Recommender;
+import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.GeoPoint;
 
 
@@ -26,6 +27,14 @@ public class MyTests {
 		Recommender r= new Recommender();
 		
 		assertEquals(r.computeDistance(orig, dest, "mi"), 1793.55, 2);
+	}
+	@Test
+	public void makeSureGetDestinationsReturnsCorrectInfo(){
+		Recommender r= new Recommender();
+		assertEquals(r.getDestinationsForArtists("Cher").get(0).getVenue(),"");
+		
+		
+		
 	}
 
 }

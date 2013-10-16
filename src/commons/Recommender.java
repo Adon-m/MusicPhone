@@ -1,8 +1,10 @@
 package commons;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
+import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.Destination;
 import commons.dataClasses.GeoPoint;
 import commons.dataClasses.Recommendation;
@@ -10,6 +12,7 @@ import commons.interfaces.IConnector;
 import commons.interfaces.IGps;
 import commons.interfaces.IPlayer;
 import commons.interfaces.IRecommender;
+import dataConnectors.LastFmConnectionException;
 import dataConnectors.LastFmXmlConnector;
 
 
@@ -45,10 +48,22 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Destination> getDestinationsForArtists(String artist) {
-		LastFmXmlConnector lastFm= new LastFmXmlConnector();
-		Destination d =  
-		
-		return null;
+		LastFmXmlConnector last = new LastFmXmlConnector();
+		List<Destination> destination= new ArrayList<Destination>();
+		try {
+			List<ConcertInfo> c= last.getConcertsForArtist(artist);
+			
+			for (int i=0;i<c.size();i++)
+			{
+			Destination dest = new Destination(c.get(i)); 
+			
+			destination.add(dest);
+			}
+		} catch (LastFmConnectionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return destination;
 	}
 
 	@Override

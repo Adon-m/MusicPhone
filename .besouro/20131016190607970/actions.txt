@@ -1,0 +1,30 @@
+FileOpenedAction 1381939568847 Recommender.java 2508 10 20 0
+FileOpenedAction 1381939593681 ConcertInfo.java 1285 11 15 0
+FileOpenedAction 1381939597118 Destination.java 1236 11 11 0
+FileOpenedAction 1381939606946 IConnector.java 431 3 0 0
+FileOpenedAction 1381939613902 IRecommender.java 481 5 0 0
+FileOpenedAction 1381939622561 LastFmXmlConnector.java 5249 4 49 0
+FileOpenedAction 1381939667457 RecommenderAdapter.java 1476 8 12 0
+FileOpenedAction 1381939690285 Recs.java 2704 23 21 0
+FileOpenedAction 1381939891283 Destination.java 1236 11 11 0
+FileOpenedAction 1381940081374 LastFmXmlConnector.java 5249 4 49 0
+FileOpenedAction 1381940295502 Recommendation.java 650 5 7 0
+FileOpenedAction 1381940516326 GeoPoint.java 503 5 7 0
+RefactoringAction 1381942490589 Destination.java RENAME Destination(ConcertInfo)=>Destination() METHOD
+RefactoringAction 1381942505762 Destination.java RENAME Destination()=>Destination(ConcertInfo) METHOD
+RefactoringAction 1381943037468 Recommender.java RENAME getDestinationsForArtists(String)=><initializer /1> null
+RefactoringAction 1381943047500 Recommender.java RENAME <initializer /1>=>List<Destination> getDestinationsForArtists(String) METHOD
+FileOpenedAction 1381943131443 MyTests.java 660 2 8 2
+RefactoringAction 1381943160126 MyTests.java ADD void make FIELD
+RefactoringAction 1381943161651 MyTests.java RENAME make=>void makeSure FIELD
+RefactoringAction 1381943164663 MyTests.java RENAME makeSure=>void makeSureG FIELD
+RefactoringAction 1381943167202 MyTests.java RENAME makeSureG=>void makeSure FIELD
+RefactoringAction 1381943171214 MyTests.java RENAME makeSure=>void makeSureGetDesti FIELD
+RefactoringAction 1381943173239 MyTests.java RENAME makeSureGetDesti=>void makeSureGetDestinations FIELD
+RefactoringAction 1381943175261 MyTests.java RENAME makeSureGetDestinations=>void makeSureGetDestinationsReturns FIELD
+RefactoringAction 1381943177282 MyTests.java RENAME makeSureGetDestinationsReturns=>void makeSureGetDestinationsReturnsCorre FIELD
+RefactoringAction 1381943180795 MyTests.java RENAME makeSureGetDestinationsReturnsCorre=>void makeSureGetDestinationsReturnsCorrectInfo FIELD
+RefactoringAction 1381943182838 MyTests.java RENAME makeSureGetDestinationsReturnsCorrectInfo=>void makeSureGetDestinationsReturnsCorrectInfo() METHOD
+RefactoringAction 1381943240385 MyTests.java ADD import commons.dataClasses.ConcertInfo IMPORT
+FileOpenedAction 1381943357560 SmokeTest.java 1445 1 14 6
+EditAction 1381943553400 MyTests.java 887 3 10 3
