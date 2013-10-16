@@ -10,13 +10,22 @@ import commons.dataClasses.GeoPoint;
 
 public class MyTests {
 	@Test
-	public void CalculateDistanceInMilesAndKM(){
+	public void CalculateDistanceInKM(){
 		GeoPoint dest = new GeoPoint("0","60");
 		GeoPoint orig = new GeoPoint("0","0");
 		
 		Recommender r= new Recommender();
 		
 		assertEquals(r.computeDistance(orig, dest, "km"), 6671.70, 2);
+	}
+	@Test
+	public void CalculateDistanceInMI(){
+		GeoPoint dest = new GeoPoint("33.94","-118.40");
+		GeoPoint orig = new GeoPoint("36.12","-86.67");
+		
+		Recommender r= new Recommender();
+		
+		assertEquals(r.computeDistance(orig, dest, "km"), 1793.55, 2);
 	}
 
 }
