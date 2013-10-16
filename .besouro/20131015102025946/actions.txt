@@ -28,3 +28,5 @@ RefactoringAction 1381825990939 Recommender.java RENAME Calculatedistance(GeoPoi
 RefactoringAction 1381826001474 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint, GeoPoint) METHOD
 RefactoringAction 1381826002988 Recommender.java RENAME Calculatedistance(GeoPoint, GeoPoint, GeoPoint, GeoPoint)=>double Calculatedistance(GeoPoint, GeoPoint, GeoPoint, GeoPoint, boolean) METHOD
 EditAction 1381826110561 Recommender.java 2069 10 21 0
+CompilationAction 1381826112670 Recommender.java
+CompilationAction 1381826112671 Recommender.java

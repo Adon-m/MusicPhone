@@ -1,0 +1,14 @@
+FileOpenedAction 1381924244970 Recommender.java 2069 10 20 0
+FileOpenedAction 1381924824964 MyTests.java 41 0 0 0
+RefactoringAction 1381924843013 MyTests.java ADD void ca FIELD
+RefactoringAction 1381924844020 MyTests.java REMOVE ca FIELD
+RefactoringAction 1381924848538 MyTests.java ADD void CalculateDistance FIELD
+RefactoringAction 1381924856060 MyTests.java RENAME CalculateDistance=>void CalculateDistanceInMilesAnd FIELD
+RefactoringAction 1381924857577 MyTests.java RENAME CalculateDistanceInMilesAnd=>void CalculateDistanceInMilesAndKM FIELD
+RefactoringAction 1381924860088 MyTests.java RENAME CalculateDistanceInMilesAndKM=>void CalculateDistanceInMilesAndKM() METHOD
+RefactoringAction 1381924868136 MyTests.java ADD import org.junit.Test IMPORT
+FileOpenedAction 1381925026079 SmokeTest.java 1445 1 14 6
+RefactoringAction 1381925108855 MyTests.java ADD import commons.dataClasses.GeoPoint IMPORT
+RefactoringAction 1381925267513 MyTests.java ADD import commons.Recommender IMPORT
+RefactoringAction 1381925374586 MyTests.java ADD import org.junit.Assert.* IMPORT
+EditAction 1381925395871 MyTests.java 412 1 4 1

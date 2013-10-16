@@ -64,20 +64,30 @@ public class Recommender implements IRecommender {
 	public  IGps getGps(){
 		return DeviceManager.getInstance().getGps();
 	}
-	public double Calculatedistance (GeoPoint origlon, GeoPoint origlat, GeoPoint destlon, GeoPoint destlat, boolean km){
-		double latR1= (Double.parseDouble(orig.getLatitude())*Math.PI)/2;
-		double latR2=(Double.parseDouble(dest.getLatitude())*Math.PI)/2;
-		double lonR1=(Double.parseDouble(orig.getLongitude())*Math.PI)/2;
-		double lonR2=(Double.parseDouble(dest.getLongitude())*Math.PI)/2;
-		double latChange=Math.abs(latR2-latR1);
-		double lonChange=Math.abs(lonR2-lonR1);
+	public double computeDistance (GeoPoint orig, GeoPoint dest, String  metric){
 		
-		double radius= 6371.01;
-		if(km==false)
+		double radius = 0.0;
+		if(metric=="mi")
 		{
 			radius=3958.76;
 		}
-		double a=Math.sqrt(Math.pow((latChange/2.0),2.0)+Math.cos(latR1)*Math.cos(latR2)*Math.pow((lonChange/2), 2));
+		else if(metric=="km")
+		{
+			radius=6371.01;
+		}
+		
+		//convert the values to radians
+		double latR1=(Double.parseDouble(orig.getLatitude())*Math.PI)/180;
+		double lonR1=(Double.parseDouble(orig.getLongitude())*Math.PI)/180;
+		double latR2=(Double.parseDouble(dest.getLatitude())*Math.PI)/180;
+		double lonR2=(Double.parseDouble(dest.getLatitude())*Math.PI)/180;
+		
+		double latDelta=Math.abs(latR2-latR1);
+		double lonDelta=Math.abs(lonR2-lonR1);
+		
+		double a=Math.pow((Math.sin(latDelta/2)),2)+Math.cos(latR1)*Math.cos(latR2)*Math.pow((Math.sin(lonDelta/2)),2);
+		
+		
 		double GCircleD=2*Math.asin(Math.min(1, a))*radius;
 		return GCircleD;
 	}
