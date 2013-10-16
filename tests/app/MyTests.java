@@ -16,7 +16,7 @@ public class MyTests {
 		
 		Recommender r= new Recommender();
 		
-		assertEquals(r.computeDistance(orig, dest, "mi"), 6671.70, 2);
+		assertEquals(r.computeDistance(orig, dest, "km"), 6671.70, 2);
 	}
 
 }
