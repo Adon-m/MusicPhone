@@ -16,10 +16,10 @@
 					<country>Canada</country>
 					<street>40 Bay St</street>
 					<postalcode>M5J 2X2</postalcode>
-					<geo:point>
-						<geo:lat>43.643333</geo:lat>
-						<geo:long>-79.377994</geo:long>
-					</geo:point>
+					<point>
+						<lat>43.643333</lat>
+						<long>-79.377994</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8781753</url>
@@ -51,10 +51,10 @@
 				<country>Canada</country>
 				<street>40 Bay St</street>
 				<postalcode>M5J 2X2</postalcode>
-				<geo:point>
-					<geo:lat>43.643333</geo:lat>
-					<geo:long>-79.377994</geo:long>
-				</geo:point>
+				<point>
+					<lat>43.643333</lat>
+					<long>-79.377994</long>
+				</point>
 				<timezone>EST</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8781753</url>
@@ -85,10 +85,10 @@
 				<country>Canada</country>
 				<street></street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>45.496154</geo:lat>
-					<geo:long>-73.570575</geo:long>
-				</geo:point>
+				<point>
+					<lat>45.496154</lat>
+					<long>-73.570575</long>
+				</point>
 				<timezone>EST</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8987019</url>
@@ -121,10 +121,10 @@
 			<country>United States</country>
 			<street>1255 Hempstead Turnpike</street>
 			<postalcode>11553</postalcode>
-			<geo:point>
-				<geo:lat>40.72012</geo:lat>
-				<geo:long>-73.587799</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.72012</lat>
+				<long>-73.587799</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779606</url>
@@ -155,10 +155,10 @@
 			<country>United States</country>
 			<street>601 F Street, NW</street>
 			<postalcode>20004</postalcode>
-			<geo:point>
-				<geo:lat>38.89732</geo:lat>
-				<geo:long>-77.01999</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.89732</lat>
+				<long>-77.01999</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8785557</url>
@@ -192,10 +192,10 @@
 			<country>United States</country>
 			<street>1 Mohegan Sun Boulevard</street>
 			<postalcode>06382</postalcode>
-			<geo:point>
-				<geo:lat>41.492517</geo:lat>
-				<geo:long>-72.095924</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.492517</lat>
+				<long>-72.095924</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8824273</url>
@@ -229,10 +229,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>40.441509</geo:lat>
-				<geo:long>-79.990938</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8987021</url>
@@ -265,10 +265,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>40.441509</geo:lat>
-				<geo:long>-79.990938</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8984503</url>
@@ -298,10 +298,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>40.441509</geo:lat>
-				<geo:long>-79.990938</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8984503</url>
@@ -333,10 +333,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>40.441509</geo:lat>
-				<geo:long>-79.990938</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.441509</lat>
+				<long>-79.990938</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8984503</url>
@@ -367,10 +367,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>29.750864</geo:lat>
-				<geo:long>-95.362109</geo:long>
-			</geo:point>
+			<point>
+				<lat>29.750864</lat>
+				<long>-95.362109</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8928438</url>
@@ -404,10 +404,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>32.78333</geo:lat>
-				<geo:long>-96.8</geo:long>
-			</geo:point>
+			<point>
+				<lat>32.78333</lat>
+				<long>-96.8</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8898569</url>
@@ -440,10 +440,10 @@
 			<country>United States</country>
 			<street>Victory Park @ 2500 Victory Ave</street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>32.788973</geo:lat>
-				<geo:long>-96.80985</geo:long>
-			</geo:point>
+			<point>
+				<lat>32.788973</lat>
+				<long>-96.80985</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8780882</url>
@@ -479,10 +479,10 @@
 			<country>United States</country>
 			<street>1407 Grand Boulevard</street>
 			<postalcode>64106</postalcode>
-			<geo:point>
-				<geo:lat>39.09896</geo:lat>
-				<geo:long>-94.582093</geo:long>
-			</geo:point>
+			<point>
+				<lat>39.09896</lat>
+				<long>-94.582093</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8858654</url>
@@ -516,10 +516,10 @@
 			<country>United States</country>
 			<street>600 First Avenue North</street>
 			<postalcode>55403</postalcode>
-			<geo:point>
-				<geo:lat>44.979572</geo:lat>
-				<geo:long>-93.276091</geo:long>
-			</geo:point>
+			<point>
+				<lat>44.979572</lat>
+				<long>-93.276091</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778532</url>
@@ -553,10 +553,10 @@
 			<country>Canada</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>53.570453</geo:lat>
-				<geo:long>-113.454444</geo:long>
-			</geo:point>
+			<point>
+				<lat>53.570453</lat>
+				<long>-113.454444</long>
+			</point>
 			<timezone>MST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781553</url>
@@ -589,10 +589,10 @@
 			<country>Canada</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>49.277418</geo:lat>
-				<geo:long>-123.10966</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.277418</lat>
+				<long>-123.10966</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8870741</url>
@@ -627,10 +627,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>47.237447</geo:lat>
-				<geo:long>-122.428707</geo:long>
-			</geo:point>
+			<point>
+				<lat>47.237447</lat>
+				<long>-122.428707</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8987027</url>
@@ -664,10 +664,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>38.64907</geo:lat>
-				<geo:long>-121.518209</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.64907</lat>
+				<long>-121.518209</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8958776</url>
@@ -701,10 +701,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>37.332736</geo:lat>
-				<geo:long>-121.901208</geo:long>
-			</geo:point>
+			<point>
+				<lat>37.332736</lat>
+				<long>-121.901208</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8902217</url>
@@ -738,10 +738,10 @@
 			<country>United States</country>
 			<street>301 West South Temple</street>
 			<postalcode>84101</postalcode>
-			<geo:point>
-				<geo:lat>40.76821</geo:lat>
-				<geo:long>-111.901692</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.76821</lat>
+				<long>-111.901692</long>
+			</point>
 			<timezone>MST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8803893</url>
@@ -775,10 +775,10 @@
 			<country>United States</country>
 			<street>1111 S. Figueroa St</street>
 			<postalcode>90015</postalcode>
-			<geo:point>
-				<geo:lat>34.043527</geo:lat>
-				<geo:long>-118.265354</geo:long>
-			</geo:point>
+			<point>
+				<lat>34.043527</lat>
+				<long>-118.265354</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8780552</url>
@@ -812,10 +812,10 @@
 			<country>United States</country>
 			<street>1111 S Figueroa St # 3100</street>
 			<postalcode>90015</postalcode>
-			<geo:point>
-				<geo:lat>34.043528</geo:lat>
-				<geo:long>-118.265355</geo:long>
-			</geo:point>
+			<point>
+				<lat>34.043528</lat>
+				<long>-118.265355</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8928527</url>
@@ -846,10 +846,10 @@
 			<country>United States</country>
 			<street>2685 E Katella Ave</street>
 			<postalcode>92806</postalcode>
-			<geo:point>
-				<geo:lat>33.806196</geo:lat>
-				<geo:long>-117.876658</geo:long>
-			</geo:point>
+			<point>
+				<lat>33.806196</lat>
+				<long>-117.876658</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8803641</url>
@@ -882,10 +882,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>33.83528</geo:lat>
-				<geo:long>-117.91361</geo:long>
-			</geo:point>
+			<point>
+				<lat>33.83528</lat>
+				<long>-117.91361</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8915008</url>
@@ -925,10 +925,10 @@
 			<country>United States</country>
 			<street>7000 Coliseum Way</street>
 			<postalcode>94621</postalcode>
-			<geo:point>
-				<geo:lat>37.80444</geo:lat>
-				<geo:long>-122.26972</geo:long>
-			</geo:point>
+			<point>
+				<lat>37.80444</lat>
+				<long>-122.26972</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8956524</url>
@@ -959,10 +959,10 @@
 			<country>United States</country>
 			<street>9400 W. Maryland Ave.</street>
 			<postalcode>85305</postalcode>
-			<geo:point>
-				<geo:lat>33.531436</geo:lat>
-				<geo:long>-112.261207</geo:long>
-			</geo:point>
+			<point>
+				<lat>33.531436</lat>
+				<long>-112.261207</long>
+			</point>
 			<timezone>MST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8896710</url>
@@ -995,10 +995,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>36.104826</geo:lat>
-				<geo:long>-115.167586</geo:long>
-			</geo:point>
+			<point>
+				<lat>36.104826</lat>
+				<long>-115.167586</long>
+			</point>
 			<timezone>PST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8986947</url>
@@ -1033,10 +1033,10 @@
 			<country>United States</country>
 			<street>6920 N. Mannheim Road</street>
 			<postalcode>60018</postalcode>
-			<geo:point>
-				<geo:lat>42.004368</geo:lat>
-				<geo:long>-87.884495</geo:long>
-			</geo:point>
+			<point>
+				<lat>42.004368</lat>
+				<long>-87.884495</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779619</url>
@@ -1070,10 +1070,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>39.96111</geo:lat>
-				<geo:long>-82.99889</geo:long>
-			</geo:point>
+			<point>
+				<lat>39.96111</lat>
+				<long>-82.99889</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8976109</url>
@@ -1104,10 +1104,10 @@
 			<country>United States</country>
 			<street>1 Mohegan Sun Boulevard</street>
 			<postalcode>06382</postalcode>
-			<geo:point>
-				<geo:lat>41.492517</geo:lat>
-				<geo:long>-72.095924</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.492517</lat>
+				<long>-72.095924</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8824273</url>
@@ -1140,10 +1140,10 @@
 			<country>United States</country>
 			<street>1 Mohegan Sun Boulevard</street>
 			<postalcode>06382</postalcode>
-			<geo:point>
-				<geo:lat>41.492517</geo:lat>
-				<geo:long>-72.095924</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.492517</lat>
+				<long>-72.095924</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8824273</url>
@@ -1179,10 +1179,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1212,10 +1212,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1246,10 +1246,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1279,10 +1279,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1312,10 +1312,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1345,10 +1345,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1378,10 +1378,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1411,10 +1411,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1443,10 +1443,10 @@
 			<country>United Kingdom</country>
 			<street></street>
 			<postalcode>M3 1AR</postalcode>
-			<geo:point>
-				<geo:lat>53.487094</geo:lat>
-				<geo:long>-2.243988</geo:long>
-			</geo:point>
+			<point>
+				<lat>53.487094</lat>
+				<long>-2.243988</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8777080</url>
@@ -1475,10 +1475,10 @@
 			<country>France</country>
 			<street>8, boulevard de Bercy</street>
 			<postalcode>75012</postalcode>
-			<geo:point>
-				<geo:lat>48.839361</geo:lat>
-				<geo:long>2.37758</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781813</url>
@@ -1510,10 +1510,10 @@
 			<country>France</country>
 			<street>8, boulevard de Bercy</street>
 			<postalcode>75012</postalcode>
-			<geo:point>
-				<geo:lat>48.839361</geo:lat>
-				<geo:long>2.37758</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781813</url>
@@ -1543,10 +1543,10 @@
 			<country>France</country>
 			<street>8, boulevard de Bercy</street>
 			<postalcode>75012</postalcode>
-			<geo:point>
-				<geo:lat>48.839361</geo:lat>
-				<geo:long>2.37758</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781813</url>
@@ -1576,10 +1576,10 @@
 			<country>Turkey</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>41.032938</geo:lat>
-				<geo:long>28.900086</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.032938</lat>
+				<long>28.900086</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781231</url>

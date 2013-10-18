@@ -17,10 +17,10 @@
 					<country>Brazil</country>
 					<street>Rua Marquês de Sapucaí, s/nº  -  Centro</street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-22.912485</geo:lat>
-						<geo:long>-43.18062</geo:long>
-					</geo:point>
+					<point>
+						<lat>-22.912485</lat>
+						<long>-43.18062</long>
+					</point>
 					<timezone>BRT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8785613</url>
@@ -58,10 +58,10 @@
 				<country>Chile</country>
 				<street>Alameda 139 - Metro Baquedano</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-33.45</geo:lat>
-					<geo:long>-70.6666667</geo:long>
-				</geo:point>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
 				<timezone>CLT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8820253</url>
@@ -114,10 +114,10 @@
 				<country>Brazil</country>
 				<street>Avenida Francisco Morato, 5100 - Ferreira - Zona Sul</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-23.563002</geo:lat>
-					<geo:long>-46.697985</geo:long>
-				</geo:point>
+				<point>
+					<lat>-23.563002</lat>
+					<long>-46.697985</long>
+				</point>
 				<timezone>BRT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8780428</url>
@@ -158,10 +158,10 @@
 				<country>Argentina</country>
 				<street>Avda. del Libertador 7501</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-34.544672</geo:lat>
-					<geo:long>-58.459785</geo:long>
-				</geo:point>
+				<point>
+					<lat>-34.544672</lat>
+					<long>-58.459785</long>
+				</point>
 				<timezone>ART</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8778832</url>
@@ -199,10 +199,10 @@
 				<country>Chile</country>
 				<street>Av Las Flores 13000</street>
 				<postalcode>7610631</postalcode>
-				<geo:point>
-					<geo:lat>-33.397117</geo:lat>
-					<geo:long>-70.500813</geo:long>
-				</geo:point>
+				<point>
+					<lat>-33.397117</lat>
+					<long>-70.500813</long>
+				</point>
 				<timezone>CLT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783162</url>
@@ -236,10 +236,10 @@
 				<country>Chile</country>
 				<street>Av. Grecia 2001</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-33.45</geo:lat>
-					<geo:long>-70.6666667</geo:long>
-				</geo:point>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
 				<timezone>CLT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8782147</url>
@@ -282,10 +282,10 @@
 				<country>Chile</country>
 				<street>Av. Grecia 2001</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-33.45</geo:lat>
-					<geo:long>-70.6666667</geo:long>
-				</geo:point>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
 				<timezone>CLT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8782147</url>
@@ -332,10 +332,10 @@
 				<country>Chile</country>
 				<street>Av. Grecia 2001</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-33.45</geo:lat>
-					<geo:long>-70.6666667</geo:long>
-				</geo:point>
+				<point>
+					<lat>-33.45</lat>
+					<long>-70.6666667</long>
+				</point>
 				<timezone>CLT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8782147</url>
@@ -374,10 +374,10 @@
 				<country>United States</country>
 				<street>2002 Lakewood Ave</street>
 				<postalcode>30315</postalcode>
-				<geo:point>
-					<geo:lat>33.701157</geo:lat>
-					<geo:long>-84.38664</geo:long>
-				</geo:point>
+				<point>
+					<lat>33.701157</lat>
+					<long>-84.38664</long>
+				</point>
 				<timezone>EST</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8909581</url>

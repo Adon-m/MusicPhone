@@ -16,10 +16,10 @@
 					<country>Brazil</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-19.860739</geo:lat>
-						<geo:long>-43.973327</geo:long>
-					</geo:point>
+					<point>
+						<lat>-19.860739</lat>
+						<long>-43.973327</long>
+					</point>
 					<timezone>BRT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8949911</url>
@@ -62,10 +62,10 @@
 					<country>Brazil</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-19.917691</geo:lat>
-						<geo:long>-43.936874</geo:long>
-					</geo:point>
+					<point>
+						<lat>-19.917691</lat>
+						<long>-43.936874</long>
+					</point>
 					<timezone>BRT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8838455</url>
@@ -111,10 +111,10 @@
 					<country>Brazil</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-15.7830031681381</geo:lat>
-						<geo:long>-47.9690551757812</geo:long>
-					</geo:point>
+					<point>
+						<lat>-15.7830031681381</lat>
+						<long>-47.9690551757812</long>
+					</point>
 					<timezone>BRT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8985962</url>
@@ -167,10 +167,10 @@
 					<country>Chile</country>
 					<street>Av. Blanco Encalada 2540</street>
 					<postalcode>8370465</postalcode>
-					<geo:point>
-						<geo:lat>-33.45</geo:lat>
-						<geo:long>-70.6666667</geo:long>
-					</geo:point>
+					<point>
+						<lat>-33.45</lat>
+						<long>-70.6666667</long>
+					</point>
 					<timezone>CLT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8817610</url>
@@ -211,10 +211,10 @@
 					<country>Peru</country>
 					<street>Calle de Jose Diaz</street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-12.067812</geo:lat>
-						<geo:long>-77.033778</geo:long>
-					</geo:point>
+					<point>
+						<lat>-12.067812</lat>
+						<long>-77.033778</long>
+					</point>
 					<timezone>UTC</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8829031</url>
@@ -250,10 +250,10 @@
 				<country>Argentina</country>
 				<street>Av. Juan B. Justo 9200</street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-34.633079</geo:lat>
-					<geo:long>-58.515944</geo:long>
-				</geo:point>
+				<point>
+					<lat>-34.633079</lat>
+					<long>-58.515944</long>
+				</point>
 				<timezone>ART</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783372</url>
@@ -284,10 +284,10 @@
 			<country>Brazil</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>-8.05379067889853</geo:lat>
-				<geo:long>-34.9214172363281</geo:long>
-			</geo:point>
+			<point>
+				<lat>-8.05379067889853</lat>
+				<long>-34.9214172363281</long>
+			</point>
 			<timezone>BRT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8985925</url>
@@ -335,10 +335,10 @@
 			<country>Brazil</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>-8.059358</geo:lat>
-				<geo:long>-34.919189</geo:long>
-			</geo:point>
+			<point>
+				<lat>-8.059358</lat>
+				<long>-34.919189</long>
+			</point>
 			<timezone>BRT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8997475</url>
@@ -392,10 +392,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>26.12194</geo:lat>
-				<geo:long>-80.14361</geo:long>
-			</geo:point>
+			<point>
+				<lat>26.12194</lat>
+				<long>-80.14361</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8870752</url>
@@ -427,10 +427,10 @@
 			<country>Germany</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>50.985159</geo:lat>
-				<geo:long>11.330969</geo:long>
-			</geo:point>
+			<point>
+				<lat>50.985159</lat>
+				<long>11.330969</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9015093</url>
@@ -460,10 +460,10 @@
 			<country>Germany</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>49.45201</geo:lat>
-				<geo:long>11.083058</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.45201</lat>
+				<long>11.083058</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8916534</url>
@@ -494,10 +494,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>29.593</geo:lat>
-				<geo:long>-98.314143</geo:long>
-			</geo:point>
+			<point>
+				<lat>29.593</lat>
+				<long>-98.314143</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9010968</url>

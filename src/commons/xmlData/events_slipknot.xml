@@ -17,10 +17,10 @@
 					<country>Canada</country>
 					<street>250, boulevard Wilfrid-Hamel</street>
 					<postalcode>G1L 5A7</postalcode>
-					<geo:point>
-						<geo:lat>46.826856</geo:lat>
-						<geo:long>-71.245309</geo:long>
-					</geo:point>
+					<point>
+						<lat>46.826856</lat>
+						<long>-71.245309</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8898007</url>
@@ -52,10 +52,10 @@
 					<country>Canada</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>45.496154</geo:lat>
-						<geo:long>-73.570575</geo:long>
-					</geo:point>
+					<point>
+						<lat>45.496154</lat>
+						<long>-73.570575</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8987019</url>
@@ -86,10 +86,10 @@
 					<country>Canada</country>
 					<street>1260 De la Gauchetière Ouest</street>
 					<postalcode>H3B 5E8</postalcode>
-					<geo:point>
-						<geo:lat>45.496154</geo:lat>
-						<geo:long>-73.570575</geo:long>
-					</geo:point>
+					<point>
+						<lat>45.496154</lat>
+						<long>-73.570575</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8781188</url>
@@ -121,10 +121,10 @@
 					<country>Canada</country>
 					<street>100 Princes' Blvd</street>
 					<postalcode>M6K 3C3</postalcode>
-					<geo:point>
-						<geo:lat>43.634185</geo:lat>
-						<geo:long>-79.411598</geo:long>
-					</geo:point>
+					<point>
+						<lat>43.634185</lat>
+						<long>-79.411598</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783235</url>
@@ -179,10 +179,10 @@
 					<country>Canada</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>42.982842</geo:lat>
-						<geo:long>-81.252756</geo:long>
-					</geo:point>
+					<point>
+						<lat>42.982842</lat>
+						<long>-81.252756</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8986001</url>
@@ -214,10 +214,10 @@
 					<country>Canada</country>
 					<street>99 Dundas Street</street>
 					<postalcode>N6A 6K1</postalcode>
-					<geo:point>
-						<geo:lat>42.982842</geo:lat>
-						<geo:long>-81.252756</geo:long>
-					</geo:point>
+					<point>
+						<lat>42.982842</lat>
+						<long>-81.252756</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8853399</url>
@@ -253,10 +253,10 @@
 					<country>United States</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>34.76944</geo:lat>
-						<geo:long>-92.26694</geo:long>
-					</geo:point>
+					<point>
+						<lat>34.76944</lat>
+						<long>-92.26694</long>
+					</point>
 					<timezone>UTC</timezone>
 				</location>
 				<url>http://www.last.fm/venue/9014141</url>
@@ -290,10 +290,10 @@
 					<country>United States</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>43.558472</geo:lat>
-						<geo:long>-96.747221</geo:long>
-					</geo:point>
+					<point>
+						<lat>43.558472</lat>
+						<long>-96.747221</long>
+					</point>
 					<timezone>UTC</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8943339</url>
@@ -326,10 +326,10 @@
 				<country>United States</country>
 				<street></street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>44.166021</geo:lat>
-					<geo:long>-94.004817</geo:long>
-				</geo:point>
+				<point>
+					<lat>44.166021</lat>
+					<long>-94.004817</long>
+				</point>
 				<timezone>UTC</timezone>
 			</location>
 			<url>http://www.last.fm/venue/9016313</url>
@@ -401,10 +401,10 @@
 				<country>United States</country>
 				<street>One Black &amp; Gold Boulevard</street>
 				<postalcode>43211</postalcode>
-				<geo:point>
-					<geo:lat>40.007401</geo:lat>
-					<geo:long>-82.9888</geo:long>
-				</geo:point>
+				<point>
+					<lat>40.007401</lat>
+					<long>-82.9888</long>
+				</point>
 				<timezone>EST</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8903736</url>
@@ -449,10 +449,10 @@
 			<country>Germany</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>50.3333333</geo:lat>
-				<geo:long>6.95</geo:long>
-			</geo:point>
+			<point>
+				<lat>50.3333333</lat>
+				<long>6.95</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8889280</url>
@@ -553,10 +553,10 @@
 			<country>Germany</country>
 			<street>Otto-Flimm-Straße</street>
 			<postalcode>53520</postalcode>
-			<geo:point>
-				<geo:lat>50.3333333</geo:lat>
-				<geo:long>6.95</geo:long>
-			</geo:point>
+			<point>
+				<lat>50.3333333</lat>
+				<long>6.95</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8780229</url>
@@ -668,10 +668,10 @@
 			<country>Germany</country>
 			<street>Zeppelinstraße</street>
 			<postalcode>90480</postalcode>
-			<geo:point>
-				<geo:lat>49.425768</geo:lat>
-				<geo:long>11.127574</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.425768</lat>
+				<long>11.127574</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8794963</url>
@@ -703,10 +703,10 @@
 			<country>Germany</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9001179</url>
@@ -750,10 +750,10 @@
 			<country>Germany</country>
 			<street>Zeppelinstraße</street>
 			<postalcode>90480</postalcode>
-			<geo:point>
-				<geo:lat>49.425768</geo:lat>
-				<geo:long>11.127574</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.425768</lat>
+				<long>11.127574</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8794963</url>
@@ -785,10 +785,10 @@
 			<country>Poland</country>
 			<street>ul. Łazienkowska 6a</street>
 			<postalcode>00-449</postalcode>
-			<geo:point>
-				<geo:lat>52.25</geo:lat>
-				<geo:long>21</geo:long>
-			</geo:point>
+			<point>
+				<lat>52.25</lat>
+				<long>21</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8789518</url>
@@ -825,10 +825,10 @@
 			<country>Czech Republic</country>
 			<street>Ruská 3077/135</street>
 			<postalcode>70030</postalcode>
-			<geo:point>
-				<geo:lat>49.805112</geo:lat>
-				<geo:long>18.248237</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.805112</lat>
+				<long>18.248237</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8789946</url>
@@ -894,10 +894,10 @@
 			<country>United Kingdom</country>
 			<street></street>
 			<postalcode>DE74 2RP</postalcode>
-			<geo:point>
-				<geo:lat>52.828328</geo:lat>
-				<geo:long>-1.372467</geo:long>
-			</geo:point>
+			<point>
+				<lat>52.828328</lat>
+				<long>-1.372467</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8780662</url>
@@ -948,10 +948,10 @@
 			<country>Switzerland</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>46.6833333</geo:lat>
-				<geo:long>7.85</geo:long>
-			</geo:point>
+			<point>
+				<lat>46.6833333</lat>
+				<long>7.85</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8786173</url>
@@ -990,10 +990,10 @@
 			<country>Croatia</country>
 			<street>Trg Krešimira Ćosića 11</street>
 			<postalcode>10000</postalcode>
-			<geo:point>
-				<geo:lat>45.807944</geo:lat>
-				<geo:long>15.953253</geo:long>
-			</geo:point>
+			<point>
+				<lat>45.807944</lat>
+				<long>15.953253</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8899313</url>
@@ -1024,10 +1024,10 @@
 			<country>Serbia</country>
 			<street>Španskih boraca 20</street>
 			<postalcode>11070</postalcode>
-			<geo:point>
-				<geo:lat>44.8186111</geo:lat>
-				<geo:long>20.4680556</geo:long>
-			</geo:point>
+			<point>
+				<lat>44.8186111</lat>
+				<long>20.4680556</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781299</url>
@@ -1104,10 +1104,10 @@
 			<country>Austria</country>
 			<street></street>
 			<postalcode>2425</postalcode>
-			<geo:point>
-				<geo:lat>47.939995</geo:lat>
-				<geo:long>17.068561</geo:long>
-			</geo:point>
+			<point>
+				<lat>47.939995</lat>
+				<long>17.068561</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8787897</url>
@@ -1147,10 +1147,10 @@
 			<country>Netherlands</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>51.820834</geo:lat>
-				<geo:long>5.835297</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.820834</lat>
+				<long>5.835297</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8782650</url>
@@ -1190,10 +1190,10 @@
 			<country>Netherlands</country>
 			<street>Goffertpark</street>
 			<postalcode>6532</postalcode>
-			<geo:point>
-				<geo:lat>51.821787</geo:lat>
-				<geo:long>5.836173</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.821787</lat>
+				<long>5.836173</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014420</url>
@@ -1247,10 +1247,10 @@
 			<country>Norway</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>58.4602778</geo:lat>
-				<geo:long>8.7666667</geo:long>
-			</geo:point>
+			<point>
+				<lat>58.4602778</lat>
+				<long>8.7666667</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8797402</url>
@@ -1342,10 +1342,10 @@
 			<country>Belgium</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>51.223916</geo:lat>
-				<geo:long>5.093964</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.223916</lat>
+				<long>5.093964</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8788775</url>
@@ -1401,10 +1401,10 @@
 			<country>Sweden</country>
 			<street>Frihamnen</street>
 			<postalcode>417 07</postalcode>
-			<geo:point>
-				<geo:lat>57.713824</geo:lat>
-				<geo:long>11.958549</geo:long>
-			</geo:point>
+			<point>
+				<lat>57.713824</lat>
+				<long>11.958549</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8902675</url>
@@ -1477,10 +1477,10 @@
 			<country>Belgium</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>51.231727</geo:lat>
-				<geo:long>4.440407</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.231727</lat>
+				<long>4.440407</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8911139</url>
@@ -1533,10 +1533,10 @@
 			<country>Italy</country>
 			<street>Via Tognini</street>
 			<postalcode>20052</postalcode>
-			<geo:point>
-				<geo:lat>45.593648</geo:lat>
-				<geo:long>9.300521</geo:long>
-			</geo:point>
+			<point>
+				<lat>45.593648</lat>
+				<long>9.300521</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8790113</url>
@@ -1715,10 +1715,10 @@
 			<country>Italy</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>45.463642</geo:lat>
-				<geo:long>9.288713</geo:long>
-			</geo:point>
+			<point>
+				<lat>45.463642</lat>
+				<long>9.288713</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8797742</url>
@@ -1782,10 +1782,10 @@
 			<country>Denmark</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>55.65</geo:lat>
-				<geo:long>12.0833333</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.65</lat>
+				<long>12.0833333</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8795458</url>
@@ -1820,10 +1820,10 @@
 			<country>Greece</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>37.9833333</geo:lat>
-				<geo:long>23.7333333</geo:long>
-			</geo:point>
+			<point>
+				<lat>37.9833333</lat>
+				<long>23.7333333</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8908919</url>
@@ -1889,10 +1889,10 @@
 			<country>Denmark</country>
 			<street>Dyrskuepladsen, Darupvej</street>
 			<postalcode>4000</postalcode>
-			<geo:point>
-				<geo:lat>55.630249</geo:lat>
-				<geo:long>12.084327</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.630249</lat>
+				<long>12.084327</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8784070</url>
@@ -1965,10 +1965,10 @@
 			<country>France</country>
 			<street></street>
 			<postalcode>90000</postalcode>
-			<geo:point>
-				<geo:lat>47.631319</geo:lat>
-				<geo:long>6.862218</geo:long>
-			</geo:point>
+			<point>
+				<lat>47.631319</lat>
+				<long>6.862218</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781580</url>
@@ -2026,10 +2026,10 @@
 			<country>Finland</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>60.425533</geo:lat>
-				<geo:long>22.146337</geo:long>
-			</geo:point>
+			<point>
+				<lat>60.425533</lat>
+				<long>22.146337</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781754</url>
@@ -2076,10 +2076,10 @@
 			<country>Portugal</country>
 			<street>Av. Brasília @38.698113, -9.231640</street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>38.697798</geo:lat>
-				<geo:long>-9.1849</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.697798</lat>
+				<long>-9.1849</long>
+			</point>
 			<timezone>WET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8807828</url>
@@ -2176,10 +2176,10 @@
 			<country>Portugal</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>38.6833333</geo:lat>
-				<geo:long>-9.3166667</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.6833333</lat>
+				<long>-9.3166667</long>
+			</point>
 			<timezone>WET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8812604</url>
@@ -2211,10 +2211,10 @@
 			<country>Spain</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>40.4</geo:lat>
-				<geo:long>-3.6833333</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.4</lat>
+				<long>-3.6833333</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8798430</url>
@@ -2243,10 +2243,10 @@
 			<country>Spain</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>40.4</geo:lat>
-				<geo:long>-3.6833333</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.4</lat>
+				<long>-3.6833333</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8798430</url>
@@ -2278,10 +2278,10 @@
 			<country>Spain</country>
 			<street>Plaça de Llevant</street>
 			<postalcode>08019</postalcode>
-			<geo:point>
-				<geo:lat>41.409647</geo:lat>
-				<geo:long>2.224388</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.409647</lat>
+				<long>2.224388</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8801698</url>

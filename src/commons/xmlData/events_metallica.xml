@@ -17,10 +17,10 @@
 					<country>United Kingdom</country>
 					<street>National Exhibition Centre</street>
 					<postalcode>B40 1NT</postalcode>
-					<geo:point>
-						<geo:lat>52.451118</geo:lat>
-						<geo:long>-1.721248</geo:long>
-					</geo:point>
+					<point>
+						<lat>52.451118</lat>
+						<long>-1.721248</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8974925</url>
@@ -53,10 +53,10 @@
 				<country>United Kingdom</country>
 				<street>National Ice Centre</street>
 				<postalcode>NG1 1LA</postalcode>
-				<geo:point>
-					<geo:lat>52.9666667</geo:lat>
-					<geo:long>-1.1666667</geo:long>
-				</geo:point>
+				<point>
+					<lat>52.9666667</lat>
+					<long>-1.1666667</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8917702</url>
@@ -90,10 +90,10 @@
 			<country>United Kingdom</country>
 			<street>Exhibition Way</street>
 			<postalcode>G3 8YW</postalcode>
-			<geo:point>
-				<geo:lat>55.860853</geo:lat>
-				<geo:long>-4.288117</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.860853</lat>
+				<long>-4.288117</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8777899</url>
@@ -129,10 +129,10 @@ The metal giants return to Scotland for their first gig in Glasgow since 2004, a
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -165,10 +165,10 @@ The metal giants return to Scotland for their first gig in Glasgow since 2004, a
 			<country>Netherlands</country>
 			<street>Ahoyweg 10</street>
 			<postalcode>3084 BA</postalcode>
-			<geo:point>
-				<geo:lat>51.881762</geo:lat>
-				<geo:long>4.486211</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.881762</lat>
+				<long>4.486211</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778505</url>
@@ -206,10 +206,10 @@ Concert is Uitverkocht.</div>]]>
 			<country>France</country>
 			<street>8, boulevard de Bercy</street>
 			<postalcode>75012</postalcode>
-			<geo:point>
-				<geo:lat>48.839361</geo:lat>
-				<geo:long>2.37758</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781813</url>
@@ -242,10 +242,10 @@ Concert is Uitverkocht.</div>]]>
 			<country>France</country>
 			<street>8, boulevard de Bercy</street>
 			<postalcode>75012</postalcode>
-			<geo:point>
-				<geo:lat>48.839361</geo:lat>
-				<geo:long>2.37758</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.839361</lat>
+				<long>2.37758</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781813</url>
@@ -276,10 +276,10 @@ Concert is Uitverkocht.</div>]]>
 			<country>Sweden</country>
 			<street>Globentorget 2</street>
 			<postalcode>12177</postalcode>
-			<geo:point>
-				<geo:lat>59.293786</geo:lat>
-				<geo:long>18.079975</geo:long>
-			</geo:point>
+			<point>
+				<lat>59.293786</lat>
+				<long>18.079975</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778853</url>
@@ -315,10 +315,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Olympiapark Parkharfe, Sapporobogen</street>
 			<postalcode>80809</postalcode>
-			<geo:point>
-				<geo:lat>49.55</geo:lat>
-				<geo:long>11.5833333</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.55</lat>
+				<long>11.5833333</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8798505</url>
@@ -350,10 +350,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Am Sportforum 2-3</street>
 			<postalcode>04105</postalcode>
-			<geo:point>
-				<geo:lat>51.34451</geo:lat>
-				<geo:long>12.351647</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.34451</lat>
+				<long>12.351647</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778578</url>
@@ -384,10 +384,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Mercedesstr. 69</street>
 			<postalcode>70372</postalcode>
-			<geo:point>
-				<geo:lat>48.793838</geo:lat>
-				<geo:long>9.225865</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.793838</lat>
+				<long>9.225865</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779783</url>
@@ -418,10 +418,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Ludwig-Erhard-Anlage 1</street>
 			<postalcode>60327</postalcode>
-			<geo:point>
-				<geo:lat>50.111794</geo:lat>
-				<geo:long>8.653517</geo:long>
-			</geo:point>
+			<point>
+				<lat>50.111794</lat>
+				<long>8.653517</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8788926</url>
@@ -453,10 +453,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Sylvesterallee 10</street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>53.590335</geo:lat>
-				<geo:long>9.899408</geo:long>
-			</geo:point>
+			<point>
+				<lat>53.590335</lat>
+				<long>9.899408</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778534</url>
@@ -490,10 +490,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Austria</country>
 			<street>Vogelweidplatz 14</street>
 			<postalcode>1150</postalcode>
-			<geo:point>
-				<geo:lat>48.204387</geo:lat>
-				<geo:long>16.331251</geo:long>
-			</geo:point>
+			<point>
+				<lat>48.204387</lat>
+				<long>16.331251</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778751</url>
@@ -523,10 +523,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Arenastr. 1</street>
 			<postalcode>46047</postalcode>
-			<geo:point>
-				<geo:lat>51.490481</geo:lat>
-				<geo:long>6.872633</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.490481</lat>
+				<long>6.872633</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778577</url>
@@ -557,10 +557,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Arenastr. 1</street>
 			<postalcode>46047</postalcode>
-			<geo:point>
-				<geo:lat>51.490481</geo:lat>
-				<geo:long>6.872633</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.490481</lat>
+				<long>6.872633</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778577</url>
@@ -591,10 +591,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street>Willy-Brandt-Platz</street>
 			<postalcode>50679</postalcode>
-			<geo:point>
-				<geo:lat>50.938635</geo:lat>
-				<geo:long>6.979938</geo:long>
-			</geo:point>
+			<point>
+				<lat>50.938635</lat>
+				<long>6.979938</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8976470</url>
@@ -624,10 +624,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Russian Federation</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>55.705243</geo:lat>
-				<geo:long>37.590373</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.705243</lat>
+				<long>37.590373</long>
+			</point>
 			<timezone>MSK</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8993649</url>
@@ -660,10 +660,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Finland</country>
 			<street>Areenakuja 1</street>
 			<postalcode>00240</postalcode>
-			<geo:point>
-				<geo:lat>60.204441</geo:lat>
-				<geo:long>24.930099</geo:long>
-			</geo:point>
+			<point>
+				<lat>60.204441</lat>
+				<long>24.930099</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8784738</url>
@@ -699,10 +699,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Finland</country>
 			<street>Areenakuja 1</street>
 			<postalcode>00240</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014532</url>
@@ -734,10 +734,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Finland</country>
 			<street>Areenakuja 1</street>
 			<postalcode>00240</postalcode>
-			<geo:point>
-				<geo:lat>60.204441</geo:lat>
-				<geo:long>24.930099</geo:long>
-			</geo:point>
+			<point>
+				<lat>60.204441</lat>
+				<long>24.930099</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8784738</url>
@@ -773,10 +773,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Finland</country>
 			<street>Areenakuja 1</street>
 			<postalcode>00240</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014532</url>
@@ -808,10 +808,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Norway</country>
 			<street>Sonja Henies pl. 2</street>
 			<postalcode>0185</postalcode>
-			<geo:point>
-				<geo:lat>59.912411</geo:lat>
-				<geo:long>10.754699</geo:long>
-			</geo:point>
+			<point>
+				<lat>59.912411</lat>
+				<long>10.754699</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779340</url>
@@ -897,10 +897,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Austria</country>
 			<street></street>
 			<postalcode>2425</postalcode>
-			<geo:point>
-				<geo:lat>47.939995</geo:lat>
-				<geo:long>17.068561</geo:long>
-			</geo:point>
+			<point>
+				<lat>47.939995</lat>
+				<long>17.068561</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8787897</url>
@@ -941,10 +941,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Netherlands</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>51.820834</geo:lat>
-				<geo:long>5.835297</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.820834</lat>
+				<long>5.835297</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8782650</url>
@@ -985,10 +985,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Netherlands</country>
 			<street>Goffertpark</street>
 			<postalcode>6532</postalcode>
-			<geo:point>
-				<geo:lat>51.821787</geo:lat>
-				<geo:long>5.836173</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.821787</lat>
+				<long>5.836173</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014420</url>
@@ -1020,10 +1020,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Italy</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>45.5063469010834</geo:lat>
-				<geo:long>9.20654296875</geo:long>
-			</geo:point>
+			<point>
+				<lat>45.5063469010834</lat>
+				<long>9.20654296875</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8968748</url>
@@ -1070,10 +1070,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Italy</country>
 			<street>Piazzale dello sport</street>
 			<postalcode>00100</postalcode>
-			<geo:point>
-				<geo:lat>41.833878</geo:lat>
-				<geo:long>12.489655</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.833878</lat>
+				<long>12.489655</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8782506</url>
@@ -1160,10 +1160,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Belgium</country>
 			<street>Haachtsesteenweg</street>
 			<postalcode>B-3118</postalcode>
-			<geo:point>
-				<geo:lat>50.969376</geo:lat>
-				<geo:long>4.69036</geo:long>
-			</geo:point>
+			<point>
+				<lat>50.969376</lat>
+				<long>4.69036</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779175</url>
@@ -1217,10 +1217,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>49.328186</geo:lat>
-				<geo:long>8.570745</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.328186</lat>
+				<long>8.570745</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8790511</url>
@@ -1257,10 +1257,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Germany</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>49.328186</geo:lat>
-				<geo:long>8.570745</geo:long>
-			</geo:point>
+			<point>
+				<lat>49.328186</lat>
+				<long>8.570745</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8790511</url>
@@ -1298,10 +1298,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>France</country>
 			<street>Boulevard des Arènes</street>
 			<postalcode>30000</postalcode>
-			<geo:point>
-				<geo:lat>43.834772</geo:lat>
-				<geo:long>4.359764</geo:long>
-			</geo:point>
+			<point>
+				<lat>43.834772</lat>
+				<long>4.359764</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8789092</url>
@@ -1348,10 +1348,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Portugal</country>
 			<street>Av. Brasília @38.698113, -9.231640</street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>38.697798</geo:lat>
-				<geo:long>-9.1849</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.697798</lat>
+				<long>-9.1849</long>
+			</point>
 			<timezone>WET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8807828</url>
@@ -1450,10 +1450,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Portugal</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>38.6833333</geo:lat>
-				<geo:long>-9.3166667</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.6833333</lat>
+				<long>-9.3166667</long>
+			</point>
 			<timezone>WET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8812604</url>
@@ -1486,10 +1486,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Spain</country>
 			<street>Plaça de Llevant</street>
 			<postalcode>08019</postalcode>
-			<geo:point>
-				<geo:lat>41.409647</geo:lat>
-				<geo:long>2.224388</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.409647</lat>
+				<long>2.224388</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8801698</url>
@@ -1594,10 +1594,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Spain</country>
 			<street>Jorge Juan 99</street>
 			<postalcode>28009</postalcode>
-			<geo:point>
-				<geo:lat>40.423234</geo:lat>
-				<geo:long>-3.672654</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.423234</lat>
+				<long>-3.672654</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8795164</url>
@@ -1675,10 +1675,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Spain</country>
 			<street>Jorge Juan 99</street>
 			<postalcode>28009</postalcode>
-			<geo:point>
-				<geo:lat>40.423234</geo:lat>
-				<geo:long>-3.672654</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.423234</lat>
+				<long>-3.672654</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8795164</url>
@@ -1726,10 +1726,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Switzerland</country>
 			<street>Wallisellenstrasse 45</street>
 			<postalcode>8050</postalcode>
-			<geo:point>
-				<geo:lat>47.411609</geo:lat>
-				<geo:long>8.551656</geo:long>
-			</geo:point>
+			<point>
+				<lat>47.411609</lat>
+				<long>8.551656</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8778903</url>
@@ -1764,10 +1764,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Sweden</country>
 			<street>Folkparksvägen</street>
 			<postalcode>577 36</postalcode>
-			<geo:point>
-				<geo:lat>57.496459</geo:lat>
-				<geo:long>15.863033</geo:long>
-			</geo:point>
+			<point>
+				<lat>57.496459</lat>
+				<long>15.863033</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8964983</url>
@@ -1838,10 +1838,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsens Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat>55.681028</geo:lat>
-				<geo:long>12.55306</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779282</url>
@@ -1889,10 +1889,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsen Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014458</url>
@@ -1924,10 +1924,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsen Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014458</url>
@@ -1959,10 +1959,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsens Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat>55.681028</geo:lat>
-				<geo:long>12.55306</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779282</url>
@@ -2010,10 +2010,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsen Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014458</url>
@@ -2045,10 +2045,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsens Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat>55.681028</geo:lat>
-				<geo:long>12.55306</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779282</url>
@@ -2098,10 +2098,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Finland</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>61.4833333</geo:lat>
-				<geo:long>21.7833333</geo:long>
-			</geo:point>
+			<point>
+				<lat>61.4833333</lat>
+				<long>21.7833333</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8886267</url>
@@ -2143,10 +2143,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Finland</country>
 			<street>- -</street>
 			<postalcode>28100</postalcode>
-			<geo:point>
-				<geo:lat>61.490104</geo:lat>
-				<geo:long>21.788851</geo:long>
-			</geo:point>
+			<point>
+				<lat>61.490104</lat>
+				<long>21.788851</long>
+			</point>
 			<timezone>EET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014597</url>
@@ -2178,10 +2178,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsens Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat>55.681028</geo:lat>
-				<geo:long>12.55306</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779282</url>
@@ -2220,10 +2220,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsen Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014458</url>
@@ -2255,10 +2255,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsen Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat></geo:lat>
-				<geo:long></geo:long>
-			</geo:point>
+			<point>
+				<lat></lat>
+				<long></long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9014458</url>
@@ -2290,10 +2290,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Denmark</country>
 			<street>Julius Thomsens Plads 1</street>
 			<postalcode>1925</postalcode>
-			<geo:point>
-				<geo:lat>55.681028</geo:lat>
-				<geo:long>12.55306</geo:long>
-			</geo:point>
+			<point>
+				<lat>55.681028</lat>
+				<long>12.55306</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779282</url>
@@ -2326,10 +2326,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Norway</country>
 			<street>Sonja Henies pl. 2</street>
 			<postalcode>0185</postalcode>
-			<geo:point>
-				<geo:lat>59.912411</geo:lat>
-				<geo:long>10.754699</geo:long>
-			</geo:point>
+			<point>
+				<lat>59.912411</lat>
+				<long>10.754699</long>
+			</point>
 			<timezone>CET</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8779340</url>
@@ -2372,10 +2372,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>United Kingdom</country>
 			<street></street>
 			<postalcode>SG3 6PY</postalcode>
-			<geo:point>
-				<geo:lat>51.872235</geo:lat>
-				<geo:long>-0.211709</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.872235</lat>
+				<long>-0.211709</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8825807</url>
@@ -2423,10 +2423,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Ireland</country>
 			<street>Ratoath</street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>53.5080556</geo:lat>
-				<geo:long>-6.4625</geo:long>
-			</geo:point>
+			<point>
+				<lat>53.5080556</lat>
+				<long>-6.4625</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8826807</url>
@@ -2461,10 +2461,10 @@ I think it is the same support but i am not sure. More information will be added
 			<country>Ireland</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>53.274513</geo:lat>
-				<geo:long>-6.27804</geo:long>
-			</geo:point>
+			<point>
+				<lat>53.274513</lat>
+				<long>-6.27804</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783911</url>

@@ -15,10 +15,10 @@
 					<country>Poland</country>
 					<street>Plac Defilad 1</street>
 					<postalcode>00-901</postalcode>
-					<geo:point>
-						<geo:lat>52.231838</geo:lat>
-						<geo:long>21.005995</geo:long>
-					</geo:point>
+					<point>
+						<lat>52.231838</lat>
+						<long>21.005995</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8786573</url>

@@ -15,10 +15,10 @@
 					<country>Germany</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>49.986587</geo:lat>
-						<geo:long>8.288423</geo:long>
-					</geo:point>
+					<point>
+						<lat>49.986587</lat>
+						<long>8.288423</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8999750</url>
@@ -48,10 +48,10 @@
 					<country>France</country>
 					<street>72 Boulevard Rochechouart</street>
 					<postalcode>75018</postalcode>
-					<geo:point>
-						<geo:lat>48.882934</geo:lat>
-						<geo:long>2.343777</geo:long>
-					</geo:point>
+					<point>
+						<lat>48.882934</lat>
+						<long>2.343777</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8778720</url>
@@ -93,10 +93,10 @@
 					<country>Switzerland</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>47.375609</geo:lat>
-						<geo:long>8.57674</geo:long>
-					</geo:point>
+					<point>
+						<lat>47.375609</lat>
+						<long>8.57674</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/9008693</url>
@@ -126,10 +126,10 @@
 					<country>Germany</country>
 					<street>Saarlandstraße</street>
 					<postalcode>22303</postalcode>
-					<geo:point>
-						<geo:lat>53.593064</geo:lat>
-						<geo:long>10.014949</geo:long>
-					</geo:point>
+					<point>
+						<lat>53.593064</lat>
+						<long>10.014949</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8785032</url>
@@ -159,10 +159,10 @@
 					<country>Germany</country>
 					<street>Karl-Tauchnitz-Str./Höhe Haydnstr.</street>
 					<postalcode>04107</postalcode>
-					<geo:point>
-						<geo:lat>51.3</geo:lat>
-						<geo:long>12.3333333</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.3</lat>
+						<long>12.3333333</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8798916</url>

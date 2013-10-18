@@ -17,10 +17,10 @@
 					<country>Portugal</country>
 					<street>Rossio dos Olivais</street>
 					<postalcode>1990</postalcode>
-					<geo:point>
-						<geo:lat>38.76735</geo:lat>
-						<geo:long>-9.094545</geo:long>
-					</geo:point>
+					<point>
+						<lat>38.76735</lat>
+						<long>-9.094545</long>
+					</point>
 					<timezone>WET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8778515</url>
@@ -67,10 +67,10 @@
 					<country>Spain</country>
 					<street>Avinguda d'Alfons XIII</street>
 					<postalcode>08921</postalcode>
-					<geo:point>
-						<geo:lat>41.383611</geo:lat>
-						<geo:long>2.167139</geo:long>
-					</geo:point>
+					<point>
+						<lat>41.383611</lat>
+						<long>2.167139</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8791788</url>
@@ -103,10 +103,10 @@
 				<country>France</country>
 				<street>Parc de la Villette</street>
 				<postalcode>75019</postalcode>
-				<geo:point>
-					<geo:lat>48.8666667</geo:lat>
-					<geo:long>2.3333333</geo:long>
-				</geo:point>
+				<point>
+					<lat>48.8666667</lat>
+					<long>2.3333333</long>
+				</point>
 				<timezone>CET</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8825357</url>
@@ -137,10 +137,10 @@
 				<country>Belgium</country>
 				<street>Avenue Victor Rousseau, 208</street>
 				<postalcode>1190</postalcode>
-				<geo:point>
-					<geo:lat>50.808828</geo:lat>
-					<geo:long>4.32546</geo:long>
-				</geo:point>
+				<point>
+					<lat>50.808828</lat>
+					<long>4.32546</long>
+				</point>
 				<timezone>CET</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8779173</url>
@@ -171,10 +171,10 @@
 				<country>Netherlands</country>
 				<street>ArenA Boulevard 590</street>
 				<postalcode>1101 DS</postalcode>
-				<geo:point>
-					<geo:lat>52.31266</geo:lat>
-					<geo:long>4.942487</geo:long>
-				</geo:point>
+				<point>
+					<lat>52.31266</lat>
+					<long>4.942487</long>
+				</point>
 				<timezone>UTC</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8778722</url>
@@ -211,10 +211,10 @@
 				<country>Czech Republic</country>
 				<street>Křídlovická 34</street>
 				<postalcode>60300</postalcode>
-				<geo:point>
-					<geo:lat>49.185821</geo:lat>
-					<geo:long>16.602399</geo:long>
-				</geo:point>
+				<point>
+					<lat>49.185821</lat>
+					<long>16.602399</long>
+				</point>
 				<timezone>CET</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8810714</url>

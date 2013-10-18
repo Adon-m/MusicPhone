@@ -15,10 +15,10 @@
 					<country>Austria</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>47.010017</geo:lat>
-						<geo:long>10.288041</geo:long>
-					</geo:point>
+					<point>
+						<lat>47.010017</lat>
+						<long>10.288041</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8786598</url>
@@ -60,10 +60,10 @@
 					<country>Morocco</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>34.02</geo:lat>
-						<geo:long>-6.83</geo:long>
-					</geo:point>
+					<point>
+						<lat>34.02</lat>
+						<long>-6.83</long>
+					</point>
 					<timezone>UTC</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8814008</url>

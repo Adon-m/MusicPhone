@@ -17,10 +17,10 @@
 					<country>United Kingdom</country>
 					<street>Shepherd's Bush Green</street>
 					<postalcode>W12 8TT</postalcode>
-					<geo:point>
-						<geo:lat>51.504519</geo:lat>
-						<geo:long>-0.22483</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.504519</lat>
+						<long>-0.22483</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8777126</url>

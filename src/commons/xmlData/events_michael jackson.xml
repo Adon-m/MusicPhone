@@ -15,10 +15,10 @@
 					<country>Poland</country>
 					<street>Toruńska 59</street>
 					<postalcode>85-023</postalcode>
-					<geo:point>
-						<geo:lat>53.119137</geo:lat>
-						<geo:long>18.017227</geo:long>
-					</geo:point>
+					<point>
+						<lat>53.119137</lat>
+						<long>18.017227</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8803099</url>
@@ -51,10 +51,10 @@
 					<country>Poland</country>
 					<street>Plac Defilad 1</street>
 					<postalcode>00-901</postalcode>
-					<geo:point>
-						<geo:lat>52.231838</geo:lat>
-						<geo:long>21.005995</geo:long>
-					</geo:point>
+					<point>
+						<lat>52.231838</lat>
+						<long>21.005995</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8786573</url>
@@ -88,10 +88,10 @@
 					<country>Poland</country>
 					<street>ul. Wystawowa 1</street>
 					<postalcode>51-618</postalcode>
-					<geo:point>
-						<geo:lat>51.107493</geo:lat>
-						<geo:long>17.074102</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.107493</lat>
+						<long>17.074102</long>
+					</point>
 					<timezone>CET</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8929315</url>
@@ -131,10 +131,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -163,10 +163,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -205,10 +205,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -245,10 +245,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -290,10 +290,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -335,10 +335,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -380,10 +380,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -425,10 +425,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -470,10 +470,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -515,10 +515,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -560,10 +560,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -605,10 +605,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -643,10 +643,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -676,10 +676,10 @@
 					<country>United Kingdom</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>51.4916446565303</geo:lat>
-						<geo:long>-0.17852783203125</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.4916446565303</lat>
+						<long>-0.17852783203125</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/9013783</url>
@@ -709,10 +709,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -742,10 +742,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -775,10 +775,10 @@
 					<country>United Kingdom</country>
 					<street>Millennium Way</street>
 					<postalcode>SE10 0AX</postalcode>
-					<geo:point>
-						<geo:lat>51.5017382136074</geo:lat>
-						<geo:long>0.00310377882291706</geo:long>
-					</geo:point>
+					<point>
+						<lat>51.5017382136074</lat>
+						<long>0.00310377882291706</long>
+					</point>
 					<timezone>GMT</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8783707</url>
@@ -810,10 +810,10 @@
 				<country>United Kingdom</country>
 				<street>Millennium Way</street>
 				<postalcode>SE10 0AX</postalcode>
-				<geo:point>
-					<geo:lat>51.5017382136074</geo:lat>
-					<geo:long>0.00310377882291706</geo:long>
-				</geo:point>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783707</url>
@@ -842,10 +842,10 @@
 				<country>United Kingdom</country>
 				<street>Millennium Way</street>
 				<postalcode>SE10 0AX</postalcode>
-				<geo:point>
-					<geo:lat>51.5017382136074</geo:lat>
-					<geo:long>0.00310377882291706</geo:long>
-				</geo:point>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783707</url>
@@ -875,10 +875,10 @@
 				<country>United Kingdom</country>
 				<street>Millennium Way</street>
 				<postalcode>SE10 0AX</postalcode>
-				<geo:point>
-					<geo:lat>51.5017382136074</geo:lat>
-					<geo:long>0.00310377882291706</geo:long>
-				</geo:point>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783707</url>
@@ -908,10 +908,10 @@
 				<country>United Kingdom</country>
 				<street>Millennium Way</street>
 				<postalcode>SE10 0AX</postalcode>
-				<geo:point>
-					<geo:lat>51.5017382136074</geo:lat>
-					<geo:long>0.00310377882291706</geo:long>
-				</geo:point>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783707</url>
@@ -941,10 +941,10 @@
 				<country>United Kingdom</country>
 				<street>Millennium Way</street>
 				<postalcode>SE10 0AX</postalcode>
-				<geo:point>
-					<geo:lat>51.5017382136074</geo:lat>
-					<geo:long>0.00310377882291706</geo:long>
-				</geo:point>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783707</url>
@@ -973,10 +973,10 @@
 				<country>United Kingdom</country>
 				<street>Millennium Way</street>
 				<postalcode>SE10 0AX</postalcode>
-				<geo:point>
-					<geo:lat>51.5017382136074</geo:lat>
-					<geo:long>0.00310377882291706</geo:long>
-				</geo:point>
+				<point>
+					<lat>51.5017382136074</lat>
+					<long>0.00310377882291706</long>
+				</point>
 				<timezone>GMT</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8783707</url>
@@ -1007,10 +1007,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1039,10 +1039,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1071,10 +1071,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1103,10 +1103,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1135,10 +1135,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1167,10 +1167,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1199,10 +1199,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1231,10 +1231,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1265,10 +1265,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1297,10 +1297,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1329,10 +1329,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1362,10 +1362,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1403,10 +1403,10 @@
 			<country>United Kingdom</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>51.498199</geo:lat>
-				<geo:long>-0.014806</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.498199</lat>
+				<long>-0.014806</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8789101</url>
@@ -1435,10 +1435,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1467,10 +1467,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1501,10 +1501,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1533,10 +1533,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1565,10 +1565,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1597,10 +1597,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1629,10 +1629,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1661,10 +1661,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1693,10 +1693,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1727,10 +1727,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>
@@ -1759,10 +1759,10 @@
 			<country>United Kingdom</country>
 			<street>Millennium Way</street>
 			<postalcode>SE10 0AX</postalcode>
-			<geo:point>
-				<geo:lat>51.5017382136074</geo:lat>
-				<geo:long>0.00310377882291706</geo:long>
-			</geo:point>
+			<point>
+				<lat>51.5017382136074</lat>
+				<long>0.00310377882291706</long>
+			</point>
 			<timezone>GMT</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8783707</url>

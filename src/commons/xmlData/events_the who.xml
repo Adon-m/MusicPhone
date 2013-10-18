@@ -16,10 +16,10 @@
 					<country>New Zealand</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-36.726291</geo:lat>
-						<geo:long>174.702478</geo:long>
-					</geo:point>
+					<point>
+						<lat>-36.726291</lat>
+						<long>174.702478</long>
+					</point>
 					<timezone>UTC</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8784270</url>
@@ -71,10 +71,10 @@
 					<country>Australia</country>
 					<street>Melaleuca Drv, Boondall</street>
 					<postalcode>4034</postalcode>
-					<geo:point>
-						<geo:lat>-27.34229</geo:lat>
-						<geo:long>153.070466</geo:long>
-					</geo:point>
+					<point>
+						<lat>-27.34229</lat>
+						<long>153.070466</long>
+					</point>
 					<timezone>UTC</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8935347</url>
@@ -108,10 +108,10 @@
 					<country>Australia</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-34.908697</geo:lat>
-						<geo:long>138.576726</geo:long>
-					</geo:point>
+					<point>
+						<lat>-34.908697</lat>
+						<long>138.576726</long>
+					</point>
 					<timezone>CST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8981704</url>
@@ -143,10 +143,10 @@
 					<country>Australia</country>
 					<street>2213 Broke Road</street>
 					<postalcode>2320</postalcode>
-					<geo:point>
-						<geo:lat>-32.775445</geo:lat>
-						<geo:long>151.326701</geo:long>
-					</geo:point>
+					<point>
+						<lat>-32.775445</lat>
+						<long>151.326701</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8989949</url>
@@ -176,10 +176,10 @@
 					<country>Australia</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>-37.8166667</geo:lat>
-						<geo:long>144.9666667</geo:long>
-					</geo:point>
+					<point>
+						<lat>-37.8166667</lat>
+						<long>144.9666667</long>
+					</point>
 					<timezone>EST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8819780</url>
@@ -210,10 +210,10 @@
 				<country>Australia</country>
 				<street>Olympic Boulevard, Sydney Olympic Park</street>
 				<postalcode>2127</postalcode>
-				<geo:point>
-					<geo:lat>-33.8833333</geo:lat>
-					<geo:long>151.2166667</geo:long>
-				</geo:point>
+				<point>
+					<lat>-33.8833333</lat>
+					<long>151.2166667</long>
+				</point>
 				<timezone>UTC</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8778568</url>
@@ -245,10 +245,10 @@
 				<country>Australia</country>
 				<street></street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>-31.9333333</geo:lat>
-					<geo:long>115.8333333</geo:long>
-				</geo:point>
+				<point>
+					<lat>-31.9333333</lat>
+					<long>115.8333333</long>
+				</point>
 				<timezone>WST</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8984165</url>
@@ -283,10 +283,10 @@
 				<country>Germany</country>
 				<street></street>
 				<postalcode></postalcode>
-				<geo:point>
-					<geo:lat>52.5166667</geo:lat>
-					<geo:long>13.4</geo:long>
-				</geo:point>
+				<point>
+					<lat>52.5166667</lat>
+					<long>13.4</long>
+				</point>
 				<timezone>CET</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8793569</url>

@@ -25,10 +25,10 @@
 					<country>United States</country>
 					<street>One Amphitheatre Parkway</street>
 					<postalcode>94043</postalcode>
-					<geo:point>
-						<geo:lat>37.423326</geo:lat>
-						<geo:long>-122.078012</geo:long>
-					</geo:point>
+					<point>
+						<lat>37.423326</lat>
+						<long>-122.078012</long>
+					</point>
 					<timezone>PST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8900403</url>
@@ -64,10 +64,10 @@
 					<country>United States</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>34.10833</geo:lat>
-						<geo:long>-117.28889</geo:long>
-					</geo:point>
+					<point>
+						<lat>34.10833</lat>
+						<long>-117.28889</long>
+					</point>
 					<timezone>PST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8797350</url>
@@ -107,10 +107,10 @@
 					<country>United States</country>
 					<street></street>
 					<postalcode></postalcode>
-					<geo:point>
-						<geo:lat>47.237404</geo:lat>
-						<geo:long>-122.112061</geo:long>
-					</geo:point>
+					<point>
+						<lat>47.237404</lat>
+						<long>-122.112061</long>
+					</point>
 					<timezone>PST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8900399</url>
@@ -150,10 +150,10 @@
 					<country>United States</country>
 					<street>6350 Greenwood Plaza Blvd</street>
 					<postalcode>80111</postalcode>
-					<geo:point>
-						<geo:lat>39.73917</geo:lat>
-						<geo:long>-104.98417</geo:long>
-					</geo:point>
+					<point>
+						<lat>39.73917</lat>
+						<long>-104.98417</long>
+					</point>
 					<timezone>MST</timezone>
 				</location>
 				<url>http://www.last.fm/venue/8793361</url>
@@ -195,10 +195,10 @@
 				<country>United States</country>
 				<street>633 N 130th St</street>
 				<postalcode>66012</postalcode>
-				<geo:point>
-					<geo:lat>39.111197</geo:lat>
-					<geo:long>-94.881554</geo:long>
-				</geo:point>
+				<point>
+					<lat>39.111197</lat>
+					<long>-94.881554</long>
+				</point>
 				<timezone>UTC</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8793836</url>
@@ -258,10 +258,10 @@
 				<country>United States</country>
 				<street>14141 Riverport Dr</street>
 				<postalcode>63043</postalcode>
-				<geo:point>
-					<geo:lat>38.74601</geo:lat>
-					<geo:long>-90.4708</geo:long>
-				</geo:point>
+				<point>
+					<lat>38.74601</lat>
+					<long>-90.4708</long>
+				</point>
 				<timezone>UTC</timezone>
 			</location>
 			<url>http://www.last.fm/venue/8819203</url>
@@ -296,10 +296,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>33.74889</geo:lat>
-				<geo:long>-84.38806</geo:long>
-			</geo:point>
+			<point>
+				<lat>33.74889</lat>
+				<long>-84.38806</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9003630</url>
@@ -338,10 +338,10 @@
 			<country>United States</country>
 			<street>12880 E 146th</street>
 			<postalcode>46060</postalcode>
-			<geo:point>
-				<geo:lat>40.001482</geo:lat>
-				<geo:long>-85.936379</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.001482</lat>
+				<long>-85.936379</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8819435</url>
@@ -383,10 +383,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>41.542945</geo:lat>
-				<geo:long>-87.771132</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.542945</lat>
+				<long>-87.771132</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8928350</url>
@@ -426,10 +426,10 @@
 			<country>Canada</country>
 			<street>909 Lakeshore Blvd. W</street>
 			<postalcode>M6K 3L3</postalcode>
-			<geo:point>
-				<geo:lat>43.6666667</geo:lat>
-				<geo:long>-79.4166667</geo:long>
-			</geo:point>
+			<point>
+				<lat>43.6666667</lat>
+				<long>-79.4166667</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8786466</url>
@@ -509,10 +509,10 @@
 			<country>United States</country>
 			<street>1145 W. Steels Corners</street>
 			<postalcode>44223</postalcode>
-			<geo:point>
-				<geo:lat>41.49944</geo:lat>
-				<geo:long>-81.69556</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.49944</lat>
+				<long>-81.69556</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8915696</url>
@@ -552,10 +552,10 @@
 			<country>United States</country>
 			<street>Rt. 18 at Rt. 22 W</street>
 			<postalcode>15021</postalcode>
-			<geo:point>
-				<geo:lat>40.432265</geo:lat>
-				<geo:long>-80.434237</geo:long>
-			</geo:point>
+			<point>
+				<lat>40.432265</lat>
+				<long>-80.434237</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8793834</url>
@@ -622,10 +622,10 @@
 			<country>United States</country>
 			<street>7774 Sashabaw Rd</street>
 			<postalcode>48348</postalcode>
-			<geo:point>
-				<geo:lat>42.33139</geo:lat>
-				<geo:long>-83.04583</geo:long>
-			</geo:point>
+			<point>
+				<lat>42.33139</lat>
+				<long>-83.04583</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8946254</url>
@@ -665,10 +665,10 @@
 			<country>United States</country>
 			<street>885 S Main St</street>
 			<postalcode>02048</postalcode>
-			<geo:point>
-				<geo:lat>41.995282</geo:lat>
-				<geo:long>-71.210716</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.995282</lat>
+				<long>-71.210716</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8939934</url>
@@ -710,10 +710,10 @@
 			<country>United States</country>
 			<street>3550 Cellar Door Way</street>
 			<postalcode>23456</postalcode>
-			<geo:point>
-				<geo:lat>36.769185</geo:lat>
-				<geo:long>-76.104016</geo:long>
-			</geo:point>
+			<point>
+				<lat>36.769185</lat>
+				<long>-76.104016</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8785623</url>
@@ -761,10 +761,10 @@
 			<country>United States</country>
 			<street>1 Harbour Boulevard</street>
 			<postalcode>08103</postalcode>
-			<geo:point>
-				<geo:lat>39.942333</geo:lat>
-				<geo:long>-75.128549</geo:long>
-			</geo:point>
+			<point>
+				<lat>39.942333</lat>
+				<long>-75.128549</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8905210</url>
@@ -805,10 +805,10 @@
 			<country>United States</country>
 			<street>61 Savitt Way</street>
 			<postalcode>06103</postalcode>
-			<geo:point>
-				<geo:lat>41.780207</geo:lat>
-				<geo:long>-72.669229</geo:long>
-			</geo:point>
+			<point>
+				<lat>41.780207</lat>
+				<long>-72.669229</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8825847</url>
@@ -867,10 +867,10 @@
 			<country>United States</country>
 			<street>7800 Cellar Door Drive</street>
 			<postalcode>20136</postalcode>
-			<geo:point>
-				<geo:lat>38.785915</geo:lat>
-				<geo:long>-77.587777</geo:long>
-			</geo:point>
+			<point>
+				<lat>38.785915</lat>
+				<long>-77.587777</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8785553</url>
@@ -928,10 +928,10 @@
 			<country>United States</country>
 			<street>4802 US 301 North</street>
 			<postalcode>33610</postalcode>
-			<geo:point>
-				<geo:lat>27.988118</geo:lat>
-				<geo:long>-82.359127</geo:long>
-			</geo:point>
+			<point>
+				<lat>27.988118</lat>
+				<long>-82.359127</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8780468</url>
@@ -971,10 +971,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>26.715</geo:lat>
-				<geo:long>-80.05361</geo:long>
-			</geo:point>
+			<point>
+				<lat>26.715</lat>
+				<long>-80.05361</long>
+			</point>
 			<timezone>EST</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8904588</url>
@@ -1032,10 +1032,10 @@
 			<country>United States</country>
 			<street>1818 1st Ave</street>
 			<postalcode>75210</postalcode>
-			<geo:point>
-				<geo:lat>32.78333</geo:lat>
-				<geo:long>-96.8</geo:long>
-			</geo:point>
+			<point>
+				<lat>32.78333</lat>
+				<long>-96.8</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8901507</url>
@@ -1073,10 +1073,10 @@
 			<country>United States</country>
 			<street>2005 Lake Robbins Drive</street>
 			<postalcode>77380</postalcode>
-			<geo:point>
-				<geo:lat>30.161367</geo:lat>
-				<geo:long>-95.46375</geo:long>
-			</geo:point>
+			<point>
+				<lat>30.161367</lat>
+				<long>-95.46375</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8781619</url>
@@ -1115,10 +1115,10 @@
 			<country>United States</country>
 			<street></street>
 			<postalcode></postalcode>
-			<geo:point>
-				<geo:lat>29.593</geo:lat>
-				<geo:long>-98.314143</geo:long>
-			</geo:point>
+			<point>
+				<lat>29.593</lat>
+				<long>-98.314143</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/9006858</url>
@@ -1159,10 +1159,10 @@
 			<country>United States</country>
 			<street>16765 Lookout Road</street>
 			<postalcode>28154</postalcode>
-			<geo:point>
-				<geo:lat>29.593001</geo:lat>
-				<geo:long>-98.314143</geo:long>
-			</geo:point>
+			<point>
+				<lat>29.593001</lat>
+				<long>-98.314143</long>
+			</point>
 			<timezone>UTC</timezone>
 		</location>
 		<url>http://www.last.fm/venue/8912190</url>
