@@ -25,7 +25,7 @@ public class App {
 	gps.addObserver(gpsOberver);
 	
 	new GpsUI();
-	GpsUI.createAndShowGUI();
+	
 
 
 	}

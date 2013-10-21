@@ -52,3 +52,9 @@ UnitTestSessionAction 1382345228666 MyTests FAIL
 UnitTestCaseAction 1382345314564 MyTests.java OK
 UnitTestSessionAction 1382345314564 MyTests OK
 EditAction 1382345435532 MyTests.java 1330 4 14 5
+UnitTestCaseAction 1382345441596 MyTests.java OK
+UnitTestSessionAction 1382345441596 MyTests OK
+UnitTestCaseAction 1382345455842 MyTests.java OK
+UnitTestSessionAction 1382345455843 MyTests OK
+FileOpenedAction 1382345549400 App.java 544 1 9 0
+EditAction 1382345604032 App.java 519 1 8 0

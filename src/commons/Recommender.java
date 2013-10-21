@@ -53,7 +53,7 @@ public class Recommender implements IRecommender {
 		List<Recommendation> rec = new ArrayList<Recommendation>();
 		
 		// get top fans of currently playing artist
-		List<String> topFans= connector.getTopFansForArtist("U2");
+		List<String> topFans= connector.getTopFansForArtist(artist);
 		
 		HashMap<String, Integer> hash = new HashMap<String , Integer>();
 		List<String> artists = new ArrayList<String>();
