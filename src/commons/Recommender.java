@@ -102,6 +102,10 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Destination> buildItineraryForArtists(List<String> artists) throws SQATException  {
+		//the first thing was to first get the list of artists added by the user then sort them chronologically
+		
+		
+		
 		
 		
 		return null;

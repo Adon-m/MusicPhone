@@ -7,3 +7,17 @@ EditAction 1382368861464 Recommender.java 3371 10 29 0
 CompilationAction 1382368863781 Recommender.java
 FileOpenedAction 1382383783180 SmokeTest.java 1445 1 14 6
 EditAction 1382383821676 Recommender.java 3392 10 30 0
+FileOpenedAction 1382383992341 IPlayer.java 222 4 0 0
+FileOpenedAction 1382383994697 DeviceManager.java 622 6 6 0
+FileOpenedAction 1382383997515 IConnector.java 431 3 0 0
+FileOpenedAction 1382383999076 Recommendation.java 650 5 7 0
+FileOpenedAction 1382384031605 ConcertInfo.java 1285 11 15 0
+FileOpenedAction 1382384049517 Gps.java 652 5 5 0
+FileOpenedAction 1382384052245 GpsAdapter.java 696 5 9 0
+FileOpenedAction 1382384060741 GpsAdapterObserver.java 483 4 5 0
+FileOpenedAction 1382384062705 GpsUI.java 2236 2 46 0
+FileOpenedAction 1382384087185 Player.java 1421 11 17 0
+FileOpenedAction 1382384094337 Track.java 583 7 10 0
+FileOpenedAction 1382384100725 Recs.java 2704 23 21 0
+FileOpenedAction 1382384211653 RecommenderAdapter.java 1476 8 12 0
+EditAction 1382384366829 Recommender.java 3507 10 30 0
