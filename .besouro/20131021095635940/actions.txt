@@ -33,3 +33,12 @@ UnitTestCaseAction 1382344401945 MyTests.java OK
 UnitTestSessionAction 1382344401946 MyTests OK
 FileOpenedAction 1382344422208 LastFmXmlConnector.java 5004 4 49 0
 EditAction 1382344477808 MyTests.java 1168 4 13 5
+UnitTestCaseAction 1382344483991 MyTests.java OK
+UnitTestSessionAction 1382344484012 MyTests OK
+UnitTestCaseAction 1382344650989 MyTests.java FAIL
+UnitTestSessionAction 1382344650989 MyTests FAIL
+UnitTestCaseAction 1382344777494 MyTests.java FAIL
+UnitTestSessionAction 1382344777495 MyTests FAIL
+FileOpenedAction 1382344880359 SmokeTest.java 1445 1 14 6
+RefactoringAction 1382344942794 MyTests.java ADD import dataConnectors.LastFmXmlConnector IMPORT
+EditAction 1382344955461 MyTests.java 1261 4 13 5

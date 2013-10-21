@@ -7,6 +7,7 @@ import org.junit.Test;
 import commons.Recommender;
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.GeoPoint;
+import dataConnectors.LastFmXmlConnector;
 
 
 public class MyTests {
@@ -30,7 +31,8 @@ public class MyTests {
 	}
 	@Test
 	public void makeSureGetDestinationsReturnsCorrectInfo(){
-		Recommender r= new Recommender();
+		Recommender r= new Recommender(new LastFmXmlConnector());
+		
 		assertNotNull(r.getDestinationsForArtists("Coldplay"));
 		assertEquals(r.getDestinationsForArtists("Coldplay").get(0).getVenue(),"Vector Arena");
 		
@@ -39,7 +41,7 @@ public class MyTests {
 	}
 	@Test
 	public void makeSureTheRecomenderClassFindsRelatedArtists() throws Exception{
-		Recommender r =new Recommender();
+		Recommender r =new Recommender(new LastFmXmlConnector());
 		assertNotNull(r.getRecommendations());
 		//assertEquals(r.getRecommendations();
 	}
