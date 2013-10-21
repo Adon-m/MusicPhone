@@ -58,3 +58,5 @@ UnitTestCaseAction 1382345455842 MyTests.java OK
 UnitTestSessionAction 1382345455843 MyTests OK
 FileOpenedAction 1382345549400 App.java 544 1 9 0
 EditAction 1382345604032 App.java 519 1 8 0
+FileOpenedAction 1382345669862 PlayerUI.java 2155 6 32 0
+EditAction 1382345711533 PlayerUI.java 2157 6 32 0

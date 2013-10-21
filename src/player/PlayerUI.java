@@ -41,7 +41,7 @@ public class PlayerUI {
 		distext.setEnabled(false);
 		mainpanel.add(distext);
 		distext.setBounds(130, 10, 100, 20);
-
+//
 		String [] playlist = {"Metallica-one","Cher- Believe","U2-Elevation"};
 		JList<String> list = new JList<String>(playlist);
 		list.setSelectedIndex(0);
