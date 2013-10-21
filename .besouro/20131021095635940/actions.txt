@@ -19,3 +19,11 @@ RefactoringAction 1382338690369 MyTests.java RENAME makesureTheRecomenderClassFi
 RefactoringAction 1382338699900 MyTests.java RENAME makesureTheRecomenderClassFindsRelatedArtists=>void makeSureTheRecomenderClassFindsRelatedArtists FIELD
 RefactoringAction 1382338705926 MyTests.java RENAME makeSureTheRecomenderClassFindsRelatedArtists=>void makeSureTheRecomenderClassFindsRelatedArtists() METHOD
 EditAction 1382339060695 MyTests.java 1128 4 13 5
+UnitTestCaseAction 1382339068689 MyTests.java FAIL
+UnitTestSessionAction 1382339068692 MyTests FAIL
+FileOpenedAction 1382339381505 DeviceManager.java 622 6 6 0
+FileOpenedAction 1382339489679 IPlayer.java 222 4 0 0
+RefactoringAction 1382339909366 Recommender.java ADD import java.util.HashMap IMPORT
+FileOpenedAction 1382343414119 IConnector.java 431 3 0 0
+FileOpenedAction 1382343850881 Recommendation.java 650 5 7 0
+EditAction 1382344169578 MyTests.java 1169 4 13 5

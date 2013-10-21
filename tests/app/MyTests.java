@@ -41,6 +41,7 @@ public class MyTests {
 	public void makeSureTheRecomenderClassFindsRelatedArtists() throws Exception{
 		Recommender r =new Recommender();
 		assertNotNull(r.getRecommendations());
+		//assertEquals(r.getRecommendations();
 	}
 
 }
