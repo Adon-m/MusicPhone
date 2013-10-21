@@ -103,6 +103,9 @@ public class Recommender implements IRecommender {
 	@Override
 	public List<Destination> buildItineraryForArtists(List<String> artists) throws SQATException  {
 		
+		
+		return null;
+		
 	}
 	
 	public  IPlayer getPlayer(){
