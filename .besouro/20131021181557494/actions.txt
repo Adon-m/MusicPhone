@@ -4,3 +4,4 @@ FileOpenedAction 1382368802539 LastFmXmlConnector.java 5004 4 49 0
 FileOpenedAction 1382368806468 MyTests.java 1330 4 14 5
 FileOpenedAction 1382368813764 Recommender.java 3402 10 30 0
 EditAction 1382368861464 Recommender.java 3371 10 29 0
+CompilationAction 1382368863781 Recommender.java
