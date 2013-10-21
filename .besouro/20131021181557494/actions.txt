@@ -1,0 +1,6 @@
+FileOpenedAction 1382368558405 PlayerUI.java 2157 6 32 0
+FileOpenedAction 1382368783947 App.java 519 1 8 0
+FileOpenedAction 1382368802539 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1382368806468 MyTests.java 1330 4 14 5
+FileOpenedAction 1382368813764 Recommender.java 3402 10 30 0
+EditAction 1382368861464 Recommender.java 3371 10 29 0

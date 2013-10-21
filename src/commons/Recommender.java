@@ -102,7 +102,7 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Destination> buildItineraryForArtists(List<String> artists) throws SQATException  {
-		throw new SQATException("You");
+		
 	}
 	
 	public  IPlayer getPlayer(){
