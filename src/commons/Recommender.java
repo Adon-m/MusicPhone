@@ -2,6 +2,9 @@ package commons;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -100,10 +103,35 @@ public class Recommender implements IRecommender {
 		return destination;
 	}
 
+	
+	
+	
+	
 	@Override
 	public List<Destination> buildItineraryForArtists(List<String> artists) throws SQATException  {
 		//the first thing was to first get the list of artists added by the user then sort them chronologically
+		List<ConcertInfo> concerts = new ArrayList<ConcertInfo>();
+		for(int i=0; i<artists.size(); ++i){
+			try {
+				concerts.add((ConcertInfo) connector.getConcertsForArtist(artists.get(i)));
 		
+				// sort the concerts by date
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			} catch (LastFmConnectionException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 		
 		
 		
