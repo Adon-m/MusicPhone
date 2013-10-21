@@ -21,3 +21,25 @@ FileOpenedAction 1382384094337 Track.java 583 7 10 0
 FileOpenedAction 1382384100725 Recs.java 2704 23 21 0
 FileOpenedAction 1382384211653 RecommenderAdapter.java 1476 8 12 0
 EditAction 1382384366829 Recommender.java 3507 10 30 0
+FileOpenedAction 1382384437808 LastFmXmlConnector.java 5004 4 49 0
+RefactoringAction 1382385252947 Recommender.java ADD import java.util.Collections IMPORT
+FileOpenedAction 1382386198765 ConcertInfo.java 1285 11 15 0
+RefactoringAction 1382386257378 Recommender.java ADD DateTime get FIELD
+RefactoringAction 1382386261936 Recommender.java REMOVE get FIELD
+RefactoringAction 1382386264476 Recommender.java ADD DateTime compar FIELD
+RefactoringAction 1382386266005 Recommender.java RENAME compar=>DateTime comparer FIELD
+RefactoringAction 1382386267540 Recommender.java RENAME comparer=>DateTime compare FIELD
+RefactoringAction 1382386270574 Recommender.java RENAME compare=>DateTime compareDate FIELD
+RefactoringAction 1382386271625 Recommender.java RENAME compareDate=>DateTime compareDateTo FIELD
+RefactoringAction 1382386273683 Recommender.java RENAME compareDateTo=>DateTime compareDateTo() METHOD
+RefactoringAction 1382386280820 Recommender.java RENAME compareDateTo()=>DateTime compareDateTo(ConcertInfo) METHOD
+RefactoringAction 1382386301909 Recommender.java ADD import java.util.Date IMPORT
+RefactoringAction 1382386854340 Recommender.java REMOVE compareDateTo(ConcertInfo) METHOD
+RefactoringAction 1382386863547 ConcertInfo.java ADD Date compareDateTo(ConcertInfo) METHOD
+RefactoringAction 1382387078965 ConcertInfo.java REMOVE compareDateTo(ConcertInfo) METHOD
+RefactoringAction 1382387237598 ConcertInfo.java ADD Date compare FIELD
+RefactoringAction 1382387239615 ConcertInfo.java RENAME compare=>Date compareTo FIELD
+RefactoringAction 1382387240634 ConcertInfo.java RENAME compareTo=>Date compareTo() METHOD
+RefactoringAction 1382387251696 ConcertInfo.java RENAME compareTo()=>Date compareTo(ConcertInfo) METHOD
+RefactoringAction 1382387514245 Recommender.java ADD import java.util.Arrays IMPORT
+EditAction 1382388165616 ConcertInfo.java 1626 12 19 0
