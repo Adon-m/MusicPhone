@@ -27,3 +27,9 @@ RefactoringAction 1382339909366 Recommender.java ADD import java.util.HashMap IM
 FileOpenedAction 1382343414119 IConnector.java 431 3 0 0
 FileOpenedAction 1382343850881 Recommendation.java 650 5 7 0
 EditAction 1382344169578 MyTests.java 1169 4 13 5
+UnitTestCaseAction 1382344174801 MyTests.java FAIL
+UnitTestSessionAction 1382344174802 MyTests FAIL
+UnitTestCaseAction 1382344401945 MyTests.java OK
+UnitTestSessionAction 1382344401946 MyTests OK
+FileOpenedAction 1382344422208 LastFmXmlConnector.java 5004 4 49 0
+EditAction 1382344477808 MyTests.java 1168 4 13 5

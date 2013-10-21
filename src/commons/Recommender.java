@@ -2,6 +2,7 @@ package commons;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
@@ -46,10 +47,37 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Recommendation> getRecommendations() throws Exception {
+		LastFmXmlConnector last = new LastFmXmlConnector();
+		Player play = new Player();
+		String artist = play.getCurrentArtist();
+		List<Recommendation> rec = new ArrayList<Recommendation>();
+		
+		// get top fans of currently playing artist
+		List<String> topFans= last.getTopFansForArtist("U2");
+		Iterator<String> iter = topFans.iterator();
+		HashMap<String, Integer> hash = new HashMap<String , Integer>();
+		List<String> artists = new ArrayList<String>();
+		for(int i=0; i<topFans.size();++i)
+		{
+			artists= last.getTopArtistsByFan(topFans.get(i));
+			for(int j = 0; j < artists.size(); ++j) {
+				if(hash.containsKey(artists.get(j))) {
+					hash.put(artists.get(j), hash.get(artists.get(j)) + 1);
+				} else {
+					hash.put(artists.get(j), 1);
+				}
+			}
+		}
+		for(String key: hash.keySet())
+		{
+			Recommendation r = new Recommendation(key, hash.get(key));
+			rec.add(r);
+		}
 		
 		
 		
-		return null;
+		
+		return rec;
 	}
 
 	@Override

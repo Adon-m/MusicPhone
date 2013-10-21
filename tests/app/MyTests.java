@@ -31,7 +31,7 @@ public class MyTests {
 	@Test
 	public void makeSureGetDestinationsReturnsCorrectInfo(){
 		Recommender r= new Recommender();
-		assertNotNull(r.getDestinationsForArtists("copldplay"));
+		assertNotNull(r.getDestinationsForArtists("Coldplay"));
 		assertEquals(r.getDestinationsForArtists("Coldplay").get(0).getVenue(),"Vector Arena");
 		
 		
