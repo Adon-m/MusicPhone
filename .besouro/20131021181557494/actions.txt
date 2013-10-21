@@ -47,3 +47,8 @@ CompilationAction 1382388166630 ConcertInfo.java
 RefactoringAction 1382388247182 ConcertInfo.java REMOVE compareTo(ConcertInfo) METHOD
 RefactoringAction 1382388247184 ConcertInfo.java REMOVE ConcertInfo(String, String, String, Date, GeoPoint) METHOD
 EditAction 1382390158344 Recommender.java 3986 10 32 0
+RefactoringAction 1382390171731 ConcertInfo.java ADD ConcertInfo(String, String, String, Date, GeoPoint) METHOD
+RefactoringAction 1382390171731 ConcertInfo.java ADD Date compareTo(ConcertInfo) METHOD
+RefactoringAction 1382390186771 ConcertInfo.java REMOVE compareTo(ConcertInfo) METHOD
+CompilationAction 1382390190000 ConcertInfo.java
+EditAction 1382390213043 ConcertInfo.java 1289 11 15 0

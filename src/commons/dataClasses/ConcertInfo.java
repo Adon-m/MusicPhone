@@ -4,8 +4,9 @@
 package commons.dataClasses;
 import java.util.*;
 
+
 // info about a concert event listing //
-public class ConcertInfo {
+public class ConcertInfo  {
 
 	private String privateArtist;
 	private String privateCity;
@@ -72,22 +73,7 @@ public class ConcertInfo {
 		setStartDate(startDate);
 		setPosition(position);
 	}
-	public Date compareTo(ConcertInfo compare){
-		
-		Date compareDate = ((ConcertInfo) compare).getStartDate();
-		
-		int sort= this.getStartDate().compareTo(compareDate);
-		if(sort>1){
-			return compareDate;
-			
-		}
-		else{
-			return this.getStartDate();
-		}
-	Comparator<ConcertInfo> concertComparator = new Comparator<ConcertInfo>();
-		
-		
-	}
+	
 	
 
 }
