@@ -31,10 +31,16 @@ public class MyTests {
 	@Test
 	public void makeSureGetDestinationsReturnsCorrectInfo(){
 		Recommender r= new Recommender();
+		assertNotNull(r.getDestinationsForArtists("copldplay"));
 		assertEquals(r.getDestinationsForArtists("Coldplay").get(0).getVenue(),"Vector Arena");
 		
 		
 		
+	}
+	@Test
+	public void makeSureTheRecomenderClassFindsRelatedArtists() throws Exception{
+		Recommender r =new Recommender();
+		assertNotNull(r.getRecommendations());
 	}
 
 }

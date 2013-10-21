@@ -1,0 +1,9 @@
+FileOpenedAction 1382128178162 Recommender.java 2610 10 25 0
+FileOpenedAction 1382128335752 IPlayer.java 222 4 0 0
+FileOpenedAction 1382128421771 Player.java 1421 11 17 0
+RefactoringAction 1382128501006 Recommender.java ADD import player.Player IMPORT
+CompilationAction 1382128521578 Recommender.java
+FileOpenedAction 1382128531774 IPlayer.java 222 4 0 0
+FileOpenedAction 1382128947775 Recommendation.java 650 5 7 0
+FileOpenedAction 1382129874707 Recommendation.java 650 5 7 0
+CompilationAction 1382140072477 Recommender.java

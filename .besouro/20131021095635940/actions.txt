@@ -1,0 +1,21 @@
+FileOpenedAction 1382338597250 MyTests.java 903 3 10 3
+RefactoringAction 1382338645839 MyTests.java ADD void getRe FIELD
+RefactoringAction 1382338647873 MyTests.java RENAME getRe=>void getRec FIELD
+RefactoringAction 1382338649396 MyTests.java RENAME getRec=>void ge FIELD
+RefactoringAction 1382338651932 MyTests.java REMOVE ge FIELD
+RefactoringAction 1382338654953 MyTests.java ADD void sh FIELD
+RefactoringAction 1382338659489 MyTests.java RENAME sh=>void makes FIELD
+RefactoringAction 1382338663026 MyTests.java RENAME makes=>void makesureThe FIELD
+RefactoringAction 1382338664069 MyTests.java RENAME makesureThe=>void makesureTheRec FIELD
+RefactoringAction 1382338667125 MyTests.java RENAME makesureTheRec=>void makesureTheRecomen FIELD
+RefactoringAction 1382338669648 MyTests.java RENAME makesureTheRecomen=>void makesureTheRecomenderClass FIELD
+RefactoringAction 1382338671177 MyTests.java RENAME makesureTheRecomenderClass=>void makesureTheRecomenderClassRetu FIELD
+RefactoringAction 1382338674728 MyTests.java RENAME makesureTheRecomenderClassRetu=>void makesureTheRecomenderClass FIELD
+RefactoringAction 1382338682255 MyTests.java RENAME makesureTheRecomenderClass=>void makesureTheRecomenderClassFindsRel FIELD
+RefactoringAction 1382338684785 MyTests.java RENAME makesureTheRecomenderClassFindsRel=>void makesureTheRecomenderClassFindsRelated FIELD
+RefactoringAction 1382338686318 MyTests.java RENAME makesureTheRecomenderClassFindsRelated=>void makesureTheRecomenderClassFindsRelatedFa FIELD
+RefactoringAction 1382338689342 MyTests.java RENAME makesureTheRecomenderClassFindsRelatedFa=>void makesureTheRecomenderClassFindsRelatedArtist FIELD
+RefactoringAction 1382338690369 MyTests.java RENAME makesureTheRecomenderClassFindsRelatedArtist=>void makesureTheRecomenderClassFindsRelatedArtists FIELD
+RefactoringAction 1382338699900 MyTests.java RENAME makesureTheRecomenderClassFindsRelatedArtists=>void makeSureTheRecomenderClassFindsRelatedArtists FIELD
+RefactoringAction 1382338705926 MyTests.java RENAME makeSureTheRecomenderClassFindsRelatedArtists=>void makeSureTheRecomenderClassFindsRelatedArtists() METHOD
+EditAction 1382339060695 MyTests.java 1128 4 13 5

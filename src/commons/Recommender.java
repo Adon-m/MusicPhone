@@ -2,7 +2,10 @@ package commons;
 
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
+import player.Player;
 
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.Destination;
@@ -43,7 +46,10 @@ public class Recommender implements IRecommender {
 
 	@Override
 	public List<Recommendation> getRecommendations() throws Exception {
-		throw new SQATException("You need ");
+		
+		
+		
+		return null;
 	}
 
 	@Override
