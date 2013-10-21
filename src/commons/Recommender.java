@@ -48,13 +48,13 @@ public class Recommender implements IRecommender {
 	@Override
 	public List<Recommendation> getRecommendations() throws Exception {
 
-		Player play = new Player();
-		String artist = play.getCurrentArtist();
+		
+		String artist = getPlayer().getCurrentArtist();
 		List<Recommendation> rec = new ArrayList<Recommendation>();
 		
 		// get top fans of currently playing artist
-		List<String> topFans= connector.getTopFansForArtist(artist);
-		Iterator<String> iter = topFans.iterator();
+		List<String> topFans= connector.getTopFansForArtist("U2");
+		
 		HashMap<String, Integer> hash = new HashMap<String , Integer>();
 		List<String> artists = new ArrayList<String>();
 		for(int i=0; i<topFans.size();++i)

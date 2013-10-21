@@ -2,3 +2,12 @@
 1382344401947 test-addition 2 5804 true
 1382344401948 test-addition 1 5804 true
 1382344484012 regression 1 61 true
+1382345314564 refactoring 1B 663 true
+1382345314565 refactoring 2B 663 true
+1382345314566 refactoring 3 663 true
+1382345314567 refactoring 2B 663 true
+1382345314568 refactoring 1B 663 true
+1382345314569 refactoring 3 663 true
+1382345314570 refactoring 3 663 true
+1382345314571 refactoring 3 663 true
+1382345314572 regression 2 663 true

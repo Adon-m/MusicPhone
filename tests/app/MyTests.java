@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import player.Player;
+
 import commons.Recommender;
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.GeoPoint;
@@ -41,6 +43,8 @@ public class MyTests {
 	}
 	@Test
 	public void makeSureTheRecomenderClassFindsRelatedArtists() throws Exception{
+		(new Player()).setCurrentArtist("Cher");
+		
 		Recommender r =new Recommender(new LastFmXmlConnector());
 		assertNotNull(r.getRecommendations());
 		//assertEquals(r.getRecommendations();

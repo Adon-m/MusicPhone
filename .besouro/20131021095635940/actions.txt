@@ -42,3 +42,13 @@ UnitTestSessionAction 1382344777495 MyTests FAIL
 FileOpenedAction 1382344880359 SmokeTest.java 1445 1 14 6
 RefactoringAction 1382344942794 MyTests.java ADD import dataConnectors.LastFmXmlConnector IMPORT
 EditAction 1382344955461 MyTests.java 1261 4 13 5
+UnitTestCaseAction 1382344960799 MyTests.java FAIL
+UnitTestSessionAction 1382344960800 MyTests FAIL
+UnitTestCaseAction 1382345027008 MyTests.java FAIL
+UnitTestSessionAction 1382345027009 MyTests FAIL
+RefactoringAction 1382345216242 MyTests.java ADD import player.Player IMPORT
+UnitTestCaseAction 1382345228656 MyTests.java FAIL
+UnitTestSessionAction 1382345228666 MyTests FAIL
+UnitTestCaseAction 1382345314564 MyTests.java OK
+UnitTestSessionAction 1382345314564 MyTests OK
+EditAction 1382345435532 MyTests.java 1330 4 14 5
