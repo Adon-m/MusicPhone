@@ -132,9 +132,13 @@ public class Recommender implements IRecommender {
 			}
 		}
 		// sort the concerts by date
-		
+		for(int i=0; i<concerts.size();++i){
+		System.out.print(concerts.get(i).getStartDate());
+		}
 		Collections.sort(concerts);
-		
+		for(int i=0; i<concerts.size();++i){
+			System.out.print(concerts.get(i).getStartDate());
+			}
 		
 		
 		

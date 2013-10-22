@@ -107,3 +107,18 @@ RefactoringAction 1382458890756 Comparisons.java REMOVE compareTo(Comparisons) M
 RefactoringAction 1382458894789 Comparisons.java ADD int compareTo(Comparisons) METHOD
 CompilationAction 1382459305029 Recommender.java
 EditAction 1382459748712 Comparisons.java 720 3 6 0
+RefactoringAction 1382459781041 MyTests.java ADD void make FIELD
+RefactoringAction 1382459782570 MyTests.java RENAME make=>void makeSure FIELD
+RefactoringAction 1382459784596 MyTests.java RENAME makeSure=>void makeSureT FIELD
+RefactoringAction 1382459785625 MyTests.java RENAME makeSureT=>void makeSureThe FIELD
+RefactoringAction 1382459791649 MyTests.java RENAME makeSureThe=>void makeSureTheDatesA FIELD
+RefactoringAction 1382459792675 MyTests.java RENAME makeSureTheDatesA=>void makeSureTheDatesAre FIELD
+RefactoringAction 1382459795688 MyTests.java RENAME makeSureTheDatesAre=>void makeSureTheDatesAreSortedIn FIELD
+RefactoringAction 1382459797209 MyTests.java RENAME makeSureTheDatesAreSortedIn=>void makeSureTheDatesAreSortedInTHe FIELD
+RefactoringAction 1382459799227 MyTests.java RENAME makeSureTheDatesAreSortedInTHe=>void makeSureTheDatesAreSortedInTHeITer FIELD
+RefactoringAction 1382459801251 MyTests.java RENAME makeSureTheDatesAreSortedInTHeITer=>void makeSureTheDatesAreSortedInTHeITerniary FIELD
+RefactoringAction 1382459805293 MyTests.java RENAME makeSureTheDatesAreSortedInTHeITerniary=>void makeSureTheDatesAreSortedInTHeITerniary() METHOD
+RefactoringAction 1382459888910 MyTests.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1382459894167 MyTests.java ADD import java.util.List IMPORT
+RefactoringAction 1382460376657 MyTests.java ADD import commons.SQATException IMPORT
+EditAction 1382460381944 Recommender.java 4272 10 35 0
