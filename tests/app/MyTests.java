@@ -2,11 +2,15 @@ package app;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 import player.Player;
 
 import commons.Recommender;
+import commons.SQATException;
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.GeoPoint;
 import dataConnectors.LastFmXmlConnector;
@@ -48,6 +52,26 @@ public class MyTests {
 		Recommender r =new Recommender(new LastFmXmlConnector());
 		assertNotNull(r.getRecommendations());
 		//assertEquals(r.getRecommendations();
+	}
+	@Test
+	public void makeSureTheDatesAreSortedInTHeITerniary(){
+		// Lists some Artists
+		List <String> artists = new ArrayList<String>();
+		
+	artists.add("Britney Spears");
+	artists.add("Coldplay");
+	artists.add("Katy Perry");
+	artists.add("Kylie Minogue");
+	artists.add("Radiohead");
+	artists.add("Snow Patrol");
+	Recommender r = new Recommender(new LastFmXmlConnector());
+	
+	try {
+		r.buildItineraryForArtists(artists);
+	} catch (SQATException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	}
 
 }

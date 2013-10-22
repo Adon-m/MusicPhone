@@ -122,3 +122,16 @@ RefactoringAction 1382459888910 MyTests.java ADD import java.util.ArrayList IMPO
 RefactoringAction 1382459894167 MyTests.java ADD import java.util.List IMPORT
 RefactoringAction 1382460376657 MyTests.java ADD import commons.SQATException IMPORT
 EditAction 1382460381944 Recommender.java 4272 10 35 0
+UnitTestCaseAction 1382460385065 MyTests.java FAIL
+UnitTestSessionAction 1382460385069 MyTests FAIL
+UnitTestCaseAction 1382460400880 MyTests.java FAIL
+UnitTestSessionAction 1382460400880 MyTests FAIL
+UnitTestCaseAction 1382460431641 MyTests.java FAIL
+UnitTestSessionAction 1382460431641 MyTests FAIL
+UnitTestCaseAction 1382460570211 MyTests.java FAIL
+UnitTestSessionAction 1382460570211 MyTests FAIL
+UnitTestCaseAction 1382461012913 MyTests.java FAIL
+UnitTestSessionAction 1382461012913 MyTests FAIL
+UnitTestCaseAction 1382461231366 MyTests.java OK
+UnitTestSessionAction 1382461231366 MyTests OK
+EditAction 1382461421697 Recommender.java 4522 10 36 0
