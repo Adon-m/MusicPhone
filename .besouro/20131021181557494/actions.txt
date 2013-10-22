@@ -140,3 +140,6 @@ UnitTestSessionAction 1382461443505 MyTests OK
 EditAction 1382461501059 Recommender.java 4604 10 29 0
 CompilationAction 1382461502074 Recommender.java
 EditAction 1382461514019 Recommender.java 4605 10 37 0
+UnitTestCaseAction 1382461522013 MyTests.java OK
+UnitTestSessionAction 1382461522013 MyTests OK
+EditAction 1382461616019 Recommender.java 4671 10 37 0
