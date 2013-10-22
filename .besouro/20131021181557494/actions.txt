@@ -149,3 +149,18 @@ EditAction 1382462106533 Recommender.java 4733 10 37 0
 UnitTestCaseAction 1382462114570 MyTests.java OK
 UnitTestSessionAction 1382462114571 MyTests OK
 EditAction 1382462351439 Recommender.java 4807 10 39 0
+UnitTestCaseAction 1382462359605 MyTests.java OK
+UnitTestSessionAction 1382462359605 MyTests OK
+UnitTestCaseAction 1382462518177 MyTests.java OK
+UnitTestSessionAction 1382462518177 MyTests OK
+UnitTestCaseAction 1382462701318 MyTests.java OK
+UnitTestSessionAction 1382462701319 MyTests OK
+UnitTestCaseAction 1382462790265 MyTests.java OK
+UnitTestSessionAction 1382462790265 Rerun app.MyTests OK
+UnitTestCaseAction 1382462985576 MyTests.java FAIL
+UnitTestSessionAction 1382462985576 MyTests FAIL
+UnitTestCaseAction 1382463038787 MyTests.java OK
+UnitTestSessionAction 1382463038788 MyTests OK
+UnitTestCaseAction 1382463336260 MyTests.java OK
+UnitTestSessionAction 1382463336260 MyTests OK
+EditAction 1382463768975 Recommender.java 4852 10 38 0

@@ -112,19 +112,19 @@ public class Recommender implements IRecommender {
 	public List<Destination> buildItineraryForArtists(List<String> artists) throws SQATException  {
 		//the first thing was to first get the list of artists added by the user then sort them chronologically
 		List<Comparisons> concerts = new ArrayList<Comparisons>();
-		Comparisons comp = null;
+		
 		for(int i=0; i<artists.size(); ++i){
 			try {
-				List<ConcertInfo> c =  (List<ConcertInfo>) (connector.getConcertsForArtist(artists.get(i)));
+				List<ConcertInfo> concertsForArtist =  (List<ConcertInfo>) (connector.getConcertsForArtist(artists.get(i)));
 				
-				for(int j=0; j<c.size();++j){
-					ConcertInfo con = c.get(j);
-				 comp =new Comparisons (con.getArtist(),con.getCity(),con.getVenue(),con.getStartDate(), con.getPosition());
+				for(int j=0; j<concertsForArtist.size();++j){
+					ConcertInfo con = concertsForArtist.get(j);
+				Comparisons comp =new Comparisons (con.getArtist(),con.getCity(),con.getVenue(),con.getStartDate(), con.getPosition());
 				
 				concerts.add(comp);
-				comp=null;
+				
 				}
-		
+	
 				
 				
 				
@@ -146,7 +146,7 @@ public class Recommender implements IRecommender {
 		}
 		System.out.print(concerts.size());
 		System.out.println(" ////////////////////////////////////////////////////////");
-		Collections.sort(concerts);
+		Collections.sort(concerts, Comparisons.compare);
 		for(int i=0; i<concerts.size();++i){
 			System.out.print(concerts.get(i).getStartDate()+" "+concerts.get(i).getArtist() +" "+concerts.get(i).getVenue()+"\r");
 			}
