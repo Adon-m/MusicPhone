@@ -117,9 +117,6 @@ public class Recommender implements IRecommender {
 				Comparisons c = (Comparisons) ((ConcertInfo) connector.getConcertsForArtist(artists.get(i)));
 				concerts.add(c);
 		
-				// sort the concerts by date
-				
-				Arrays.sort(concerts, Comparisons.);
 				
 				
 				
@@ -134,6 +131,9 @@ public class Recommender implements IRecommender {
 				e.printStackTrace();
 			}
 		}
+		// sort the concerts by date
+		
+		Collections.sort(concerts);
 		
 		
 		

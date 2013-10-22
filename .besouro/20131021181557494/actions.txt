@@ -79,3 +79,31 @@ RefactoringAction 1382457456988 Comparisons.java RENAME CompareTo=>int CompareTo
 RefactoringAction 1382457465547 Comparisons.java RENAME CompareTo()=>int CompareTo(ConcertInfo) METHOD
 RefactoringAction 1382457669614 Recommender.java ADD import commons.dataClasses.Comparisons IMPORT
 EditAction 1382458049791 Comparisons.java 648 3 6 0
+CompilationAction 1382458051017 Recommender.java
+CompilationAction 1382458051018 Recommender.java
+RefactoringAction 1382458198973 Comparisons.java ADD Comparator<Comparisons> c FIELD
+RefactoringAction 1382458207508 Comparisons.java REMOVE c FIELD
+RefactoringAction 1382458210030 Comparisons.java ADD Comparator<Comparisons> compar FIELD
+RefactoringAction 1382458212055 Comparisons.java RENAME compar=>Comparator<Comparisons> compare FIELD
+RefactoringAction 1382458251208 Comparisons.java REMOVE compare(ConcertInfo, ConcertInfo) METHOD
+RefactoringAction 1382458307052 Comparisons.java ADD int compare(Comparisons, Comparisons) METHOD
+RefactoringAction 1382458383509 Comparisons.java REMOVE compare(ConcertInfo, ConcertInfo) METHOD
+RefactoringAction 1382458414275 Comparisons.java ADD int compare(ConcertInfo, ConcertInfo) METHOD
+RefactoringAction 1382458431559 Comparisons.java REMOVE compare(ConcertInfo, ConcertInfo) METHOD
+RefactoringAction 1382458501478 Comparisons.java ADD int compareTo(Comparisons) METHOD
+RefactoringAction 1382458528710 Comparisons.java RENAME CompareTo(ConcertInfo)=>int CompareTo(Co) METHOD
+RefactoringAction 1382458530229 Comparisons.java RENAME CompareTo(Co)=>int CompareTo(Compar) METHOD
+RefactoringAction 1382458531752 Comparisons.java RENAME CompareTo(Compar)=>int CompareTo(Comparis) METHOD
+RefactoringAction 1382458533279 Comparisons.java RENAME CompareTo(Comparis)=>int CompareTo(Comparisons) METHOD
+RefactoringAction 1382458548799 Comparisons.java REMOVE compareTo(Comparisons) METHOD
+RefactoringAction 1382458563041 Comparisons.java ADD int compareTo(Comparisons) METHOD
+RefactoringAction 1382458583431 Comparisons.java REMOVE compareTo(Comparisons) METHOD
+RefactoringAction 1382458617974 Comparisons.java REMOVE CompareTo(Comparisons) METHOD
+RefactoringAction 1382458621495 Comparisons.java ADD int CompareTo(Comparisons) METHOD
+RefactoringAction 1382458630920 Comparisons.java ADD int compareTo(Comparisons) METHOD
+RefactoringAction 1382458651535 Comparisons.java RENAME CompareTo(Comparisons)=>int compareTo(Comparisons)/2 METHOD
+RefactoringAction 1382458655561 Comparisons.java REMOVE compareTo(Comparisons)/2 METHOD
+RefactoringAction 1382458890756 Comparisons.java REMOVE compareTo(Comparisons) METHOD
+RefactoringAction 1382458894789 Comparisons.java ADD int compareTo(Comparisons) METHOD
+CompilationAction 1382459305029 Recommender.java
+EditAction 1382459748712 Comparisons.java 720 3 6 0
