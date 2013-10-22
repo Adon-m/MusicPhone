@@ -146,7 +146,7 @@ public class Recommender implements IRecommender {
 		}
 		System.out.print(concerts.size());
 		System.out.println(" ////////////////////////////////////////////////////////");
-		Collections.sort(concerts, Collections.reverseOrder(Comparisons.compare));
+		Collections.sort(concerts,Comparisons.compare);
 		for(int i=0; i<concerts.size();++i){
 			System.out.print(concerts.get(i).getStartDate()+" "+concerts.get(i).getArtist() +" "+concerts.get(i).getVenue()+"\r");
 			}

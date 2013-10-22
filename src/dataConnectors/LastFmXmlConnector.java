@@ -93,7 +93,7 @@ return topArtists;
 @Override
 public List<ConcertInfo> getConcertsForArtist(String artist) throws LastFmConnectionException {
 if(artist==null) throw new IllegalArgumentException("artist");
-SimpleDateFormat simpleDate = new SimpleDateFormat("EEE, dd MMM YYYY", Locale.US);
+SimpleDateFormat simpleDate = new SimpleDateFormat("EEE, dd MMM yyyy", Locale.US);
 DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
 domFactory.setNamespaceAware(true);
 DocumentBuilder builder;
