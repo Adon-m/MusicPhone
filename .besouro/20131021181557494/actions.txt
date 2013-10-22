@@ -52,3 +52,30 @@ RefactoringAction 1382390171731 ConcertInfo.java ADD Date compareTo(ConcertInfo)
 RefactoringAction 1382390186771 ConcertInfo.java REMOVE compareTo(ConcertInfo) METHOD
 CompilationAction 1382390190000 ConcertInfo.java
 EditAction 1382390213043 ConcertInfo.java 1289 11 15 0
+RefactoringAction 1382390244329 Comparisons.java ADD Comparisons.java CLASS
+FileOpenedAction 1382390244721 Comparisons.java 60 0 0 0
+RefactoringAction 1382456562559 Comparisons.java ADD void comparisons() METHOD
+RefactoringAction 1382456574095 Comparisons.java RENAME comparisons()=>Comparisons() METHOD
+RefactoringAction 1382456598641 Comparisons.java RENAME Comparisons()=>Comparisons(ConcertInfo) METHOD
+RefactoringAction 1382456607662 Comparisons.java RENAME Comparisons(ConcertInfo)=>Comparisons(ConcertInfo, ConcertInfo) METHOD
+RefactoringAction 1382456659728 Comparisons.java ADD implemm ConcertInfo FIELD
+RefactoringAction 1382456665766 Comparisons.java REMOVE ConcertInfo FIELD
+RefactoringAction 1382456681786 Comparisons.java ADD i ConcertInfo FIELD
+RefactoringAction 1382456682799 Comparisons.java REMOVE ConcertInfo FIELD
+RefactoringAction 1382456802887 Comparisons.java RENAME Comparisons(ConcertInfo, ConcertInfo)=>Comparisons() METHOD
+RefactoringAction 1382456829915 Comparisons.java ADD import java.util.Date IMPORT
+RefactoringAction 1382456987713 Comparisons.java ADD void compareTo() METHOD
+RefactoringAction 1382456994756 Comparisons.java RENAME compareTo()=>void compareTo(Date) METHOD
+RefactoringAction 1382457110607 Comparisons.java ADD Comparator<ConcertInfo> Date FIELD
+RefactoringAction 1382457112629 Comparisons.java RENAME Date=>Comparator<ConcertInfo> DateCompara FIELD
+RefactoringAction 1382457114656 Comparisons.java RENAME DateCompara=>Comparator<ConcertInfo> DateComparator FIELD
+RefactoringAction 1382457118663 Comparisons.java RENAME DateComparator=>Comparator<ConcertInfo> dateComparator FIELD
+RefactoringAction 1382457173936 Comparisons.java ADD import java.util.Comparator IMPORT
+RefactoringAction 1382457290751 Comparisons.java ADD int compare(ConcertInfo, ConcertInfo) METHOD
+RefactoringAction 1382457306984 Comparisons.java REMOVE dateComparator FIELD
+RefactoringAction 1382457325025 Comparisons.java REMOVE compareTo(Date) METHOD
+RefactoringAction 1382457454970 Comparisons.java ADD int CompareTo FIELD
+RefactoringAction 1382457456988 Comparisons.java RENAME CompareTo=>int CompareTo() METHOD
+RefactoringAction 1382457465547 Comparisons.java RENAME CompareTo()=>int CompareTo(ConcertInfo) METHOD
+RefactoringAction 1382457669614 Recommender.java ADD import commons.dataClasses.Comparisons IMPORT
+EditAction 1382458049791 Comparisons.java 648 3 6 0

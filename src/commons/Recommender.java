@@ -11,6 +11,7 @@ import java.util.List;
 
 import player.Player;
 
+import commons.dataClasses.Comparisons;
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.Destination;
 import commons.dataClasses.GeoPoint;
@@ -110,14 +111,15 @@ public class Recommender implements IRecommender {
 	@Override
 	public List<Destination> buildItineraryForArtists(List<String> artists) throws SQATException  {
 		//the first thing was to first get the list of artists added by the user then sort them chronologically
-		List<ConcertInfo> concerts = new ArrayList<ConcertInfo>();
+		List<Comparisons> concerts = new ArrayList<Comparisons>();
 		for(int i=0; i<artists.size(); ++i){
 			try {
-				concerts.add((ConcertInfo) connector.getConcertsForArtist(artists.get(i)));
+				Comparisons c = (Comparisons) ((ConcertInfo) connector.getConcertsForArtist(artists.get(i)));
+				concerts.add(c);
 		
 				// sort the concerts by date
 				
-				
+				Arrays.sort(concerts, Comparisons.);
 				
 				
 				
