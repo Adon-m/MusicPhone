@@ -279,3 +279,11 @@ EditAction 1382536211322 Recommender.java 7420 13 51 0
 UnitTestCaseAction 1382536219690 MyTests.java FAIL
 UnitTestSessionAction 1382536219691 MyTests FAIL
 EditAction 1382536257571 Recommender.java 7426 13 51 0
+UnitTestCaseAction 1382536265782 MyTests.java OK
+UnitTestSessionAction 1382536265782 MyTests OK
+RefactoringAction 1382536282293 Recommender.java ADD int i FIELD
+RefactoringAction 1382536282294 Recommender.java ADD int i/2 FIELD
+RefactoringAction 1382536287331 Recommender.java REMOVE i/2 FIELD
+RefactoringAction 1382536287332 Recommender.java REMOVE i FIELD
+RefactoringAction 1382536315567 Recommender.java RENAME RemoveEntries(List<Comparisons>, Date, String)=>void RemoveEntries(List<Comparisons>, Date, String, List<Destination>) METHOD
+EditAction 1382536430840 Recommender.java 7466 13 50 0
