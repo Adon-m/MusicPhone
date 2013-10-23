@@ -167,9 +167,9 @@ public class Recommender implements IRecommender {
 				
 			}
 		}
-		
-		for(int i=0; i<list.size();++i){
-			if (list.get(i).getArtist()==artist){
+	
+			for(int i=0; i<list.size();++i){
+				if (list.get(i).getArtist()==artist){
 				list.remove(i);
 			}
 			}
@@ -181,14 +181,19 @@ public class Recommender implements IRecommender {
 				list.remove(i);
 			}
 		}
-		
 		for(int i=0; i<list.size();++i){
 			if(list.get(i).getStartDate().compareTo(date)==0){
 				list.remove(i);
 			}
 		}
+		for(int j=0; j<dest.size();++j){
+		for(int i=0; i<list.size();++i){
+			if(list.get(i).getStartDate().compareTo(dest.get(j).getStartDate())==0){
+				list.remove(i);
+			}
+		}
 		
-		
+		}
 		
 		
 	}
