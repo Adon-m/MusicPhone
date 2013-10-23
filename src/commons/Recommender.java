@@ -169,20 +169,22 @@ public class Recommender implements IRecommender {
 					list.remove(i);
 				
 				}
-			}
-				for(int i=0;i<list.size(); ++i)
+				for(int j=0;j<list.size(); ++j)
 				{
-				if(list.get(i).getStartDate().compareTo(date)>0 ){
-					list.remove(i);
+				if(list.get(j).getStartDate().compareTo(date)>0 ){
+					list.remove(j);
 					
 				}
-				}
-				for(int i=0;i<list.size(); ++i)
+				for(int k=0;k<list.size(); ++k)
 				{
-					if(list.get(i).getStartDate().compareTo(date)==0){
-						list.remove(i);
+					if(list.get(k).getStartDate().compareTo(date)==0){
+						list.remove(k);
 					}
-			}
+				}
+				}
+				
+				}
+				
 		
 				
 				
