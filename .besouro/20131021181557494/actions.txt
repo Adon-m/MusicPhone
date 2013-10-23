@@ -478,3 +478,8 @@ EditAction 1382544578783 Recommender.java 7272 13 46 0
 UnitTestCaseAction 1382544586206 MyTests.java OK
 UnitTestSessionAction 1382544586206 MyTests OK
 EditAction 1382544708728 Recommender.java 7298 13 46 0
+UnitTestCaseAction 1382544716492 MyTests.java OK
+UnitTestSessionAction 1382544716492 MyTests OK
+UnitTestCaseAction 1382544802183 MyTests.java OK
+UnitTestSessionAction 1382544802183 MyTests OK
+EditAction 1382544855665 MyTests.java 1993 5 23 5
