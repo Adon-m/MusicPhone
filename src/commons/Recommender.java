@@ -161,17 +161,16 @@ public class Recommender implements IRecommender {
 		// this assumes the artists concert has been added to the itenerary list so all entries are removed from the concert list 
 		//for rule E2
 		
+	
+		for(int i=0;i<list.size(); ++i)
+		{			
 		
-//			for(int i=0;i<list.size(); ++i)
-//			{
-//				
-//			
-//				if (list.get(i).getArtist()==artist){
-//					list.remove(i);
-//					
-//				
-//				}
-		//	}
+		if (list.get(i).getArtist()==artist){
+				list.remove(i);
+				
+			
+			}
+		}
 	for(int i=0;i<list.size(); ++i)
 			{
 				
