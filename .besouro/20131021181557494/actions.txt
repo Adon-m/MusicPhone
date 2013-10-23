@@ -510,3 +510,16 @@ RefactoringAction 1382545587466 Recommender.java RENAME AddToIten()=>void AddToI
 RefactoringAction 1382545588498 Recommender.java RENAME AddToIten(List<Destination>, List<Comparisons>, GeoPoint)=>void AddToIten() METHOD
 RefactoringAction 1382545591031 Recommender.java RENAME AddToIten()=>void AddToIten(List<Destination>, List<Comparisons>, GeoPoint) METHOD
 EditAction 1382545601390 Recommender.java 7353 13 46 0
+UnitTestCaseAction 1382545610027 MyTests.java OK
+UnitTestSessionAction 1382545610028 MyTests OK
+UnitTestCaseAction 1382545632482 MyTests.java OK
+UnitTestSessionAction 1382545632482 MyTests OK
+UnitTestCaseAction 1382545701221 MyTests.java OK
+UnitTestSessionAction 1382545701221 MyTests OK
+UnitTestCaseAction 1382545713463 MyTests.java OK
+UnitTestSessionAction 1382545713463 MyTests OK
+RefactoringAction 1382545770204 Recommender.java ADD int i FIELD
+RefactoringAction 1382545770204 Recommender.java ADD int i/2 FIELD
+RefactoringAction 1382545782767 Recommender.java REMOVE i/2 FIELD
+RefactoringAction 1382545782767 Recommender.java REMOVE i FIELD
+EditAction 1382545785315 Recommender.java 7375 13 45 0

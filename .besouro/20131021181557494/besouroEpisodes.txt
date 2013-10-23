@@ -1480,3 +1480,11 @@
 1382545097422 regression 1 0 true
 1382545182953 regression 1 0 true
 1382545525565 refactoring 2A 6 true
+1382545610028 refactoring 2B 29 true
+1382545610029 refactoring 2B 29 true
+1382545610030 refactoring 2B 29 true
+1382545610031 refactoring 2B 29 true
+1382545610032 regression 1 29 true
+1382545632482 regression 1 0 true
+1382545701221 regression 1 0 true
+1382545713463 regression 1 0 true
