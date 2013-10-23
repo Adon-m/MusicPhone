@@ -117,7 +117,7 @@ public class Recommender implements IRecommender {
 			Destination dest = new Destination(concerts.get(index));
 			for(int i=0; i< destList.size();++i){
 				if(dest.getArtist()==destList.get(i).getArtist() || dest.getStartDate().compareTo(destList.get(i).getStartDate())==0){
-					continue;
+					
 				}
 				else{
 				destList.add(dest);}
