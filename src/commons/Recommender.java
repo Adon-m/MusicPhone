@@ -165,7 +165,7 @@ public class Recommender implements IRecommender {
 					list.remove(i);
 					continue;
 				}
-				if( i<list.size()&&list.get(i).getStartDate().compareTo(date)<0 ){
+				if(list.get(i).getStartDate().compareTo(date)<0 ){
 					list.remove(i);
 				}
 					if(list.get(i).getStartDate().compareTo(date)==0){
