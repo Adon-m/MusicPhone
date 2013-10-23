@@ -152,7 +152,7 @@ public class Recommender implements IRecommender {
 		return (indexOnList);
 		
 	}
-	public void RemoveEntries(List<Comparisons> list, Date date, String artist, List<Destination> dest){
+	public void RemoveEntries(List<Comparisons> list, Date date, String artist){
 		// this assumes the artists concert has been added to the itenerary list so all entries are removed from the concert list 
 		//for rule E2
 		
@@ -240,7 +240,7 @@ public class Recommender implements IRecommender {
 		Destination dest = new Destination(concerts.get(index));
 		
 		iten.add(dest);
-		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist(), iten);
+		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 		
 		AddToIten(iten, concerts);
 		
