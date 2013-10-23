@@ -221,7 +221,7 @@ public class Recommender implements IRecommender {
 		Destination dest = new Destination(concerts.get(index));
 		
 		iten.add(dest);
-		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
+		//RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 		for(int i=0; i<iten.size();++i){
 			//System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+"\r" );
 		}
