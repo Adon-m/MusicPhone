@@ -367,3 +367,6 @@ UnitTestSessionAction 1382537949707 MyTests OK
 RefactoringAction 1382540564928 Recommender.java ADD int i FIELD
 RefactoringAction 1382540568462 Recommender.java REMOVE i FIELD
 EditAction 1382540594581 Recommender.java 7409 13 49 0
+UnitTestCaseAction 1382540603955 MyTests.java FAIL
+UnitTestSessionAction 1382540603955 MyTests FAIL
+EditAction 1382540679726 Recommender.java 7416 13 49 0

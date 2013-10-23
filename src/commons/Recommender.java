@@ -156,12 +156,13 @@ public class Recommender implements IRecommender {
 		// this assumes the artists concert has been added to the itenerary list so all entries are removed from the concert list 
 		//for rule E2
 		
-		for(int j=0; j<dest.size();++j){
+		
 			for(int i=0;i<list.size(); ++i)
 			{
-			
+				for(int j=0; j<dest.size();++j){
 				if(dest.get(j).getArtist()==list.get(i).getArtist()){
 					list.remove(i);
+				}
 				}
 			
 				if (list.get(i).getArtist()==artist){
@@ -173,7 +174,7 @@ public class Recommender implements IRecommender {
 					if(list.get(i).getStartDate().compareTo(date)==0){
 						list.remove(i);
 					}
-		}
+			}
 	
 			
 		}
@@ -183,7 +184,7 @@ public class Recommender implements IRecommender {
 		
 		
 		
-	}
+	
 	
 	
 	@Override
