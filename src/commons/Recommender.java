@@ -248,12 +248,8 @@ public class Recommender implements IRecommender {
 		System.out.print("###########################################################3");
 	
 		AddToIten(iten, concerts);
-		if(concerts.size()>0){
-			for(int i=0; i<concerts.size();++i){
-				System.out.print(concerts.get(i).getStartDate()+" "+concerts.get(i).getArtist()+" "+"\r" );
-			}
-		}
-		System.out.print("###########################################################4");
+		
+		
 		if(iten.size()>0){
 			for(int i=0; i<iten.size();++i){
 				System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+"\r" );
