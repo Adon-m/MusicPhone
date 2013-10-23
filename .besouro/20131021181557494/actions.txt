@@ -214,3 +214,6 @@ UnitTestSessionAction 1382527728985 MyTests FAIL
 UnitTestCaseAction 1382527815912 MyTests.java OK
 UnitTestSessionAction 1382527815912 MyTests OK
 EditAction 1382528069653 Recommender.java 5620 11 44 0
+UnitTestCaseAction 1382528079484 MyTests.java FAIL
+UnitTestSessionAction 1382528079485 MyTests FAIL
+EditAction 1382528138815 Recommender.java 5622 11 44 0

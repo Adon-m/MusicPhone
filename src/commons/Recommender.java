@@ -172,7 +172,7 @@ public class Recommender implements IRecommender {
 		System.out.print("_____________#############________###########__________###########");
 		
 		for(int i=0;i<concerts.size();++i){
-			System.out.print(computeDistance(concerts.get(i).getPosition(), current, "km")+" "+ "\r");
+			System.out.println(computeDistance(concerts.get(i).getPosition(), current, "km")+" "+ "\r");
 		}
 		
 		return null;
