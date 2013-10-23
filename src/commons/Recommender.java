@@ -164,7 +164,7 @@ public class Recommender implements IRecommender {
 					list.remove(i);
 				}
 				}
-			
+			if(i<list.size()){
 				if (list.get(i).getArtist()==artist){
 					list.remove(i);
 				}
@@ -175,7 +175,7 @@ public class Recommender implements IRecommender {
 						list.remove(i);
 					}
 			}
-	
+			}
 			
 		}
 		//now that all the artists concerts have been removed  we remove any concert before this date
