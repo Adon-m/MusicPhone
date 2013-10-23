@@ -114,7 +114,16 @@ public class Recommender implements IRecommender {
 			int index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
 			
 			Destination dest = new Destination(concerts.get(index));
-			destList.add(dest);
+			for (int j=0;j<destList.size();++j){
+				
+				if(dest.getArtist()==destList.get(j).getArtist()){
+					RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
+					continue;
+				}
+				else{	
+				destList.add(dest);}
+			}
+			
 			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 			}
 		}
