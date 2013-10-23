@@ -186,14 +186,8 @@ public class Recommender implements IRecommender {
 				list.remove(i);
 			}
 		}
-		for(int j=0; j<dest.size();++j){
-		for(int i=0; i<list.size();++i){
-			if(list.get(i).getStartDate().compareTo(dest.get(j).getStartDate())==0){
-				list.remove(i);
-			}
-		}
 		
-		}
+		
 		
 		
 	}
@@ -237,7 +231,7 @@ public class Recommender implements IRecommender {
 		Destination dest = new Destination(concerts.get(index));
 		
 		iten.add(dest);
-		//RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
+		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist(), iten);
 		for(int i=0; i<iten.size();++i){
 			//System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+"\r" );
 		}
