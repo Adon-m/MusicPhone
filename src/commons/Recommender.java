@@ -159,12 +159,7 @@ public class Recommender implements IRecommender {
 		
 			for(int i=0;i<list.size(); ++i)
 			{
-				for(int j=0; j<dest.size();++j){
-				if(dest.get(j).getArtist()==list.get(i).getArtist()){
-					list.remove(i);
-					continue;
-				}
-				}
+				
 			
 				if (list.get(i).getArtist()==artist){
 					list.remove(i);
