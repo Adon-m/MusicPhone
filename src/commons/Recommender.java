@@ -106,7 +106,7 @@ public class Recommender implements IRecommender {
 	
 	public void AddToIten(List<Destination> destList, List<Comparisons> concerts){
 		//make sure the iten list is not empty
-		if (destList.size()!=0 && concerts.size()!=0){
+		while(destList.size()!=0 && concerts.size()!=0){
 			
 			if(concerts.get(0).getStartDate()!=null){
 				GeoPoint current = destList.get(destList.size()-1).getPosition();
