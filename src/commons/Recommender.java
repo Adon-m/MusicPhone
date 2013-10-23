@@ -115,9 +115,15 @@ public class Recommender implements IRecommender {
 			int index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
 			
 			Destination dest = new Destination(concerts.get(index));
-		
-			destList.add(dest);
-			current = destList.get(destList.size()-1).getPosition();
+			for(int i=0; i< destList.size();++i){
+				if(dest.getArtist()==destList.get(i).getArtist() || dest.getStartDate().compareTo(destList.get(i).getStartDate())==0){
+					break;
+				}
+				else{
+				destList.add(dest);}
+			}
+			if(destList.size()>0){
+			current = destList.get(destList.size()-1).getPosition();}
 			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 			}
 				
@@ -180,14 +186,7 @@ public class Recommender implements IRecommender {
 						list.remove(i);
 					}
 			}
-				
-				for(int i=0; i<dest.size(); ++i){
-					for (int j=0; j<list.size(); ++j){
-						if(dest.get(i).getArtist() == list.get(j).getArtist()){
-							list.remove(j);
-						}
-					}
-				}
+		
 				
 				
 				
