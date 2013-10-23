@@ -161,10 +161,10 @@ public class Recommender implements IRecommender {
 			{
 				if (list.get(i).getArtist()==artist){
 				list.remove(i);
-				if(dest.size()>0)
+				if(dest.size()>0){
 				if(dest.get(j).getArtist()==list.get(i).getArtist()){
 					list.remove(i);
-				}
+				}}
 			}
 		}
 		
