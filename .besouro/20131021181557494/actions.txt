@@ -217,3 +217,24 @@ EditAction 1382528069653 Recommender.java 5620 11 44 0
 UnitTestCaseAction 1382528079484 MyTests.java FAIL
 UnitTestSessionAction 1382528079485 MyTests FAIL
 EditAction 1382528138815 Recommender.java 5622 11 44 0
+UnitTestCaseAction 1382528147293 MyTests.java FAIL
+UnitTestSessionAction 1382528147295 MyTests FAIL
+UnitTestCaseAction 1382528398876 MyTests.java FAIL
+UnitTestSessionAction 1382528398876 MyTests FAIL
+RefactoringAction 1382528614919 Recommender.java ADD void Remove FIELD
+RefactoringAction 1382528618443 Recommender.java RENAME Remove=>void RemoveEntries FIELD
+RefactoringAction 1382528619968 Recommender.java RENAME RemoveEntries=>void RemoveEntries() METHOD
+RefactoringAction 1382528636154 Recommender.java RENAME RemoveEntries()=>void RemoveEntries(List<Comparisons>) METHOD
+RefactoringAction 1382528649732 Recommender.java RENAME RemoveEntries(List<Comparisons>)=>void RemoveEntries(List<Comparisons>, Date) METHOD
+RefactoringAction 1382528657359 Recommender.java RENAME RemoveEntries(List<Comparisons>, Date)=>void RemoveEntries(List<Comparisons>, Date, Artist) METHOD
+RefactoringAction 1382528664405 Recommender.java RENAME RemoveEntries(List<Comparisons>, Date, Artist)=>void RemoveEntries(List<Comparisons>, Date, String) METHOD
+RefactoringAction 1382529411242 Recommender.java ADD void AddToI FIELD
+RefactoringAction 1382529412273 Recommender.java RENAME AddToI=>void AddToIten FIELD
+RefactoringAction 1382529413310 Recommender.java RENAME AddToIten=>void AddToIten() METHOD
+RefactoringAction 1382529433031 Recommender.java RENAME AddToIten()=>void AddToIten(List<Destination>) METHOD
+RefactoringAction 1382529436104 Recommender.java RENAME AddToIten(List<Destination>)=>void AddToIten() METHOD
+RefactoringAction 1382532676881 Recommender.java RENAME AddToIten()=>void AddToIten(List<Destination>) METHOD
+RefactoringAction 1382532677923 Recommender.java RENAME AddToIten(List<Destination>)=>void AddToIten(List<Destination>, List<Comparisons>) METHOD
+UnitTestCaseAction 1382533871991 MyTests.java OK
+UnitTestSessionAction 1382533871991 MyTests OK
+EditAction 1382534007914 Recommender.java 6953 13 48 0

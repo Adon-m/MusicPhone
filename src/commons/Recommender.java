@@ -103,6 +103,26 @@ public class Recommender implements IRecommender {
 		}
 		return destination;
 	}
+	
+	public void AddToIten(List<Destination> destList, List<Comparisons> concerts){
+		//make sure the iten list is not empty
+		if (destList.size()!=0 && concerts.size()!=0){
+			GeoPoint current = destList.get(destList.size()-1).getPosition();
+			if(concerts.get(0).getStartDate()!=null){
+			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
+			// the next available date is always at index 0 because it is ordered chronologically
+			int index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
+			
+			Destination dest = new Destination(concerts.get(index));
+			destList.add(dest);
+			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
+			}
+		}
+		
+		
+		
+	}
+	
 
 	public int ClosestDistance (Date date, GeoPoint current, List<Comparisons> concertList){
 		//gets the closest distance of concerts on the same day
@@ -127,6 +147,29 @@ public class Recommender implements IRecommender {
 		
 		
 		return (indexOnList);
+		
+	}
+	public void RemoveEntries(List<Comparisons> list, Date date, String artist){
+		// this assumes the artists concert has been added to the itenerary list so all entries are removed from the concert list 
+		//for rule E2
+		
+		for(int i=0;i<list.size(); ++i)
+		{
+			if (list.get(i).getArtist()==artist){
+				list.remove(i);
+			}
+		}
+		
+		//now that all the artists concerts have been removed  we remove any concert before this date
+		//because this has already been added to the itenerary and we keep to rule E0
+		for(int i=0; i<list.size();++i){
+			if(list.get(i).getStartDate().compareTo(date)<0){
+				list.remove(i);
+			}
+		}
+		
+		
+		
 		
 	}
 	
@@ -162,20 +205,24 @@ public class Recommender implements IRecommender {
 		 * the list is already sorted in chronological order so its just computing the distances between each concert in the
 		 * list
 		*/
-		GeoPoint current =new GeoPoint("33.94","-118.40");
+		GeoPoint current =new GeoPoint("0","0");
 		
-		List <Destination> itenerary= new ArrayList<Destination>();
+		List <Destination> iten= new ArrayList<Destination>();
 		int index = ClosestDistance(concerts.get(0).getStartDate(), current, concerts);
 		Destination dest = new Destination(concerts.get(index));
 		
-		System.out.print(computeDistance(dest.getPosition(), current,"km"));
-		System.out.print("_____________#############________###########__________###########");
+		iten.add(dest);
+		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 		
-		for(int i=0;i<concerts.size();++i){
-			System.out.println(computeDistance(concerts.get(i).getPosition(), current, "km")+" "+ "\r");
+		AddToIten(iten, concerts);
+		
+		
+		if(iten.size()>0){
+			for(int i=0; i<iten.size();++i){
+				System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+"\r" );
+			}
 		}
-		
-		return null;
+		return iten;
 		
 	}
 	
