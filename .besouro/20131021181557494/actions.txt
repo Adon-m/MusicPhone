@@ -287,3 +287,5 @@ RefactoringAction 1382536287331 Recommender.java REMOVE i/2 FIELD
 RefactoringAction 1382536287332 Recommender.java REMOVE i FIELD
 RefactoringAction 1382536315567 Recommender.java RENAME RemoveEntries(List<Comparisons>, Date, String)=>void RemoveEntries(List<Comparisons>, Date, String, List<Destination>) METHOD
 EditAction 1382536430840 Recommender.java 7466 13 50 0
+CompilationAction 1382536432070 Recommender.java
+EditAction 1382536479319 Recommender.java 7476 13 50 0
