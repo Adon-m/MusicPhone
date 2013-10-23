@@ -106,10 +106,10 @@ public class Recommender implements IRecommender {
 	
 	public void AddToIten(List<Destination> destList, List<Comparisons> concerts, GeoPoint current){
 		//make sure the iten list is not empty
-		while(destList.size()!=0 && concerts.size()!=0){
+		while(concerts.size()!=0){
 			
 			if(concerts.get(0).getStartDate()!=null){
-				 current = destList.get(destList.size()-1).getPosition();
+				 
 			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
 			// the next available date is always at index 0 because it is ordered chronologically
 			int index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
@@ -117,6 +117,7 @@ public class Recommender implements IRecommender {
 			Destination dest = new Destination(concerts.get(index));
 		
 			destList.add(dest);
+			current = destList.get(destList.size()-1).getPosition();
 			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 			}
 				

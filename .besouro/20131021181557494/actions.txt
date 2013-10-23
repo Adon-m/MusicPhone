@@ -436,3 +436,6 @@ UnitTestCaseAction 1382542882486 MyTests.java OK
 UnitTestSessionAction 1382542882486 MyTests OK
 RefactoringAction 1382542951902 Recommender.java RENAME AddToIten(List<Destination>, List<Comparisons>)=>void AddToIten(List<Destination>, List<Comparisons>, GeoPoint) METHOD
 EditAction 1382543034763 Recommender.java 7397 13 45 0
+UnitTestCaseAction 1382543042507 MyTests.java OK
+UnitTestSessionAction 1382543042507 MyTests OK
+EditAction 1382543115281 Recommender.java 7379 13 45 0
