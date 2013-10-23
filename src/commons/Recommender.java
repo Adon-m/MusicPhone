@@ -108,7 +108,7 @@ public class Recommender implements IRecommender {
 		//make sure the iten list is not empty
 		Destination dest =null;
 		int index=0;
-		if(concerts.size()!=0){
+		for(int s=0;s<concerts.size();s++){
 			
 			if(concerts.get(0).getStartDate()!=null){
 				 
