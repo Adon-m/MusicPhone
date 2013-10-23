@@ -164,29 +164,22 @@ public class Recommender implements IRecommender {
 					list.remove(i);
 				}
 			
-				
-			}
-		}
-	
-			for(int i=0; i<list.size();++i){
 				if (list.get(i).getArtist()==artist){
-				list.remove(i);
-			}
-			}
-		
-		//now that all the artists concerts have been removed  we remove any concert before this date
-		//because this has already been added to the itenerary and we keep to rule E0
-		
-			for(int i=0; i<list.size();++i){
+					list.remove(i);
+				}
 				if(list.get(i).getStartDate().compareTo(date)<0){
 					list.remove(i);
 				}
-			}
-			for(int i=0; i<list.size();++i){
-				if(list.get(i).getStartDate().compareTo(date)==0){
-					list.remove(i);
-				}
-			}
+					if(list.get(i).getStartDate().compareTo(date)==0){
+						list.remove(i);
+					}
+		}
+	
+			
+		}
+		//now that all the artists concerts have been removed  we remove any concert before this date
+		//because this has already been added to the itenerary and we keep to rule E0
+		
 		
 		
 		

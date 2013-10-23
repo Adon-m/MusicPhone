@@ -360,3 +360,10 @@ EditAction 1382537753007 Recommender.java 7522 13 52 0
 UnitTestCaseAction 1382537760941 MyTests.java OK
 UnitTestSessionAction 1382537760941 MyTests OK
 EditAction 1382537814146 Recommender.java 7532 13 52 0
+UnitTestCaseAction 1382537822286 MyTests.java OK
+UnitTestSessionAction 1382537822286 MyTests OK
+UnitTestCaseAction 1382537949707 MyTests.java OK
+UnitTestSessionAction 1382537949707 MyTests OK
+RefactoringAction 1382540564928 Recommender.java ADD int i FIELD
+RefactoringAction 1382540568462 Recommender.java REMOVE i FIELD
+EditAction 1382540594581 Recommender.java 7409 13 49 0
