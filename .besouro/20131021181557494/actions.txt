@@ -289,3 +289,6 @@ RefactoringAction 1382536315567 Recommender.java RENAME RemoveEntries(List<Compa
 EditAction 1382536430840 Recommender.java 7466 13 50 0
 CompilationAction 1382536432070 Recommender.java
 EditAction 1382536479319 Recommender.java 7476 13 50 0
+UnitTestCaseAction 1382536487486 MyTests.java FAIL
+UnitTestSessionAction 1382536487486 MyTests FAIL
+EditAction 1382536590021 Recommender.java 7493 13 50 0
