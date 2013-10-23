@@ -155,7 +155,11 @@ public class Recommender implements IRecommender {
 	public void RemoveEntries(List<Comparisons> list, Date date, String artist){
 		// this assumes the artists concert has been added to the itenerary list so all entries are removed from the concert list 
 		//for rule E2
-		
+		for(int i=0; i<list.size();++i){
+			if(list.get(i).getStartDate().compareTo(date)==0){
+				list.remove(i);
+			}
+		}
 		for(int i=0;i<list.size(); ++i)
 		{
 			if (list.get(i).getArtist()==artist){
