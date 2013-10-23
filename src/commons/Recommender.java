@@ -106,7 +106,7 @@ public class Recommender implements IRecommender {
 	
 	public void AddToIten(List<Destination> destList, List<Comparisons> concerts){
 		//make sure the iten list is not empty
-		if (destList.size()!=0 && concerts.size()!=0){
+		while (destList.size()!=0 && concerts.size()!=0){
 			GeoPoint current = destList.get(destList.size()-1).getPosition();
 			if(concerts.get(0).getStartDate()!=null){
 			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
@@ -213,7 +213,12 @@ public class Recommender implements IRecommender {
 		
 		iten.add(dest);
 		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
+		for(int i=0; i<iten.size();++i){
+			System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+"\r" );
+		}
 		
+		System.out.print("###########################################################3");
+	
 		AddToIten(iten, concerts);
 		
 		

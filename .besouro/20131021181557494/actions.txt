@@ -238,3 +238,8 @@ RefactoringAction 1382532677923 Recommender.java RENAME AddToIten(List<Destinati
 UnitTestCaseAction 1382533871991 MyTests.java OK
 UnitTestSessionAction 1382533871991 MyTests OK
 EditAction 1382534007914 Recommender.java 6953 13 48 0
+UnitTestCaseAction 1382534016129 MyTests.java OK
+UnitTestSessionAction 1382534016129 MyTests OK
+RefactoringAction 1382534126493 Recommender.java ADD void AddToIten() METHOD
+RefactoringAction 1382534149031 Recommender.java REMOVE AddToIten() METHOD
+EditAction 1382534194257 Recommender.java 7168 13 50 0
