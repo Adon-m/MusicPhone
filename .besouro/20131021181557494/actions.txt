@@ -430,3 +430,5 @@ UnitTestCaseAction 1382542790575 MyTests.java OK
 UnitTestSessionAction 1382542790575 MyTests OK
 RefactoringAction 1382542826385 Recommender.java RENAME RemoveEntries(List<Comparisons>, Date, String, List<Destination>)=>void RemoveEntries(List<Comparisons>, Date, String) METHOD
 EditAction 1382542839545 Recommender.java 7378 13 49 0
+CompilationAction 1382542840578 Recommender.java
+EditAction 1382542874817 Recommender.java 7368 13 49 0

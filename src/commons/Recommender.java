@@ -117,7 +117,7 @@ public class Recommender implements IRecommender {
 			Destination dest = new Destination(concerts.get(index));
 		
 			destList.add(dest);
-			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist(), destList);
+			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
 			}
 				
 		}
