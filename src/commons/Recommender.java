@@ -109,7 +109,7 @@ public class Recommender implements IRecommender {
 		Destination dest =null;
 		int index=0;
 		int size= concerts.size();
-		while(size>-1){
+		while(size>0){
 			
 			if(concerts.get(0).getStartDate()!=null){
 				 
