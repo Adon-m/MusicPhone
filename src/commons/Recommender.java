@@ -108,7 +108,8 @@ public class Recommender implements IRecommender {
 		//make sure the iten list is not empty
 		Destination dest =null;
 		int index=0;
-		while(concerts.size()!=0){
+		int size= concerts.size();
+		while(size!=0){
 			
 			if(concerts.get(0).getStartDate()!=null){
 				 
@@ -125,7 +126,7 @@ public class Recommender implements IRecommender {
 			RemoveEntries(concerts, destList.get(destList.size()-1).getStartDate(), destList.get(destList.size()-1).getArtist());
 			current = destList.get(destList.size()-1).getPosition();	
 			}
-			
+			--size;
 		}
 		
 		
