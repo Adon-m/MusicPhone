@@ -59,3 +59,7 @@
 1382544862895 refactoring 1A 60 false
 1382544909641 refactoring 2A 46 false
 1382544948246 refactoring 2A 38 false
+1382545018809 regression 2 70 false
+1382545062829 regression 1 44 false
+1382545097422 regression 1 34 false
+1382545182953 regression 1 85 false
