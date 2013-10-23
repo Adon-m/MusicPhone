@@ -117,7 +117,8 @@ public class Recommender implements IRecommender {
 		
 				destList.add(dest);
 			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
-			}
+			}else 
+				break;
 		}
 		
 		
