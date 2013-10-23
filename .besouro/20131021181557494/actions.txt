@@ -432,3 +432,7 @@ RefactoringAction 1382542826385 Recommender.java RENAME RemoveEntries(List<Compa
 EditAction 1382542839545 Recommender.java 7378 13 49 0
 CompilationAction 1382542840578 Recommender.java
 EditAction 1382542874817 Recommender.java 7368 13 49 0
+UnitTestCaseAction 1382542882486 MyTests.java OK
+UnitTestSessionAction 1382542882486 MyTests OK
+RefactoringAction 1382542951902 Recommender.java RENAME AddToIten(List<Destination>, List<Comparisons>)=>void AddToIten(List<Destination>, List<Comparisons>, GeoPoint) METHOD
+EditAction 1382543034763 Recommender.java 7397 13 45 0
