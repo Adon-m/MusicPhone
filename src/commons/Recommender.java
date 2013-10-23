@@ -252,7 +252,7 @@ public class Recommender implements IRecommender {
 		
 		if(iten.size()>0){
 			for(int i=0; i<iten.size();++i){
-				System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+"\r" );
+				System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+iten.get(i).getCity()+" "+"\r" );
 			}
 		}
 		return iten;
