@@ -118,7 +118,7 @@ public class Recommender implements IRecommender {
 				
 				if(dest.getArtist()==destList.get(j).getArtist()){
 					RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
-					continue;
+					break;
 				}
 				else{	
 				destList.add(dest);}
