@@ -62,10 +62,10 @@ public class MyTests {
 	
 		
 	
-artists.add("Britney Spears");
+		artists.add("Britney Spears");
 	artists.add("Coldplay");
 	
-//artists.add("Kylie Minogue");
+artists.add("Kylie Minogue");
 //	artists.add("Radiohead");
 //	artists.add("Snow Patrol");
 	artists.add("The Who");
