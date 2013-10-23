@@ -108,19 +108,19 @@ public class Recommender implements IRecommender {
 		//make sure the iten list is not empty
 		Destination dest =null;
 		int index=0;
-		for(int s=0;s<concerts.size();s++){
+		while(concerts.size()<1){
 			
 			if(concerts.get(0).getStartDate()!=null){
 				 
 			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
 			// the next available date is always at index 0 because it is ordered chronologically
 		
-				index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
+			index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
 			dest= new Destination(concerts.get(index));
-			
+			RemoveEntries(concerts, destList.get(destList.size()-1).getStartDate(), destList.get(destList.size()-1).getArtist());
 			destList.add(dest);
 			
-			RemoveEntries(concerts, destList.get(destList.size()-1).getStartDate(), destList.get(destList.size()-1).getArtist());
+			
 			}
 			
 			current = destList.get(destList.size()-1).getPosition();	
