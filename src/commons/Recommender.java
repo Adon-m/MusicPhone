@@ -181,13 +181,13 @@ public class Recommender implements IRecommender {
 					}
 			}
 				
-//				for(int i=0; i<dest.size(); ++i){
-//					for (int j=0; j<list.size(); ++j){
-//						if(dest.get(i).getArtist() == list.get(j).getArtist()){
-//							list.remove(j);
-//						}
-//					}
-//				}
+				for(int i=0; i<dest.size(); ++i){
+					for (int j=0; j<list.size(); ++j){
+						if(dest.get(i).getArtist() == list.get(j).getArtist()){
+							list.remove(j);
+						}
+					}
+				}
 				
 				
 				
