@@ -68,7 +68,7 @@ public class MyTests {
 //artists.add("Kylie Minogue");
 //artists.add("Radiohead");
 //artists.add("Snow Patrol");
-//	artists.add("The Who");
+	artists.add("The Who");
 Recommender r = new Recommender(new LastFmXmlConnector());
 	
 	try {
