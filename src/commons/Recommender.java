@@ -104,8 +104,31 @@ public class Recommender implements IRecommender {
 		return destination;
 	}
 
-	
-	
+	public int ClosestDistance (Date date, GeoPoint current, List<Comparisons> concertList){
+		//gets the closest distance of concerts on the same day
+		double distance = computeDistance(concertList.get(0).getPosition(), current, "km");
+		int indexOnList=0;
+		for (int i=0; i<concertList.size(); ++i){
+			if(concertList.get(i).getStartDate().compareTo(date)==0){
+				
+				double temp = computeDistance(concertList.get(i).getPosition(), current, "km");
+				if(temp<distance){
+					distance=temp;
+					indexOnList=i;
+				}
+				
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		return (indexOnList);
+		
+	}
 	
 	
 	@Override
@@ -126,32 +149,31 @@ public class Recommender implements IRecommender {
 				}
 	
 				
-				
-				
-				
-				
-				
-				
-				
-				
 			} catch (LastFmConnectionException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}
 		// sort the concerts by date
-		for(int i=0; i<concerts.size();++i){
-		System.out.print(concerts.get(i).getStartDate()+" "+concerts.get(i).getArtist() +" "+concerts.get(i).getVenue()+"\r");
 		
-		}
-		System.out.print(concerts.size());
-		System.out.println(" ////////////////////////////////////////////////////////");
 		Collections.sort(concerts,Comparisons.compare);
-		for(int i=0; i<concerts.size();++i){
-			System.out.print(concerts.get(i).getStartDate()+" "+concerts.get(i).getArtist() +" "+concerts.get(i).getVenue()+"\r");
-			}
-		System.out.print(concerts.size());
 		
+		/*find the closest concert with the earliest date.
+		 * the list is already sorted in chronological order so its just computing the distances between each concert in the
+		 * list
+		*/
+		GeoPoint current =new GeoPoint("33.94","-118.40");
+		
+		List <Destination> itenerary= new ArrayList<Destination>();
+		int index = ClosestDistance(concerts.get(0).getStartDate(), current, concerts);
+		Destination dest = new Destination(concerts.get(index));
+		
+		System.out.print(computeDistance(dest.getPosition(), current,"km"));
+		System.out.print("_____________#############________###########__________###########");
+		
+		for(int i=0;i<concerts.size();++i){
+			System.out.print(computeDistance(concerts.get(i).getPosition(), current, "km")+" "+ "\r");
+		}
 		
 		return null;
 		

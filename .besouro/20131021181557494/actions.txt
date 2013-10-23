@@ -172,3 +172,45 @@ UnitTestSessionAction 1382463852579 MyTests OK
 UnitTestCaseAction 1382464038314 MyTests.java OK
 UnitTestSessionAction 1382464038314 MyTests OK
 EditAction 1382464109404 Recommender.java 4851 10 38 0
+UnitTestCaseAction 1382464117501 MyTests.java OK
+UnitTestSessionAction 1382464117501 MyTests OK
+UnitTestCaseAction 1382472850943 MyTests.java OK
+UnitTestSessionAction 1382472850943 MyTests OK
+RefactoringAction 1382473267340 Recommender.java REMOVE computeDistance(GeoPoint, GeoPoint, String) METHOD
+RefactoringAction 1382473267342 Recommender.java REMOVE getGps() METHOD
+RefactoringAction 1382473267342 Recommender.java REMOVE getPlayer() METHOD
+RefactoringAction 1382473269874 Recommender.java ADD IPlayer getPlayer() METHOD
+RefactoringAction 1382473269875 Recommender.java ADD IGps getGps() METHOD
+RefactoringAction 1382473269875 Recommender.java ADD double computeDistance(GeoPoint, GeoPoint, String) METHOD
+RefactoringAction 1382477136713 Recommender.java ADD void arra FIELD
+RefactoringAction 1382477138752 Recommender.java REMOVE arra FIELD
+RefactoringAction 1382477141293 Recommender.java ADD void arra FIELD
+RefactoringAction 1382477142833 Recommender.java REMOVE arra FIELD
+RefactoringAction 1382477146366 Recommender.java ADD void prepare FIELD
+RefactoringAction 1382477150420 Recommender.java RENAME prepare=>void prepareIt FIELD
+RefactoringAction 1382477153960 Recommender.java RENAME prepareIt=>void prepareItenera FIELD
+RefactoringAction 1382477155987 Recommender.java RENAME prepareItenera=>void prepareItenerary FIELD
+RefactoringAction 1382477159515 Recommender.java RENAME prepareItenerary=>void prepareItenerary() METHOD
+RefactoringAction 1382477196813 Recommender.java RENAME prepareItenerary()=>void prepareItenerary(List<Destination>) METHOD
+RefactoringAction 1382477212520 Recommender.java RENAME prepareItenerary(List<Destination>)=>void prepareItenerary(List<Destination>, List<Comparisons>) METHOD
+RefactoringAction 1382477383675 Recommender.java RENAME prepareItenerary(List<Destination>, List<Comparisons>)=>void prepareItenerary(List<Destination>, List<Comparisons>, Comparisons) METHOD
+RefactoringAction 1382477399803 Recommender.java RENAME prepareItenerary(List<Destination>, List<Comparisons>, Comparisons)=>void prepareItenerary(List<Destination>, List<Comparisons>, Comparisons, GeoPoint) METHOD
+RefactoringAction 1382477496885 Recommender.java REMOVE prepareItenerary(List<Destination>, List<Comparisons>, Comparisons, GeoPoint) METHOD
+RefactoringAction 1382525828035 Recommender.java ADD Comparisons ClosestDistance FIELD
+RefactoringAction 1382525829078 Recommender.java RENAME ClosestDistance=>Comparisons ClosestDistance() METHOD
+RefactoringAction 1382525835656 Recommender.java RENAME ClosestDistance()=>Comparisons ClosestDistance(Comparisons) METHOD
+RefactoringAction 1382525850786 Recommender.java RENAME ClosestDistance(Comparisons)=>Comparisons ClosestDistance(Comparisons, GeoPoint) METHOD
+RefactoringAction 1382525866459 Recommender.java RENAME ClosestDistance(Comparisons, GeoPoint)=>Comparisons ClosestDistance(Comparisons, GeoPoint, List<Comparisons>) METHOD
+RefactoringAction 1382525915243 Recommender.java RENAME ClosestDistance(Comparisons, GeoPoint, List<Comparisons>)=>Comparisons ClosestDistance(Date, GeoPoint, List<Comparisons>) METHOD
+RefactoringAction 1382525926794 Recommender.java RENAME ClosestDistance(Date, GeoPoint, List<Comparisons>)=>Comparisons ClosestDistance() METHOD
+RefactoringAction 1382525930824 Recommender.java RENAME ClosestDistance()=>Comparisons ClosestDistance(Date, GeoPoint, List<Comparisons>) METHOD
+UnitTestCaseAction 1382527407484 MyTests.java FAIL
+UnitTestSessionAction 1382527407485 MyTests FAIL
+UnitTestCaseAction 1382527528962 MyTests.java FAIL
+UnitTestSessionAction 1382527528963 MyTests FAIL
+RefactoringAction 1382527688978 MyTests.java ADD import commons.DeviceManager IMPORT
+UnitTestCaseAction 1382527728985 MyTests.java FAIL
+UnitTestSessionAction 1382527728985 MyTests FAIL
+UnitTestCaseAction 1382527815912 MyTests.java OK
+UnitTestSessionAction 1382527815912 MyTests OK
+EditAction 1382528069653 Recommender.java 5620 11 44 0

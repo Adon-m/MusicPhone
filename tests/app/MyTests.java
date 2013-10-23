@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import player.Player;
 
+import commons.DeviceManager;
 import commons.Recommender;
 import commons.SQATException;
 import commons.dataClasses.ConcertInfo;
@@ -58,6 +59,9 @@ public class MyTests {
 		// Lists some Artists
 		List <String> artists = new ArrayList<String>();
 		
+	
+		
+	
 	artists.add("Britney Spears");
 	artists.add("Coldplay");
 	artists.add("Katy Perry");
