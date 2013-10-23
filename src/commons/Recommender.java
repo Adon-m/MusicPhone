@@ -111,7 +111,7 @@ public class Recommender implements IRecommender {
 		int size= concerts.size();
 		while(size>0){
 		
-			if(concerts.isEmpty()!=true && concerts.get(0).getStartDate()!=null){
+			if(concerts.isEmpty()!=true){
 				 
 			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
 			// the next available date is always at index 0 because it is ordered chronologically
