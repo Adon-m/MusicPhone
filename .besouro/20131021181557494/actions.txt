@@ -316,3 +316,10 @@ RefactoringAction 1382536981765 Recommender.java ADD int i/2 FIELD
 RefactoringAction 1382536987828 Recommender.java REMOVE i/2 FIELD
 RefactoringAction 1382536987829 Recommender.java REMOVE i FIELD
 EditAction 1382536993126 Recommender.java 7483 13 50 0
+UnitTestCaseAction 1382537001321 MyTests.java FAIL
+UnitTestSessionAction 1382537001321 MyTests FAIL
+RefactoringAction 1382537100955 Recommender.java ADD int i FIELD
+RefactoringAction 1382537100960 Recommender.java ADD int i/2 FIELD
+RefactoringAction 1382537103014 Recommender.java REMOVE i/2 FIELD
+RefactoringAction 1382537103021 Recommender.java REMOVE i FIELD
+EditAction 1382537126943 Recommender.java 7486 13 50 0
