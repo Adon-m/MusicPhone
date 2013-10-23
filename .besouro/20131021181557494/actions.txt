@@ -503,3 +503,10 @@ UnitTestSessionAction 1382545097422 MyTests OK
 UnitTestCaseAction 1382545182953 MyTests.java OK
 UnitTestSessionAction 1382545182953 MyTests OK
 EditAction 1382545519488 Recommender.java 7353 13 46 0
+UnitTestCaseAction 1382545525565 MyTests.java OK
+UnitTestSessionAction 1382545525565 MyTests OK
+RefactoringAction 1382545580934 Recommender.java RENAME AddToIten(List<Destination>, List<Comparisons>, GeoPoint)=>void AddToIten() METHOD
+RefactoringAction 1382545587466 Recommender.java RENAME AddToIten()=>void AddToIten(List<Destination>, List<Comparisons>, GeoPoint) METHOD
+RefactoringAction 1382545588498 Recommender.java RENAME AddToIten(List<Destination>, List<Comparisons>, GeoPoint)=>void AddToIten() METHOD
+RefactoringAction 1382545591031 Recommender.java RENAME AddToIten()=>void AddToIten(List<Destination>, List<Comparisons>, GeoPoint) METHOD
+EditAction 1382545601390 Recommender.java 7353 13 46 0
