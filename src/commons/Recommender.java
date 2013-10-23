@@ -167,23 +167,23 @@ public class Recommender implements IRecommender {
 			
 				if (list.get(i).getArtist()==artist){
 					list.remove(i);
+					
 				
 				}
-				for(int j=0;j<list.size(); ++j)
-				{
-				if(list.get(j).getStartDate().compareTo(date)>0 ){
-					list.remove(j);
+				if(list.get(i).getStartDate().compareTo(date)>0 ){
+					list.remove(i);
 					
 				}
-				for(int k=0;k<list.size(); ++k)
-				{
-					if(list.get(k).getStartDate().compareTo(date)==0){
-						list.remove(k);
-					}
-				}
+				
+				
+				if(list.get(i).getStartDate().compareTo(date)==0){
+						list.remove(i);
 				}
 				
-				}
+			}
+				
+				
+				
 				
 		
 				
