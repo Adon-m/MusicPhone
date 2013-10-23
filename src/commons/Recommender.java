@@ -238,7 +238,7 @@ public class Recommender implements IRecommender {
 		 * the list is already sorted in chronological order so its just computing the distances between each concert in the
 		 * list
 		*/
-		GeoPoint current =new GeoPoint("65","25");
+		GeoPoint current =new GeoPoint("70","125");
 		
 		List <Destination> iten= new ArrayList<Destination>();
 //		int index = ClosestDistance(concerts.get(0).getStartDate(), current, concerts);
