@@ -109,9 +109,10 @@ public class Recommender implements IRecommender {
 		Destination dest =null;
 		int index=0;
 		int size= concerts.size();
+		
 		while(size>0){
 		
-			if(concerts.isEmpty()!=true){
+			
 				 
 			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
 			// the next available date is always at index 0 because it is ordered chronologically
@@ -122,12 +123,12 @@ public class Recommender implements IRecommender {
 			destList.add(dest);
 			
 			
-			}
+			
 			RemoveEntries(concerts, destList.get(destList.size()-1).getStartDate(), destList.get(destList.size()-1).getArtist());
 			current = destList.get(destList.size()-1).getPosition();	
-			}
-			--size;
-		}
+			}size--;
+	}
+	
 		
 		
 		
@@ -167,7 +168,7 @@ public class Recommender implements IRecommender {
 		for(int i=0;i<list.size(); ++i)
 		{			
 		
-		if (list.get(i).getArtist().compareTo(artist)==0){
+			if (list.get(i).getArtist().compareTo(artist)==0){
 				list.remove(i);
 				
 			
