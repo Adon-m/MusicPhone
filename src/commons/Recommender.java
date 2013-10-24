@@ -8,6 +8,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import player.Player;
 
@@ -104,14 +105,14 @@ public class Recommender implements IRecommender {
 		return destination;
 	}
 	
-	public void AddToIten(List<Destination> destList, List<Comparisons> concerts, GeoPoint current){
+	public void AddToIten(HashMap<String,Destination> destList, List<Comparisons> concerts, GeoPoint current){
 		//make sure the iten list is not empty
 		Destination dest =null;
 		int index= ClosestDistance(concerts.get(0).getStartDate(), current, concerts);
 		
 		dest= new Destination(concerts.get(index));
 		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist().toString());
-		destList.add(dest);
+		destList.put(dest.getArtist(), dest);
 		
 		
 		while(concerts.isEmpty()!=true){
@@ -119,7 +120,7 @@ public class Recommender implements IRecommender {
 			index=ClosestDistance(concerts.get(0).getStartDate(), current, concerts);
 			dest= new Destination(concerts.get(index));
 			RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
-			destList.add(dest);
+			destList.put(dest.getArtist(), dest);
 			
 			
 		}
@@ -165,7 +166,7 @@ public class Recommender implements IRecommender {
 		for(int i=0;i<list.size(); ++i)
 		{			
 		
-			if (list.get(i).getArtist().compareTo(artist.trim())==0){
+			if (list.get(i).getArtist().compareTo(artist)==0){
 				list.remove(i);
 				
 			}
@@ -239,24 +240,25 @@ public class Recommender implements IRecommender {
 		 * list
 		*/
 		GeoPoint current =concerts.get(9).getPosition();
+		HashMap<String, Destination> iten = new HashMap<String , Destination>();
 		
-		List <Destination> iten= new ArrayList<Destination>();
-//		int index = ClosestDistance(concerts.get(0).getStartDate(), current, concerts);
-//		Destination dest = new Destination(concerts.get(index));
-//		
-//		iten.add(dest);
-//		RemoveEntries(concerts, dest.getStartDate(), dest.getArtist());
+
+		
+		//List<Destination> iten = new ArrayList<Destination>();
 		
 		AddToIten(iten, concerts, current);
 		
+		Iterator iterate = iten.entrySet().iterator();
 		
-		if(iten.size()>0){
-			for(int i=0; i<iten.size();++i){
-				System.out.print(iten.get(i).getStartDate()+" "+iten.get(i).getArtist()+" "+iten.get(i).getCity()+" "+"\r" );
+			while(iterate.hasNext()){
+				Map.Entry mEntry = (Map.Entry) iterate.next();
+				
+				Destination n= new Destination((ConcertInfo) mEntry.getValue());
+				System.out.print(mEntry.getKey()+" "+n.getCity()+" "+"\r" );
 			}
 			System.out.print("####################################3");
-		}
-		return iten;
+		
+		return null;
 		
 	}
 	

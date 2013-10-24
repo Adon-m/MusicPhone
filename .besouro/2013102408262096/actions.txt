@@ -65,3 +65,15 @@ EditAction 1382597571039 Recommender.java 7313 13 50 0
 UnitTestCaseAction 1382597592567 MyTests.java OK
 UnitTestSessionAction 1382597592567 MyTests OK
 EditAction 1382597644055 Recommender.java 7305 13 50 0
+UnitTestCaseAction 1382597665185 MyTests.java OK
+UnitTestSessionAction 1382597665185 MyTests OK
+RefactoringAction 1382599018885 Recommender.java RENAME AddToIten(List<Destination>, List<Comparisons>, GeoPoint)=>void AddToIten() METHOD
+RefactoringAction 1382599020972 Recommender.java RENAME AddToIten()=>void AddToIten(Hash<Destination>, List<Comparisons>, GeoPoint) METHOD
+RefactoringAction 1382599022544 Recommender.java RENAME AddToIten(Hash<Destination>, List<Comparisons>, GeoPoint)=>void AddToIten(HashMap<Destination>, List<Comparisons>, GeoPoint) METHOD
+RefactoringAction 1382599028676 Recommender.java RENAME AddToIten(HashMap<Destination>, List<Comparisons>, GeoPoint)=>void AddToIten() METHOD
+RefactoringAction 1382599031812 Recommender.java RENAME AddToIten()=>void AddToIten(HashMap<String.Destination>, List<Comparisons>, GeoPoint) METHOD
+RefactoringAction 1382599037535 Recommender.java RENAME AddToIten(HashMap<String.Destination>, List<Comparisons>, GeoPoint)=>void AddToIten(HashMap<String,Destination>, List<Comparisons>, GeoPoint) METHOD
+RefactoringAction 1382599347893 Recommender.java ADD import java.util.Map IMPORT
+UnitTestCaseAction 1382599545784 MyTests.java OK
+UnitTestSessionAction 1382599545784 MyTests OK
+EditAction 1382603881233 Recommender.java 7305 13 52 0

@@ -152,3 +152,12 @@
 1382597500774 production 1 2233 false
 1382597500775 refactoring 2A 2233 true
 1382597592567 refactoring 2A 21 true
+1382597665185 refactoring 2A 21 true
+1382599545784 refactoring 2B 526 true
+1382599545785 refactoring 2B 526 true
+1382599545786 refactoring 2B 526 true
+1382599545787 refactoring 2B 526 true
+1382599545788 refactoring 2B 526 true
+1382599545789 refactoring 2B 526 true
+1382599545790 refactoring 2B 526 true
+1382599545791 regression 1 526 true
