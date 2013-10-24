@@ -159,7 +159,7 @@ public class Recommender implements IRecommender {
 		// this assumes the artists concert has been added to the itenerary list so all entries are removed from the concert list 
 		//for rule E2
 		
-	
+	while(true){
 		for(int i=0;i<list.size(); ++i)
 		{			
 		
@@ -195,7 +195,7 @@ public class Recommender implements IRecommender {
 				
 			}
 			
-		
+	}
 		//now that all the artists concerts have been removed  we remove any concert before this date
 		//because this has already been added to the itenerary and we keep to rule E0
 		
