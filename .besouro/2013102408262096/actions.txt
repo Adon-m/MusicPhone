@@ -27,3 +27,6 @@ RefactoringAction 1382593797091 MyTests.java RENAME DoesTheIteneraryCalculatecor
 RefactoringAction 1382593798119 MyTests.java RENAME DoesTheIteneraryCalculatecorrectDestination=>void DoesTheIteneraryCalculatecorrectDestinations FIELD
 RefactoringAction 1382593801655 MyTests.java RENAME DoesTheIteneraryCalculatecorrectDestinations=>void DoesTheIteneraryCalculatecorrectDestinations() METHOD
 EditAction 1382593973896 Recommender.java 7261 13 50 0
+UnitTestCaseAction 1382593995339 MyTests.java FAIL
+UnitTestSessionAction 1382593995340 MyTests FAIL
+EditAction 1382594071391 Recommender.java 7261 13 50 0
