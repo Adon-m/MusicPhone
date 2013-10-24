@@ -93,6 +93,7 @@ Recommender r = new Recommender(new LastFmXmlConnector());
 	artists.add("Radiohead");
 	artists.add("Snow Patrol");
 	artists.add("The Who");
+	artist.add("Bob Dylan");
 Recommender r = new Recommender(new LastFmXmlConnector());
 	
 	try {
