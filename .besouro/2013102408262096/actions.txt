@@ -11,3 +11,6 @@ FileOpenedAction 1382593519695 MyTests.java 1964 5 22 5
 UnitTestCaseAction 1382593549300 MyTests.java OK
 UnitTestSessionAction 1382593549300 MyTests OK
 EditAction 1382593604428 Recommender.java 7217 13 50 0
+UnitTestCaseAction 1382593622674 MyTests.java OK
+UnitTestSessionAction 1382593622674 MyTests OK
+EditAction 1382593700854 Recommender.java 7240 13 50 0
