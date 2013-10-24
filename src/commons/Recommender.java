@@ -127,7 +127,8 @@ public class Recommender implements IRecommender {
 			RemoveEntries(concerts, destList.get(destList.size()-1).getStartDate(), destList.get(destList.size()-1).getArtist());
 			current = destList.get(destList.size()-1).getPosition();	
 		}
-			}size--;
+			}
+		size= concerts.size();size--;
 	}
 	
 		
