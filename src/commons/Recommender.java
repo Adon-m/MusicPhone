@@ -253,7 +253,7 @@ public class Recommender implements IRecommender {
 			while(iterate.hasNext()){
 				Map.Entry mEntry = (Map.Entry) iterate.next();
 				
-				Destination n= new Destination((ConcertInfo) mEntry.getValue());
+				Destination n= new Destination((Comparisons) mEntry.getValue());
 				System.out.print(mEntry.getKey()+" "+n.getCity()+" "+"\r" );
 			}
 			System.out.print("####################################3");
