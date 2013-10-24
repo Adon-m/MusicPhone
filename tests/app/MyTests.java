@@ -66,8 +66,8 @@ public class MyTests {
 	artists.add("Coldplay");
 	
 	artists.add("Kylie Minogue");
-artists.add("Radiohead");
-artists.add("Snow Patrol");
+	artists.add("Radiohead");
+	artists.add("Snow Patrol");
 	artists.add("The Who");
 Recommender r = new Recommender(new LastFmXmlConnector());
 	
@@ -77,6 +77,31 @@ Recommender r = new Recommender(new LastFmXmlConnector());
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
+	}
+	@Test
+	public void DoesTheIteneraryCalculatecorrectDestinations(){
+		// Lists some Artists
+		List <String> artists = new ArrayList<String>();
+		
+	
+		
+	
+		artists.add("Britney Spears");
+	artists.add("Coldplay");
+	
+	artists.add("Kylie Minogue");
+	artists.add("Radiohead");
+	artists.add("Snow Patrol");
+	artists.add("The Who");
+Recommender r = new Recommender(new LastFmXmlConnector());
+	
+	try {
+		r.buildItineraryForArtists(artists);
+	} catch (SQATException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		
 	}
 
 }

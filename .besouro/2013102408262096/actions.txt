@@ -14,3 +14,16 @@ EditAction 1382593604428 Recommender.java 7217 13 50 0
 UnitTestCaseAction 1382593622674 MyTests.java OK
 UnitTestSessionAction 1382593622674 MyTests OK
 EditAction 1382593700854 Recommender.java 7240 13 50 0
+UnitTestCaseAction 1382593718849 MyTests.java OK
+UnitTestSessionAction 1382593718850 MyTests OK
+RefactoringAction 1382593771318 MyTests.java ADD void Does FIELD
+RefactoringAction 1382593772850 MyTests.java RENAME Does=>void DoesThe FIELD
+RefactoringAction 1382593778389 MyTests.java RENAME DoesThe=>void DoesTheCalculato FIELD
+RefactoringAction 1382593781418 MyTests.java RENAME DoesTheCalculato=>void DoesThe FIELD
+RefactoringAction 1382593782958 MyTests.java RENAME DoesThe=>void DoesTheIten FIELD
+RefactoringAction 1382593790009 MyTests.java RENAME DoesTheIten=>void DoesTheIteneraryCalculate FIELD
+RefactoringAction 1382593792040 MyTests.java RENAME DoesTheIteneraryCalculate=>void DoesTheIteneraryCalculatecorrec FIELD
+RefactoringAction 1382593797091 MyTests.java RENAME DoesTheIteneraryCalculatecorrec=>void DoesTheIteneraryCalculatecorrectDestination FIELD
+RefactoringAction 1382593798119 MyTests.java RENAME DoesTheIteneraryCalculatecorrectDestination=>void DoesTheIteneraryCalculatecorrectDestinations FIELD
+RefactoringAction 1382593801655 MyTests.java RENAME DoesTheIteneraryCalculatecorrectDestinations=>void DoesTheIteneraryCalculatecorrectDestinations() METHOD
+EditAction 1382593973896 Recommender.java 7261 13 50 0
