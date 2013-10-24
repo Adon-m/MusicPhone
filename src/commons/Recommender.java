@@ -116,7 +116,7 @@ public class Recommender implements IRecommender {
 				 
 			// because the RemoveEntries fuction deletes all entries before the date added to the itenerary
 			// the next available date is always at index 0 because it is ordered chronologically
-		
+		if(concerts.size()>0){
 			index = ClosestDistance (concerts.get(0).getStartDate(), current,concerts);
 			dest= new Destination(concerts.get(index));
 			
@@ -126,6 +126,7 @@ public class Recommender implements IRecommender {
 			
 			RemoveEntries(concerts, destList.get(destList.size()-1).getStartDate(), destList.get(destList.size()-1).getArtist());
 			current = destList.get(destList.size()-1).getPosition();	
+		}
 			}size--;
 	}
 	
