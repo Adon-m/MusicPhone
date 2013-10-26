@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
+import commons.DeviceManager;
+import commons.Recommender;
 import commons.SQATException;
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.Destination;
@@ -133,7 +135,10 @@ public class RecommenderUI implements ActionListener {
 		panel.add(itinerary);
 
 		// The list shows trip itinerary lists 
-		JList<Destination> itinerarylist = new JList<Destination>();
+		
+		Recommender recommender = new Recommender(new LastFmXmlConnector());
+		
+		JList<Destination> itinerarylist = recommender.buildItineraryForArtists(artists)
 		itinerarylist.setSelectedIndex(1);
 		panel.add(itinerarylist);
 

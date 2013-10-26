@@ -34,3 +34,4 @@ RefactoringAction 1382775878357 RecommenderUI.java ADD import commons.DeviceMana
 FileOpenedAction 1382775902050 RecommenderAdapter.java 1476 8 12 0
 RefactoringAction 1382775935273 RecommenderUI.java ADD import commons.Recommender IMPORT
 EditAction 1382776064711 MyTests.java 3123 7 36 5
+EditAction 1382776066479 RecommenderUI.java 5684 13 17 0
