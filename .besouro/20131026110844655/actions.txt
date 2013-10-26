@@ -1,0 +1,14 @@
+FileOpenedAction 1382774925555 Recommender.java 7319 13 53 0
+FileOpenedAction 1382774947743 Comparisons.java 720 3 6 0
+FileOpenedAction 1382774948784 ConcertInfo.java 1289 11 15 0
+FileOpenedAction 1382774950733 MyTests.java 2537 6 27 5
+RefactoringAction 1382774983684 MyTests.java ADD void Does FIELD
+RefactoringAction 1382774985264 MyTests.java RENAME Does=>void DoesThe FIELD
+RefactoringAction 1382774988802 MyTests.java RENAME DoesThe=>void DoesTheItnerary FIELD
+RefactoringAction 1382774992855 MyTests.java RENAME DoesTheItnerary=>void DoesTheItneraryReturn FIELD
+RefactoringAction 1382774999434 MyTests.java RENAME DoesTheItneraryReturn=>void DoesTheItneraryReturnCorrectConcerts FIELD
+RefactoringAction 1382775001476 MyTests.java RENAME DoesTheItneraryReturnCorrectConcerts=>void DoesTheItneraryReturnCorrectConcertsa FIELD
+RefactoringAction 1382775005551 MyTests.java RENAME DoesTheItneraryReturnCorrectConcertsa=>void DoesTheItneraryReturnCorrectConcertsAsPerThe FIELD
+RefactoringAction 1382775007090 MyTests.java RENAME DoesTheItneraryReturnCorrectConcertsAsPerThe=>void DoesTheItneraryReturnCorrectConcertsAsPerTheRules FIELD
+RefactoringAction 1382775008117 MyTests.java RENAME DoesTheItneraryReturnCorrectConcertsAsPerTheRules=>void DoesTheItneraryReturnCorrectConcertsAsPerTheRules() METHOD
+EditAction 1382775241505 MyTests.java 3120 7 36 5

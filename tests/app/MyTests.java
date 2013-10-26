@@ -104,5 +104,30 @@ Recommender r = new Recommender(new LastFmXmlConnector());
 	}
 		
 	}
+	public void DoesTheItneraryReturnCorrectConcertsAsPerTheRules(){
+		// Lists some Artists
+		List <String> artists = new ArrayList<String>();
+		
+	
+		
+	
+		artists.add("Britney Spears");
+	artists.add("Coldplay");
+	
+	artists.add("Kylie Minogue");
+	artists.add("Radiohead");
+	artists.add("Snow Patrol");
+	artists.add("The Who");
+Recommender r = new Recommender(new LastFmXmlConnector());
+	
+	try {
+		r.buildItineraryForArtists(artists);
+		
+		assertNotNull(r.buildItineraryForArtists(artists));
+	} catch (SQATException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	}
 
 }

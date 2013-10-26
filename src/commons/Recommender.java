@@ -244,7 +244,7 @@ public class Recommender implements IRecommender {
 		
 
 		
-		//List<Destination> iten = new ArrayList<Destination>();
+		List<Destination> itenerary = new ArrayList<Destination>();
 		
 		AddToIten(iten, concerts, current);
 		
@@ -255,10 +255,11 @@ public class Recommender implements IRecommender {
 				
 				
 				System.out.print(mEntry.getKey()+" "+iten.get(mEntry.getKey()).getVenue()+" "+"\r" );
+				itenerary.add(iten.get(mEntry.getKey()));
 			}
-			System.out.print("####################################3");
+			System.out.print("####################################");
 		
-		return null;
+		return itenerary;
 		
 	}
 	
