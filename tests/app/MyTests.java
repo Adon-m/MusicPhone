@@ -129,5 +129,7 @@ Recommender r = new Recommender(new LastFmXmlConnector());
 		e.printStackTrace();
 	}
 	}
+	
+
 
 }

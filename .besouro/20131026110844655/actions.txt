@@ -15,3 +15,22 @@ EditAction 1382775241505 MyTests.java 3120 7 36 5
 UnitTestCaseAction 1382775252896 MyTests.java OK
 UnitTestSessionAction 1382775252900 MyTests OK
 EditAction 1382775312580 Recommender.java 7174 13 52 0
+UnitTestCaseAction 1382775320920 MyTests.java OK
+UnitTestSessionAction 1382775320921 MyTests OK
+RefactoringAction 1382775566854 MyTests.java ADD void List FIELD
+RefactoringAction 1382775570882 MyTests.java RENAME List=>void ListTh FIELD
+RefactoringAction 1382775574419 MyTests.java RENAME ListTh=>void ListTheArtists FIELD
+RefactoringAction 1382775580468 MyTests.java REMOVE ListTheArtists FIELD
+FileOpenedAction 1382775603507 DeviceManager.java 622 6 6 0
+FileOpenedAction 1382775614352 App.java 519 1 8 0
+FileOpenedAction 1382775653821 IRecommender.java 481 5 0 0
+FileOpenedAction 1382775656041 IPlayer.java 222 4 0 0
+FileOpenedAction 1382775658319 IGps.java 339 4 0 0
+FileOpenedAction 1382775660007 IConnector.java 431 3 0 0
+FileOpenedAction 1382775667402 Player.java 1421 11 17 0
+FileOpenedAction 1382775693170 SmokeTest.java 1445 1 14 6
+FileOpenedAction 1382775795359 RecommenderUI.java 5529 13 86 0
+RefactoringAction 1382775878357 RecommenderUI.java ADD import commons.DeviceManager IMPORT
+FileOpenedAction 1382775902050 RecommenderAdapter.java 1476 8 12 0
+RefactoringAction 1382775935273 RecommenderUI.java ADD import commons.Recommender IMPORT
+EditAction 1382776064711 MyTests.java 3123 7 36 5
