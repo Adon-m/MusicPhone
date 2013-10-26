@@ -12,3 +12,6 @@ RefactoringAction 1382775005551 MyTests.java RENAME DoesTheItneraryReturnCorrect
 RefactoringAction 1382775007090 MyTests.java RENAME DoesTheItneraryReturnCorrectConcertsAsPerThe=>void DoesTheItneraryReturnCorrectConcertsAsPerTheRules FIELD
 RefactoringAction 1382775008117 MyTests.java RENAME DoesTheItneraryReturnCorrectConcertsAsPerTheRules=>void DoesTheItneraryReturnCorrectConcertsAsPerTheRules() METHOD
 EditAction 1382775241505 MyTests.java 3120 7 36 5
+UnitTestCaseAction 1382775252896 MyTests.java OK
+UnitTestSessionAction 1382775252900 MyTests OK
+EditAction 1382775312580 Recommender.java 7174 13 52 0

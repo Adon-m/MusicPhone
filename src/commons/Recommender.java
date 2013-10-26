@@ -254,10 +254,10 @@ public class Recommender implements IRecommender {
 				Map.Entry mEntry = (Map.Entry) iterate.next();
 				
 				
-				System.out.print(mEntry.getKey()+" "+iten.get(mEntry.getKey()).getVenue()+" "+"\r" );
+				
 				itenerary.add(iten.get(mEntry.getKey()));
 			}
-			System.out.print("####################################");
+
 		
 		return itenerary;
 		
