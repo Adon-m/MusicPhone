@@ -15,6 +15,7 @@ import commons.SQATException;
 import commons.dataClasses.ConcertInfo;
 import commons.dataClasses.Destination;
 import commons.dataClasses.Recommendation;
+import commons.interfaces.IPlayer;
 import dataConnectors.LastFmXmlConnector;
 import player.PlayerUI;
 
@@ -48,6 +49,8 @@ public class RecommenderUI implements ActionListener {
 		final JButton getBtn = new JButton("Get Recommendations");
 		getBtn.setBounds(20, 10, 200, 300);
 		getBtn.setSize(170, 30);
+		String artist=DeviceManager.getInstance().Player.getCurrentArtist();
+		
 		getBtn.addActionListener(this);
 		panel.add(getBtn);
 
@@ -137,8 +140,7 @@ public class RecommenderUI implements ActionListener {
 		// The list shows trip itinerary lists 
 		
 		Recommender recommender = new Recommender(new LastFmXmlConnector());
-		
-		JList<Destination> itinerarylist = recommender.buildItineraryForArtists(artists)
+		JList<Destination> itinerarylist = new JList<Destination>();
 		itinerarylist.setSelectedIndex(1);
 		panel.add(itinerarylist);
 
