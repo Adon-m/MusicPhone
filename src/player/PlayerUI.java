@@ -49,11 +49,7 @@ public class PlayerUI {
 		
 		
 		list.setSelectedIndex(0);
-		for(int i=0;i<list.getModel().getSize(); i++){
-		if(list.isSelectedIndex(i)){
-			DeviceManager.getInstance().getPlayer().setCurrentArtist(playlist1[i]);
-		}
-		}
+		
 		mainpanel.add(list);
 
 		JScrollPane listjscroll = new JScrollPane(list);
