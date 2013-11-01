@@ -9,6 +9,8 @@ import javax.swing.*;
 
 import javax.swing.JFrame;
 import javax.swing.event.ListSelectionEvent;
+
+import commons.DeviceManager;
 import commons.SQATException;
 
 
@@ -19,6 +21,8 @@ public class PlayerUI {
 	private JButton nextbtn;
 	static JTextField distext;
 	private JPanel mainpanel;
+	String [] playlist1 = {"Metallica-one","Cher- Believe","U2-Elevation"};
+	JList<String> list = new JList<String>(playlist1);
 	
 	//  private ListenerClass listener;
 	public Container createContentPane (){
@@ -42,9 +46,14 @@ public class PlayerUI {
 		mainpanel.add(distext);
 		distext.setBounds(130, 10, 100, 20);
 //
-		String [] playlist = {"Metallica-one","Cher- Believe","U2-Elevation"};
-		JList<String> list = new JList<String>(playlist);
+		
+		
 		list.setSelectedIndex(0);
+		for(int i=0;i<list.getModel().getSize(); i++){
+		if(list.isSelectedIndex(i)){
+			DeviceManager.getInstance().getPlayer().setCurrentArtist(playlist1[i]);
+		}
+		}
 		mainpanel.add(list);
 
 		JScrollPane listjscroll = new JScrollPane(list);

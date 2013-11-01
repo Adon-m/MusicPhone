@@ -30,6 +30,9 @@ public class RecommenderUI implements ActionListener {
         ArrayList<String> artistsNames = new ArrayList<String>();
         JList selectedlist = new JList();
         ArrayList<String> selectedArtists= new ArrayList<String>();
+        JList itinerarylist = new JList();
+        ArrayList<String> iten= new ArrayList<String>();
+        JList concertslist = new JList();
         public RecommenderUI(){
                 this.ra = new RecommenderAdapter(new LastFmXmlConnector());
 
@@ -122,7 +125,7 @@ public class RecommenderUI implements ActionListener {
                 panel.add(concert);
 
                 // The list shows the available concerts
-                JList concertslist = new JList();
+               
                 selectedlist.setSelectedIndex(1);
                 panel.add(concertslist);
 
@@ -197,35 +200,45 @@ public class RecommenderUI implements ActionListener {
                         		
                         		if(artistlist.isSelectedIndex(i)){
                         			selectedArtists.add(getMyRecommendations().get(i).getArtist());
+                        			
                         		}
+                        		
                         		
                         		selectedlist.setListData(selectedArtists.toArray());
                         		
                         		
                         	}
                         	
+                      
+                        		concertslist.setListData(iten.toArray());
                         }
+                        	
                         else if(e.getActionCommand()==("Remove")){
                         	if (selectedlist.getModel().getSize()>0){
-                        		for(int i=0; i<selectedlist.getModel().getSize();i++){
+                        		for(int i=0; i<selectedlist.getModel().getSize(); i++){
                         		if(selectedlist.isSelectedIndex(i)){
-                        			for(int j=0; j<artistsNames.size();j++){
-                        			if(selectedlist.getSelectedValue().equals(artistsNames.get(j))){
-                        				artistsNames.remove(j);
-                        				
-                        			}
-                        		
-                        			}
+                        			selectedArtists.remove(i);
+                        		}
                         		}
                         	}
-                        		selectedlist.setListData(selectedArtists.toArray());
-                        		}
-                        	
+                        	selectedlist.setListData(selectedArtists.toArray());
                         	
                         	
                         }
+                        else if(e.getActionCommand()=="Clear"){
+                        	selectedArtists.clear();
+                        	selectedlist.setListData(selectedArtists.toArray());
+                        }
+                        else{
+                        	
+                        	
+                        	
+                        	
+                        
+                        
                 
-                } catch (Exception f) {
+                        }
+                        } catch (Exception f) {
 					// TODO Auto-generated catch block
 					f.printStackTrace();
 				}

@@ -2,3 +2,48 @@ FileOpenedAction 1383330027651 RecommenderUI.java 9386 13 84 0
 RefactoringAction 1383330927091 RecommenderUI.java ADD Exception f FIELD
 RefactoringAction 1383330934625 RecommenderUI.java REMOVE f FIELD
 EditAction 1383331658930 RecommenderUI.java 9735 13 84 0
+CompilationAction 1383333924713 RecommenderUI.java
+CompilationAction 1383333924713 RecommenderUI.java
+CompilationAction 1383334170537 RecommenderUI.java
+CompilationAction 1383334170537 RecommenderUI.java
+CompilationAction 1383334246564 RecommenderUI.java
+CompilationAction 1383334260172 RecommenderUI.java
+RefactoringAction 1383334434613 RecommenderUI.java ADD JList itinerarylist FIELD
+RefactoringAction 1383336063377 RecommenderUI.java ADD ArrayList<String> iten FIELD
+RefactoringAction 1383336078651 RecommenderUI.java RENAME RecommenderUI()=><initializer /1> null
+RefactoringAction 1383336080185 RecommenderUI.java RENAME <initializer /1>=>RecommenderUI() METHOD
+CompilationAction 1383336268006 RecommenderUI.java
+CompilationAction 1383336268007 RecommenderUI.java
+CompilationAction 1383336311391 RecommenderUI.java
+CompilationAction 1383336311393 RecommenderUI.java
+FileOpenedAction 1383336330318 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1383336537549 SmokeTest.java 1445 1 14 6
+FileOpenedAction 1383336735811 LastFmXmlConnector.java 5004 4 49 0
+RefactoringAction 1383336921095 RecommenderUI.java ADD JList concertslist FIELD
+RefactoringAction 1383339551699 RecommenderUI.java ADD Exception f FIELD
+CompilationAction 1383339555145 RecommenderUI.java
+CompilationAction 1383339555145 RecommenderUI.java
+CompilationAction 1383339555145 RecommenderUI.java
+RefactoringAction 1383339575772 RecommenderUI.java REMOVE f FIELD
+CompilationAction 1383339578411 RecommenderUI.java
+CompilationAction 1383339578412 RecommenderUI.java
+CompilationAction 1383339578412 RecommenderUI.java
+FileOpenedAction 1383339775666 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1383339790058 SmokeTest.java 1445 1 14 6
+UnitTestCaseAction 1383340174011 SmokeTest.java OK
+UnitTestSessionAction 1383340174021 SmokeTest OK
+FileOpenedAction 1383340227840 PlayerUI.java 2157 6 32 0
+RefactoringAction 1383340451724 PlayerUI.java ADD import commons.DeviceManager IMPORT
+RefactoringAction 1383340509965 PlayerUI.java ADD String FIELD
+RefactoringAction 1383340533074 PlayerUI.java RENAME playlist/2=>String FIELD
+CompilationAction 1383340550221 PlayerUI.java
+CompilationAction 1383340550221 PlayerUI.java
+CompilationAction 1383340550221 PlayerUI.java
+RefactoringAction 1383340566152 PlayerUI.java RENAME Pplaylist=>String FIELD
+RefactoringAction 1383340570684 PlayerUI.java REMOVE playlist/2 FIELD
+RefactoringAction 1383340600308 PlayerUI.java ADD String FIELD
+RefactoringAction 1383340600316 PlayerUI.java ADD JList<String> list FIELD
+RefactoringAction 1383340624337 PlayerUI.java RENAME playlist/2=>String FIELD
+CompilationAction 1383340715607 PlayerUI.java
+CompilationAction 1383340715608 PlayerUI.java
+EditAction 1383340854272 PlayerUI.java 2357 6 31 0

@@ -55,7 +55,7 @@ public class Recommender implements IRecommender {
 	public List<Recommendation> getRecommendations() throws Exception {
 
 		
-		String artist = "Cher";
+		String artist = DeviceManager.getInstance().Player.getCurrentArtist();
 		List<Recommendation> rec = new ArrayList<Recommendation>();
 		
 		// get top fans of currently playing artist
@@ -258,7 +258,7 @@ public class Recommender implements IRecommender {
 		 * the list is already sorted in chronological order so its just computing the distances between each concert in the
 		 * list
 		*/
-		GeoPoint current =concerts.get(9).getPosition();
+		GeoPoint current = DeviceManager.getInstance().getGps().getCurrentPosition();
 		HashMap<String, Destination> iten = new HashMap<String , Destination>();
 		
 
