@@ -173,8 +173,12 @@ public class RecommenderUI implements ActionListener {
                 try {
                         if(e.getActionCommand()==("Get Recommendations")){
                         	setMyRecommendations((ArrayList<Recommendation>) ra.getRecommender().getRecommendations());
-                        	artistlist.setListData(getMyRecommendations().toArray());
-                        	
+                        	ArrayList<String> artistsNames = new ArrayList<String>();
+                        	for(int i =0; i<getMyRecommendations().size(); i++){
+                        		
+                        	 artistsNames.add(getMyRecommendations().get(i).getArtist()+" "+getMyRecommendations().get(i).getFanCount());
+                        	}
+                        	artistlist.setListData(artistsNames.toArray());
                         	
                         	
                         }

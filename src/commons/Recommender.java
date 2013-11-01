@@ -4,6 +4,7 @@ package commons;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -54,7 +55,7 @@ public class Recommender implements IRecommender {
 	public List<Recommendation> getRecommendations() throws Exception {
 
 		
-		String artist = "Cher";
+		String artist = "Metallica";
 		List<Recommendation> rec = new ArrayList<Recommendation>();
 		
 		// get top fans of currently playing artist
@@ -79,7 +80,18 @@ public class Recommender implements IRecommender {
 			rec.add(r);
 		}
 		
-		
+		Collections.sort(rec, new Comparator<Recommendation>(){
+			public int compare (int a, int b){
+				return a-b;
+			}
+
+			@Override
+			public int compare(Recommendation o1, Recommendation o2) {
+				// TODO Auto-generated method stub
+				return o2.getFanCount()-o1.getFanCount();
+			}
+			
+		});
 		
 		
 		return rec;

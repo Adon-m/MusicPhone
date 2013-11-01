@@ -19,3 +19,12 @@ RefactoringAction 1383321844567 RecommenderUI.java ADD JList artistlist FIELD
 CompilationAction 1383321964709 RecommenderUI.java
 CompilationAction 1383322014375 RecommenderUI.java
 EditAction 1383322109194 RecommenderUI.java 7604 13 85 0
+FileOpenedAction 1383322817645 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1383322878484 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1383323016797 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1383323046882 App.java 554 1 9 0
+FileOpenedAction 1383323174091 LastFmXmlConnector.java 5004 4 49 0
+FileOpenedAction 1383323247637 LastFmXmlConnector.java 5004 4 49 0
+RefactoringAction 1383324400581 Recommender.java ADD import java.util.Comparator IMPORT
+RefactoringAction 1383324409947 Recommender.java ADD int compare(Recommendation, Recommendation) METHOD
+EditAction 1383324474190 Recommender.java 7527 13 53 0
