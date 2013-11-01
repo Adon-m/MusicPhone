@@ -1,5 +1,6 @@
 package recommender;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import commons.Recommender;
@@ -38,7 +39,7 @@ public class RecommenderAdapter {
 	}
 
 	//Trying to avoid background threading. Would have used SwingWorker
-	public void getRecommendations(Recs displayList){
+	public void getRecommendations(ArrayList<String> displayList){
 		List<Recommendation> result = null ;
 		try {
 			result= recommender.getRecommendations();
@@ -50,7 +51,7 @@ public class RecommenderAdapter {
 		if(result.size()>0){
 			for (Recommendation recommendation : result) {
 				//when I will have an add method for it
-				displayList.add(recommendation);
+				displayList.add(recommendation.getArtist());
 			}
 			//progressContext.updateProgress(1.0);
 		} //else cannot generate recommendations

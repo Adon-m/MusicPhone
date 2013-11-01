@@ -1,0 +1,21 @@
+FileOpenedAction 1383208448758 RecommenderUI.java 5800 13 73 0
+CompilationAction 1383208451348 RecommenderUI.java
+RefactoringAction 1383234735254 RecommenderUI.java REMOVE concertscrollpane FIELD
+RefactoringAction 1383320806821 RecommenderUI.java REMOVE itineraryscrollpane FIELD
+RefactoringAction 1383320806822 RecommenderUI.java REMOVE getBtn FIELD
+RefactoringAction 1383320806822 RecommenderUI.java REMOVE RemoveBtn FIELD
+RefactoringAction 1383320806822 RecommenderUI.java REMOVE cancelBtn FIELD
+RefactoringAction 1383320806822 RecommenderUI.java REMOVE selectedlist FIELD
+RefactoringAction 1383320806823 RecommenderUI.java REMOVE artistlist FIELD
+RefactoringAction 1383320806823 RecommenderUI.java REMOVE selectedscrollpane FIELD
+RefactoringAction 1383320806823 RecommenderUI.java REMOVE clearBtn FIELD
+RefactoringAction 1383320806823 RecommenderUI.java REMOVE progressbar FIELD
+RefactoringAction 1383320806823 RecommenderUI.java REMOVE artists FIELD
+RefactoringAction 1383320806824 RecommenderUI.java REMOVE artistscrollpane FIELD
+RefactoringAction 1383320806824 RecommenderUI.java REMOVE addBtn FIELD
+FileOpenedAction 1383321481639 RecommenderAdapter.java 1529 8 12 0
+FileOpenedAction 1383321547171 Recs.java 2704 23 21 0
+RefactoringAction 1383321844567 RecommenderUI.java ADD JList artistlist FIELD
+CompilationAction 1383321964709 RecommenderUI.java
+CompilationAction 1383322014375 RecommenderUI.java
+EditAction 1383322109194 RecommenderUI.java 7604 13 85 0

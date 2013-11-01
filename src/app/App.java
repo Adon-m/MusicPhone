@@ -1,5 +1,6 @@
 package app;
 
+import player.Player;
 import player.PlayerUI;
 import recommender.RecommenderUI;
 import gps.GpsAdapter;
@@ -12,7 +13,7 @@ public class App {
 	
 	
 	public static void main(String[] args) {
-		
+		new Player();
     new PlayerUI();	
 	PlayerUI.createAndShowGUI();
 	
