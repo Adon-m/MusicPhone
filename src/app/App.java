@@ -1,5 +1,7 @@
 package app;
 
+import commons.DeviceManager;
+
 import player.Player;
 import player.PlayerUI;
 import recommender.RecommenderUI;
@@ -13,8 +15,8 @@ public class App {
 	
 	
 	public static void main(String[] args) {
-		new Player();
-    new PlayerUI();	
+		
+    DeviceManager.getInstance().setPlayer(new Player());
 	PlayerUI.createAndShowGUI();
 	
 		
