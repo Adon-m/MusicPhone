@@ -187,7 +187,7 @@ public class RecommenderUI implements ActionListener {
                         }
                         else if(e.getActionCommand()==("Cancel")){
                         	artistsNames.clear();
-                        	artistlist.setListData(artistsNames.toArray());
+                        	artistlist.removeAll();
                            
                         	
                         }
@@ -209,9 +209,16 @@ public class RecommenderUI implements ActionListener {
                         	if (selectedlist.getModel().getSize()>0){
                         		for(int i=0; i<selectedlist.getModel().getSize();i++){
                         		if(selectedlist.isSelectedIndex(i)){
-                        			selectedlist.remove(i);
+                        			for(int j=0; j<artistsNames.size();j++){
+                        			if(selectedlist.getModel().getElementAt(i).toString().equals(artistsNames.get(j))){
+                        				artistsNames.remove(j);
+                        				
+                        			}
+                        		
+                        			}
                         		}
                         	}
+                        		selectedlist.setListData(selectedArtists.toArray());
                         		}
                         	
                         	
