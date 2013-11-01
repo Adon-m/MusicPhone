@@ -27,6 +27,9 @@ public class RecommenderUI implements ActionListener {
         GpsUI gpsWindow;
         
         final JList artistlist = new JList();
+        ArrayList<String> artistsNames = new ArrayList<String>();
+        JList selectedlist = new JList();
+        ArrayList<String> selectedArtists= new ArrayList<String>();
         public RecommenderUI(){
                 this.ra = new RecommenderAdapter(new LastFmXmlConnector());
 
@@ -103,7 +106,7 @@ public class RecommenderUI implements ActionListener {
                 panel.add(selected);
 
                 // The list shows selected artists by the user
-                JList selectedlist = new JList();
+               
                 selectedlist.setSelectedIndex(1);
                 panel.add(selectedlist);
 
@@ -124,7 +127,7 @@ public class RecommenderUI implements ActionListener {
                 panel.add(concertslist);
 
 
-                JScrollPane concertscrollpane = new JScrollPane(selectedlist);
+                JScrollPane concertscrollpane = new JScrollPane(concertslist);
                 panel.add(concertscrollpane);
                 concertscrollpane.setBounds(20, 320, 300, 20);
                 concertscrollpane.setSize(360, 150);
@@ -140,7 +143,7 @@ public class RecommenderUI implements ActionListener {
                 panel.add(itinerarylist);
 
 
-                JScrollPane itineraryscrollpane = new JScrollPane(selectedlist);
+                JScrollPane itineraryscrollpane = new JScrollPane(itinerarylist);
                 panel.add(itineraryscrollpane);
                 itineraryscrollpane.setBounds(360, 320, 300, 20);
                 itineraryscrollpane.setSize(360, 150);
@@ -173,12 +176,44 @@ public class RecommenderUI implements ActionListener {
                 try {
                         if(e.getActionCommand()==("Get Recommendations")){
                         	setMyRecommendations((ArrayList<Recommendation>) ra.getRecommender().getRecommendations());
-                        	ArrayList<String> artistsNames = new ArrayList<String>();
+                        	
                         	for(int i =0; i<getMyRecommendations().size(); i++){
                         		
                         	 artistsNames.add(getMyRecommendations().get(i).getArtist()+" "+getMyRecommendations().get(i).getFanCount());
                         	}
                         	artistlist.setListData(artistsNames.toArray());
+                        	
+                        	
+                        }
+                        else if(e.getActionCommand()==("Cancel")){
+                        	artistsNames.clear();
+                        	artistlist.setListData(artistsNames.toArray());
+                           
+                        	
+                        }
+                        else if(e.getActionCommand()==("Add")){
+          
+                        	for(int i=0; i<artistlist.getModel().getSize();i++){
+                        		
+                        		if(artistlist.isSelectedIndex(i)){
+                        			selectedArtists.add(getMyRecommendations().get(i).getArtist());
+                        		}
+                        		
+                        		selectedlist.setListData(selectedArtists.toArray());
+                        		
+                        		
+                        	}
+                        	
+                        }
+                        else if(e.getActionCommand()==("Remove")){
+                        	if (selectedlist.getModel().getSize()>0){
+                        		for(int i=0; i<selectedlist.getModel().getSize();i++){
+                        		if(selectedlist.isSelectedIndex(i)){
+                        			selectedlist.remove(i);
+                        		}
+                        	}
+                        		}
+                        	
                         	
                         	
                         }

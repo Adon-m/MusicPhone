@@ -55,7 +55,7 @@ public class Recommender implements IRecommender {
 	public List<Recommendation> getRecommendations() throws Exception {
 
 		
-		String artist = "Metallica";
+		String artist = "Cher";
 		List<Recommendation> rec = new ArrayList<Recommendation>();
 		
 		// get top fans of currently playing artist
@@ -93,6 +93,12 @@ public class Recommender implements IRecommender {
 			
 		});
 		
+		if(rec.size()>20){
+			for(int i=20; i<rec.size();i++)
+			{
+				rec.remove(rec.get(i));
+			}
+		}
 		
 		return rec;
 	}

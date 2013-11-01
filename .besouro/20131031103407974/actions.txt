@@ -28,3 +28,10 @@ FileOpenedAction 1383323247637 LastFmXmlConnector.java 5004 4 49 0
 RefactoringAction 1383324400581 Recommender.java ADD import java.util.Comparator IMPORT
 RefactoringAction 1383324409947 Recommender.java ADD int compare(Recommendation, Recommendation) METHOD
 EditAction 1383324474190 Recommender.java 7527 13 53 0
+RefactoringAction 1383327682772 RecommenderUI.java ADD ArrayList<String> artistsNames FIELD
+RefactoringAction 1383328151269 RecommenderUI.java ADD JList selectedlist FIELD
+RefactoringAction 1383328788878 RecommenderUI.java ADD ArrayList<String> selecte FIELD
+RefactoringAction 1383328791403 RecommenderUI.java RENAME selecte=>ArrayList<String> selectedArtists FIELD
+RefactoringAction 1383328811128 RecommenderUI.java RENAME RecommenderUI()=><initializer /1> null
+RefactoringAction 1383328815153 RecommenderUI.java RENAME <initializer /1>=>RecommenderUI() METHOD
+FileOpenedAction 1383329345098 App.java 554 1 9 0
