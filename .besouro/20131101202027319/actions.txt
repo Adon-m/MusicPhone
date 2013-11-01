@@ -51,3 +51,4 @@ EditAction 1383341716584 PlayerUI.java 2197 6 30 0
 FileOpenedAction 1383341931317 DeviceManager.java 622 6 6 0
 RefactoringAction 1383342123454 App.java ADD import commons.DeviceManager IMPORT
 EditAction 1383342194129 App.java 608 1 8 0
+EditAction 1383342697570 PlayerUI.java 2364 6 31 0
