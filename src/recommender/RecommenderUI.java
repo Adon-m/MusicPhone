@@ -210,7 +210,7 @@ public class RecommenderUI implements ActionListener {
                         		for(int i=0; i<selectedlist.getModel().getSize();i++){
                         		if(selectedlist.isSelectedIndex(i)){
                         			for(int j=0; j<artistsNames.size();j++){
-                        			if(selectedlist.getModel().getElementAt(i).toString().equals(artistsNames.get(j))){
+                        			if(selectedlist.getSelectedValue().equals(artistsNames.get(j))){
                         				artistsNames.remove(j);
                         				
                         			}
